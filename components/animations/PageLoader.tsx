@@ -48,7 +48,7 @@ export function PageLoader({ children }: PageLoaderProps) {
       opacity: 0,
       transition: {
         duration: 0.5,
-        ease: [0.4, 0, 0.2, 1],
+        ease: [0.4, 0, 0.2, 1] as const,
       },
     },
   };
@@ -65,7 +65,7 @@ export function PageLoader({ children }: PageLoaderProps) {
       rotateX: 0,
       transition: {
         duration: 0.6,
-        ease: [0.4, 0, 0.2, 1],
+        ease: [0.4, 0, 0.2, 1] as const,
       },
     },
   };
@@ -78,7 +78,7 @@ export function PageLoader({ children }: PageLoaderProps) {
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: [0.4, 0, 0.2, 1],
+        ease: [0.4, 0, 0.2, 1] as const,
       },
     },
   };
@@ -91,7 +91,7 @@ export function PageLoader({ children }: PageLoaderProps) {
             key="loader"
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] }}
+            transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] as const }}
             className="fixed inset-0 z-[9999] flex items-center justify-center bg-[var(--color-warm-white)]"
           >
             <motion.div
@@ -121,7 +121,7 @@ export function PageLoader({ children }: PageLoaderProps) {
               transition={{
                 duration: 0.8,
                 delay: 0.8,
-                ease: [0.4, 0, 0.2, 1],
+                ease: [0.4, 0, 0.2, 1] as const,
               }}
               className="absolute bottom-[45%] left-1/2 -translate-x-1/2 w-16 h-[1px] bg-[var(--color-brown-muted)] origin-center"
             />
