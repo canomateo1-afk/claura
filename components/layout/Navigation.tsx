@@ -55,10 +55,13 @@ export function Navigation() {
             ))}
           </div>
 
-          {/* Center - Logo */}
+          {/* Center - Logo (hidden on mobile when scrolled) */}
           <Link
             href="/"
-            className="font-display text-3xl md:text-4xl font-normal tracking-tight text-[var(--color-text-primary)] absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0"
+            className={cn(
+              "font-display text-3xl md:text-4xl font-normal tracking-tight text-[var(--color-text-primary)] absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 transition-opacity duration-300",
+              isScrolled ? "opacity-0 pointer-events-none md:opacity-100 md:pointer-events-auto" : "opacity-100"
+            )}
           >
             Claura
           </Link>
