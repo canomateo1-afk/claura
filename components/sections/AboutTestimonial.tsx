@@ -21,7 +21,7 @@ export function AboutTestimonial() {
           {/* Background image */}
           <Image
             src="/images/testimonial-bg.png"
-            alt=""
+            alt="Client testimonial background"
             fill
             className="object-cover"
           />

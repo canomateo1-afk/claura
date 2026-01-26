@@ -23,7 +23,7 @@ export function CTA() {
             {/* Background Image */}
             <Image
               src="/images/book-call-flower.png"
-              alt=""
+              alt="Decorative floral background for booking section"
               fill
               className="object-cover"
               priority

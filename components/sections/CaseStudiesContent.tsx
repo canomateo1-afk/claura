@@ -225,7 +225,7 @@ export function CaseStudiesContent() {
               <div className="relative w-full h-[500px]">
                 <Image
                   src="/images/flower-case-studies.png"
-                  alt=""
+                  alt="Claura case studies decorative floral element"
                   fill
                   sizes="50vw"
                   className="object-contain object-center"

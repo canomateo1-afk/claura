@@ -57,6 +57,7 @@ export function Footer() {
     ],
     connect: [
       { href: "#", label: t("links.bookCall"), calLink: true },
+      { href: "mailto:mateo@space-pal.com", label: t("links.contact"), external: true },
       { href: "https://www.instagram.com/mateocano_ia/", label: t("social.instagram"), external: true },
       { href: "https://www.tiktok.com/@mate_cano", label: t("social.tiktok"), external: true },
       { href: "https://www.linkedin.com/in/mateocano/", label: t("social.linkedin"), external: true },

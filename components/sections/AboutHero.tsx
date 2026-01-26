@@ -73,7 +73,7 @@ export function AboutHero() {
             <div className="relative w-full h-[400px]">
               <Image
                 src="/images/flower-about.png"
-                alt=""
+                alt="Claura decorative floral element"
                 fill
                 sizes="50vw"
                 className="object-contain object-center"

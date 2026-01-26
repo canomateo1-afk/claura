@@ -121,10 +121,11 @@ export function Stats() {
             {/* Background image */}
             <Image
               src="/images/stats-bg.png"
-              alt=""
+              alt="Abstract gradient background"
               fill
               sizes="100vw"
               className="object-cover"
+              aria-hidden="true"
             />
             
             {/* Stats Grid - Centered */}

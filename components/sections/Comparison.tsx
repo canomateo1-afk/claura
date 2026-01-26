@@ -38,7 +38,7 @@ function ComparisonCard({
       <div className="absolute inset-0">
         <Image
           src={imageSrc}
-          alt=""
+          alt={`${title} comparison card background`}
           fill
           className="object-cover"
         />

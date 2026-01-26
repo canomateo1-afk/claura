@@ -120,10 +120,11 @@ export function AboutStats() {
             {/* Background image */}
             <Image
               src="/images/stats-bg.png"
-              alt=""
+              alt="Statistics section gradient background"
               fill
               sizes="100vw"
               className="object-cover"
+              aria-hidden="true"
             />
 
             {/* Stats Grid - Centered */}
