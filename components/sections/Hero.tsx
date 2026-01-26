@@ -111,9 +111,9 @@ export function Hero() {
       {/* Logo Section */}
       <div className="py-8">
         <div className="max-w-[var(--container-max-width)] mx-auto px-6 lg:px-8">
-          <div className="flex items-center">
-            <p className="text-sm text-[var(--color-text-muted)] whitespace-nowrap shrink-0 pr-8 md:pr-16">
-              {t("brandsLabel").split(":")[0]}:<br />{t("brandsLabel").split(":")[1]?.trim() || ""}
+          <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-0">
+            <p className="text-sm text-[var(--color-text-muted)] whitespace-nowrap shrink-0 md:pr-16 text-center md:text-left">
+              {t("brandsLabel").split(":")[0]}:<span className="md:hidden"> </span><br className="hidden md:block" />{t("brandsLabel").split(":")[1]?.trim() || ""}
             </p>
             <div className="flex-1 overflow-hidden">
               <Marquee speed={30} pauseOnHover>
