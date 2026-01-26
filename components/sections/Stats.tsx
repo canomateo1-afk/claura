@@ -5,7 +5,6 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { SectionLabel } from "@/components/ui";
-import { FadeInUp } from "@/components/animations";
 
 interface StatCardProps {
   value: string;
@@ -144,28 +143,6 @@ export function Stats() {
           </div>
         </motion.div>
 
-        {/* Hiring Banner */}
-        <FadeInUp delay={0.3}>
-          <div className="mt-8 p-6 rounded-[var(--radius-card)] bg-[var(--color-cream-dark)] flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-            <div>
-              <div className="flex items-center gap-3 mb-1">
-                <span className="font-semibold">{t("hiringTitle")}</span>
-                <span className="px-3 py-1 text-xs bg-[var(--color-cream)] rounded-full">
-                  {t("hiringBadge")}
-                </span>
-              </div>
-              <p className="text-sm text-[var(--color-text-secondary)]">
-                {t("hiringDescription")}
-              </p>
-            </div>
-            <a
-              href="mailto:hello@claura.ai"
-              className="shrink-0 px-5 py-2 text-sm font-medium bg-[var(--color-charcoal)] text-white rounded-xl hover:bg-[var(--color-charcoal-light)] transition-colors"
-            >
-              {t("applyNow")}
-            </a>
-          </div>
-        </FadeInUp>
       </div>
     </section>
   );

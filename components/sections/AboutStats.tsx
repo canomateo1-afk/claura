@@ -5,7 +5,6 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { SectionLabel, SectionHeading } from "@/components/ui";
-import { FadeInUp } from "@/components/animations";
 
 interface StatCardProps {
   value: string;
@@ -79,7 +78,6 @@ function StatCard({ value, label, delay = 0 }: StatCardProps) {
 
 export function AboutStats() {
   const t = useTranslations("about");
-  const tStats = useTranslations("stats");
 
   const stats = [
     { value: t("stats.stat1Value"), label: t("stats.stat1Label") },
@@ -144,28 +142,6 @@ export function AboutStats() {
           </div>
         </motion.div>
 
-        {/* Hiring Banner */}
-        <FadeInUp delay={0.3}>
-          <div className="mt-8 p-6 rounded-[var(--radius-card)] bg-[var(--color-cream-dark)] flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-            <div>
-              <div className="flex items-center gap-3 mb-1">
-                <span className="font-semibold">{tStats("hiringTitle")}</span>
-                <span className="px-3 py-1 text-xs bg-[var(--color-cream)] rounded-full">
-                  {tStats("hiringBadge")}
-                </span>
-              </div>
-              <p className="text-sm text-[var(--color-text-secondary)]">
-                {tStats("hiringDescription")}
-              </p>
-            </div>
-            <a
-              href="mailto:hello@claura.ai"
-              className="shrink-0 px-5 py-2 text-sm font-medium bg-[var(--color-charcoal)] text-white rounded-xl hover:bg-[var(--color-charcoal-light)] transition-colors"
-            >
-              {tStats("applyNow")}
-            </a>
-          </div>
-        </FadeInUp>
       </div>
     </section>
   );
