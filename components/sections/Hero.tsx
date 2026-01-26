@@ -49,7 +49,9 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="font-display text-[clamp(2.5rem,6vw,4.5rem)] font-normal leading-[1.1] max-w-[800px] mb-6"
         >
-          {t("titlePart1")} <span className="font-light italic text-[var(--color-brown-muted)]">{t("titleHighlight")}</span> {t("titlePart2")}
+          {t("titlePart1")} <span className="font-light italic text-[var(--color-brown-muted)]">{t("titleHighlight")}</span>
+          <br />
+          {t("titlePart2")}
         </motion.h1>
 
         {/* Subheadline */}
