@@ -71,18 +71,34 @@ export function Navigation() {
             </Button>
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            className="md:hidden p-2"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label={t("toggleMenu")}
-          >
-            {isMobileMenuOpen ? (
-              <X className="w-6 h-6" />
-            ) : (
-              <Menu className="w-6 h-6" />
-            )}
-          </button>
+          {/* Mobile CTA + menu button */}
+          <div className="md:hidden flex items-center gap-2">
+            <AnimatePresence>
+              {isScrolled && (
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.9 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm">
+                    {t("bookFreeCall")}
+                  </Button>
+                </motion.div>
+              )}
+            </AnimatePresence>
+            <button
+              className="p-2"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={t("toggleMenu")}
+            >
+              {isMobileMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
+            </button>
+          </div>
         </div>
       </nav>
 
