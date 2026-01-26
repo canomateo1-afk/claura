@@ -47,10 +47,9 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="font-display text-[clamp(2.5rem,6vw,4.5rem)] font-normal leading-[1.1] max-w-[1000px] mb-6"
+          className="font-display text-[clamp(2.5rem,6vw,4.5rem)] font-normal leading-[1.1] max-w-[800px] mb-6"
         >
-          <span className="block whitespace-nowrap">{t("titlePart1")} <span className="font-light italic text-[var(--color-brown-muted)]">{t("titleHighlight")}</span></span>
-          <span className="block">{t("titlePart2")}</span>
+          {t("titlePart1")} <span className="font-light italic text-[var(--color-brown-muted)]">{t("titleHighlight")}</span> {t("titlePart2")}
         </motion.h1>
 
         {/* Subheadline */}
