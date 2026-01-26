@@ -1,0 +1,1335 @@
+{
+  "meta": {
+    "name": "Claura Design System",
+    "version": "1.0.0",
+    "description": "Design system based on Claura AI Agency website (claura.framer.ai). A warm, professional, and trustworthy aesthetic for AI/automation service businesses.",
+    "source": "https://claura.framer.ai/",
+    "style": "Modern Organic Minimalism",
+    "mood": ["Professional", "Warm", "Trustworthy", "Premium", "Human-centered"]
+  },
+
+  "designPrinciples": {
+    "philosophy": "Clean simplicity with organic warmth. No cold tech aesthetics - instead, use natural imagery, warm colors, and human-focused design to build trust and reduce AI overwhelm.",
+    "principles": [
+      {
+        "name": "Warmth Over Tech",
+        "description": "Use warm, organic color palettes and natural imagery (flowers, soft gradients) instead of cold blues and circuit patterns"
+      },
+      {
+        "name": "Trust Through Clarity",
+        "description": "Build trust with clear typography, prominent stats/social proof, and straightforward messaging"
+      },
+      {
+        "name": "Generous Breathing Room",
+        "description": "Use ample whitespace and padding to let content breathe and create a premium feel"
+      },
+      {
+        "name": "Contrast for Impact",
+        "description": "Alternate between light cream and dark sections to create visual rhythm and emphasize key content"
+      },
+      {
+        "name": "Subtle Sophistication",
+        "description": "Animations and effects should be smooth and understated, never flashy or distracting"
+      },
+      {
+        "name": "Typography Hierarchy",
+        "description": "Use large, confident headlines with highlighted accent words to create immediate visual interest"
+      }
+    ]
+  },
+
+  "tokens": {
+    "colors": {
+      "primary": {
+        "cream": "#FAF9F6",
+        "creamLight": "#FFFDF9",
+        "creamDark": "#F5F0EA",
+        "warmWhite": "#FDF8F3"
+      },
+      "secondary": {
+        "charcoal": "#1A1A1F",
+        "charcoalLight": "#2D2D35",
+        "navy": "#0D0D12",
+        "darkBrown": "#1C1917"
+      },
+      "accent": {
+        "brown": "#3D2C1E",
+        "brownLight": "#5C4332",
+        "brownMuted": "#8B7355",
+        "chocolate": "#4A3728"
+      },
+      "gradient": {
+        "orange": "#FF6B35",
+        "coral": "#E8A87C",
+        "peach": "#FFCBA4",
+        "sunset": "#FF8C61",
+        "warmYellow": "#F4C542"
+      },
+      "text": {
+        "primary": "#1A1A1F",
+        "secondary": "#6B6B6B",
+        "muted": "#9CA3AF",
+        "light": "#FFFFFF",
+        "lightMuted": "rgba(255, 255, 255, 0.7)"
+      },
+      "ui": {
+        "border": "rgba(0, 0, 0, 0.08)",
+        "borderDark": "rgba(255, 255, 255, 0.1)",
+        "cardBg": "rgba(255, 255, 255, 0.6)",
+        "glassBg": "rgba(255, 255, 255, 0.25)",
+        "overlayDark": "rgba(0, 0, 0, 0.5)"
+      },
+      "semantic": {
+        "success": "#10B981",
+        "warning": "#F59E0B",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      }
+    },
+
+    "typography": {
+      "fontFamily": {
+        "display": "'Playfair Display', 'Times New Roman', Georgia, serif",
+        "heading": "'Playfair Display', 'Times New Roman', Georgia, serif",
+        "body": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "mono": "'JetBrains Mono', 'Fira Code', monospace"
+      },
+      "fontSize": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "3.75rem",
+        "7xl": "4.5rem",
+        "8xl": "6rem",
+        "display": "clamp(2.5rem, 5vw, 5rem)"
+      },
+      "fontWeight": {
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      },
+      "lineHeight": {
+        "tight": 1.1,
+        "snug": 1.25,
+        "normal": 1.5,
+        "relaxed": 1.625,
+        "loose": 2
+      },
+      "letterSpacing": {
+        "tighter": "-0.05em",
+        "tight": "-0.025em",
+        "normal": "0",
+        "wide": "0.025em",
+        "wider": "0.05em",
+        "widest": "0.1em",
+        "spaced": "0.3em"
+      }
+    },
+
+    "spacing": {
+      "0": "0",
+      "1": "0.25rem",
+      "2": "0.5rem",
+      "3": "0.75rem",
+      "4": "1rem",
+      "5": "1.25rem",
+      "6": "1.5rem",
+      "8": "2rem",
+      "10": "2.5rem",
+      "12": "3rem",
+      "16": "4rem",
+      "20": "5rem",
+      "24": "6rem",
+      "32": "8rem",
+      "40": "10rem",
+      "section": {
+        "sm": "4rem",
+        "md": "6rem",
+        "lg": "8rem",
+        "xl": "10rem"
+      }
+    },
+
+    "borderRadius": {
+      "none": "0",
+      "sm": "0.25rem",
+      "md": "0.5rem",
+      "lg": "0.75rem",
+      "xl": "1rem",
+      "2xl": "1.5rem",
+      "3xl": "2rem",
+      "full": "9999px",
+      "card": "1.5rem",
+      "button": "9999px",
+      "image": "1.5rem"
+    },
+
+    "shadows": {
+      "sm": "0 1px 2px rgba(0, 0, 0, 0.05)",
+      "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+      "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+      "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1)",
+      "card": "0 4px 24px rgba(0, 0, 0, 0.06)",
+      "cardHover": "0 8px 32px rgba(0, 0, 0, 0.12)",
+      "button": "0 2px 8px rgba(0, 0, 0, 0.15)",
+      "glass": "0 8px 32px rgba(0, 0, 0, 0.08)"
+    },
+
+    "blur": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "16px",
+      "xl": "24px",
+      "glass": "12px"
+    },
+
+    "transitions": {
+      "fast": "150ms ease",
+      "normal": "300ms ease",
+      "slow": "500ms ease",
+      "slower": "700ms ease",
+      "spring": "500ms cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "smooth": "400ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "bounce": "600ms cubic-bezier(0.68, -0.55, 0.265, 1.55)"
+    },
+
+    "breakpoints": {
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px",
+      "2xl": "1536px"
+    },
+
+    "container": {
+      "maxWidth": "1200px",
+      "padding": {
+        "mobile": "1.5rem",
+        "tablet": "2rem",
+        "desktop": "4rem"
+      }
+    }
+  },
+
+  "animations": {
+    "entrance": {
+      "fadeIn": {
+        "from": { "opacity": 0 },
+        "to": { "opacity": 1 },
+        "duration": "600ms",
+        "easing": "ease-out"
+      },
+      "fadeInUp": {
+        "from": { "opacity": 0, "transform": "translateY(30px)" },
+        "to": { "opacity": 1, "transform": "translateY(0)" },
+        "duration": "600ms",
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "fadeInDown": {
+        "from": { "opacity": 0, "transform": "translateY(-20px)" },
+        "to": { "opacity": 1, "transform": "translateY(0)" },
+        "duration": "500ms",
+        "easing": "ease-out"
+      },
+      "fadeInLeft": {
+        "from": { "opacity": 0, "transform": "translateX(-30px)" },
+        "to": { "opacity": 1, "transform": "translateX(0)" },
+        "duration": "600ms",
+        "easing": "ease-out"
+      },
+      "fadeInRight": {
+        "from": { "opacity": 0, "transform": "translateX(30px)" },
+        "to": { "opacity": 1, "transform": "translateX(0)" },
+        "duration": "600ms",
+        "easing": "ease-out"
+      },
+      "scaleIn": {
+        "from": { "opacity": 0, "transform": "scale(0.95)" },
+        "to": { "opacity": 1, "transform": "scale(1)" },
+        "duration": "400ms",
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    },
+
+    "textReveal": {
+      "characterByCharacter": {
+        "description": "Letters appear one by one with slight delay between each",
+        "staggerDelay": "50ms",
+        "duration": "400ms",
+        "easing": "ease-out",
+        "from": { "opacity": 0, "transform": "translateY(20px)" },
+        "to": { "opacity": 1, "transform": "translateY(0)" }
+      },
+      "wordByWord": {
+        "description": "Words fade in sequentially",
+        "staggerDelay": "100ms",
+        "duration": "500ms",
+        "easing": "ease-out"
+      },
+      "typewriter": {
+        "description": "Text appears as if being typed",
+        "speed": "50ms per character",
+        "cursor": "blinking"
+      }
+    },
+
+    "hover": {
+      "buttonSlide": {
+        "description": "Text slides up to reveal duplicate text on hover",
+        "duration": "300ms",
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "transform": "translateY(-100%)"
+      },
+      "scale": {
+        "transform": "scale(1.02)",
+        "duration": "300ms",
+        "easing": "ease-out"
+      },
+      "lift": {
+        "transform": "translateY(-4px)",
+        "shadow": "0 12px 24px rgba(0, 0, 0, 0.15)",
+        "duration": "300ms"
+      },
+      "glow": {
+        "boxShadow": "0 0 20px rgba(255, 107, 53, 0.3)",
+        "duration": "300ms"
+      }
+    },
+
+    "scroll": {
+      "parallax": {
+        "description": "Subtle vertical movement based on scroll position",
+        "speed": "0.3",
+        "direction": "vertical"
+      },
+      "fadeOnScroll": {
+        "description": "Elements fade in when entering viewport",
+        "threshold": "0.2",
+        "duration": "600ms",
+        "stagger": "100ms"
+      },
+      "stickyReveal": {
+        "description": "Elements stick and reveal content on scroll",
+        "duration": "smooth"
+      }
+    },
+
+    "marquee": {
+      "logoScroll": {
+        "description": "Infinite horizontal scroll for brand logos",
+        "direction": "left",
+        "speed": "30s",
+        "pauseOnHover": true,
+        "gap": "4rem"
+      },
+      "tagScroll": {
+        "description": "Scrolling tags/pills above cards",
+        "direction": "left",
+        "speed": "20s"
+      }
+    },
+
+    "accordion": {
+      "expand": {
+        "description": "Smooth height animation for FAQ items",
+        "duration": "300ms",
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "iconRotate": {
+        "description": "Plus icon rotates 45deg to become X",
+        "duration": "200ms",
+        "rotation": "45deg"
+      }
+    },
+
+    "tabs": {
+      "contentSwitch": {
+        "description": "Cross-fade between tab content",
+        "duration": "300ms",
+        "easing": "ease-in-out"
+      },
+      "indicator": {
+        "description": "Active tab indicator slides to position",
+        "duration": "300ms",
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    },
+
+    "counter": {
+      "countUp": {
+        "description": "Numbers animate from 0 to final value",
+        "duration": "2000ms",
+        "easing": "ease-out",
+        "startOnView": true
+      }
+    },
+
+    "image": {
+      "zoomOnHover": {
+        "transform": "scale(1.05)",
+        "duration": "500ms",
+        "easing": "ease-out"
+      },
+      "parallaxFloat": {
+        "description": "Subtle floating movement",
+        "range": "10px",
+        "duration": "3000ms",
+        "infinite": true
+      }
+    }
+  },
+
+  "components": {
+    "navigation": {
+      "description": "Sticky header with centered logo and minimal navigation",
+      "layout": {
+        "position": "sticky",
+        "top": 0,
+        "height": "80px",
+        "padding": "1rem 2rem",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "alignItems": "center"
+      },
+      "style": {
+        "background": "transparent | tokens.colors.primary.cream",
+        "backdropFilter": "blur(12px)",
+        "borderBottom": "1px solid tokens.colors.ui.border"
+      },
+      "logo": {
+        "font": "tokens.typography.fontFamily.display",
+        "fontSize": "1.5rem",
+        "fontWeight": 600,
+        "color": "tokens.colors.text.primary"
+      },
+      "links": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "color": "tokens.colors.text.secondary",
+        "hoverColor": "tokens.colors.text.primary",
+        "gap": "2rem"
+      },
+      "ctaButton": {
+        "variant": "primary",
+        "size": "sm"
+      },
+      "mobileMenu": {
+        "icon": "hamburger (two lines)",
+        "animation": "slideFromRight"
+      }
+    },
+
+    "button": {
+      "variants": {
+        "primary": {
+          "background": "tokens.colors.secondary.charcoal",
+          "color": "tokens.colors.text.light",
+          "border": "none",
+          "hoverBackground": "tokens.colors.secondary.charcoalLight",
+          "hoverTransform": "translateY(-2px)"
+        },
+        "secondary": {
+          "background": "transparent",
+          "color": "tokens.colors.text.primary",
+          "border": "1px solid tokens.colors.ui.border",
+          "hoverBackground": "tokens.colors.primary.creamDark"
+        },
+        "ghost": {
+          "background": "transparent",
+          "color": "tokens.colors.text.primary",
+          "hoverBackground": "rgba(0,0,0,0.05)"
+        },
+        "light": {
+          "background": "tokens.colors.text.light",
+          "color": "tokens.colors.text.primary",
+          "hoverBackground": "tokens.colors.primary.cream"
+        }
+      },
+      "sizes": {
+        "sm": {
+          "padding": "0.5rem 1.25rem",
+          "fontSize": "0.875rem",
+          "height": "40px"
+        },
+        "md": {
+          "padding": "0.75rem 1.5rem",
+          "fontSize": "1rem",
+          "height": "48px"
+        },
+        "lg": {
+          "padding": "1rem 2rem",
+          "fontSize": "1rem",
+          "height": "56px"
+        }
+      },
+      "style": {
+        "borderRadius": "tokens.borderRadius.button",
+        "fontWeight": 500,
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "transition": "tokens.transitions.normal",
+        "cursor": "pointer",
+        "display": "inline-flex",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": "0.5rem"
+      },
+      "animation": {
+        "type": "textSlide",
+        "description": "Contains two text elements stacked. On hover, both slide up revealing the bottom text.",
+        "overflow": "hidden"
+      },
+      "withIcon": {
+        "iconPosition": "right",
+        "iconSize": "1rem",
+        "gap": "0.5rem"
+      }
+    },
+
+    "hero": {
+      "description": "Full-width hero section with centered content and gradient image",
+      "layout": {
+        "minHeight": "90vh",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "textAlign": "center",
+        "padding": "6rem 2rem"
+      },
+      "background": "tokens.colors.primary.cream",
+      "trustBadge": {
+        "display": "flex",
+        "alignItems": "center",
+        "gap": "0.5rem",
+        "marginBottom": "1.5rem",
+        "stars": {
+          "count": 5,
+          "color": "tokens.colors.accent.brownMuted",
+          "size": "1rem"
+        },
+        "text": {
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary"
+        }
+      },
+      "headline": {
+        "font": "tokens.typography.fontFamily.display",
+        "fontSize": "clamp(2.5rem, 6vw, 4.5rem)",
+        "fontWeight": 400,
+        "lineHeight": 1.1,
+        "maxWidth": "800px",
+        "marginBottom": "1.5rem",
+        "highlightWord": {
+          "fontWeight": 300,
+          "fontStyle": "italic",
+          "color": "tokens.colors.accent.brownMuted"
+        }
+      },
+      "subheadline": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "1.125rem",
+        "fontWeight": 400,
+        "color": "tokens.colors.text.secondary",
+        "maxWidth": "600px",
+        "lineHeight": 1.6,
+        "marginBottom": "2rem"
+      },
+      "ctaGroup": {
+        "display": "flex",
+        "gap": "1rem",
+        "flexWrap": "wrap",
+        "justifyContent": "center"
+      },
+      "heroImage": {
+        "marginTop": "3rem",
+        "borderRadius": "tokens.borderRadius.image",
+        "overflow": "hidden",
+        "maxWidth": "100%"
+      }
+    },
+
+    "sectionLabel": {
+      "description": "Small pill/badge that labels sections",
+      "style": {
+        "display": "inline-flex",
+        "padding": "0.5rem 1rem",
+        "fontSize": "0.875rem",
+        "fontWeight": 500,
+        "borderRadius": "tokens.borderRadius.full",
+        "marginBottom": "1.5rem"
+      },
+      "variants": {
+        "light": {
+          "background": "tokens.colors.primary.creamDark",
+          "color": "tokens.colors.text.primary"
+        },
+        "dark": {
+          "background": "tokens.colors.secondary.charcoalLight",
+          "color": "tokens.colors.text.light"
+        }
+      }
+    },
+
+    "sectionHeading": {
+      "description": "Large section headings with optional highlighted words",
+      "style": {
+        "font": "tokens.typography.fontFamily.display",
+        "fontSize": "clamp(2rem, 4vw, 3.5rem)",
+        "fontWeight": 400,
+        "lineHeight": 1.15,
+        "maxWidth": "800px",
+        "marginBottom": "1.5rem"
+      },
+      "highlightWord": {
+        "fontWeight": 300,
+        "fontStyle": "italic",
+        "color": "inherit | tokens.colors.accent.brownMuted"
+      },
+      "subtext": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "1rem",
+        "color": "tokens.colors.text.secondary",
+        "maxWidth": "600px",
+        "lineHeight": 1.6
+      }
+    },
+
+    "statsCard": {
+      "description": "Glassmorphism cards displaying key metrics",
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "padding": "2rem",
+        "textAlign": "center"
+      },
+      "style": {
+        "background": "tokens.colors.ui.glassBg",
+        "backdropFilter": "blur(tokens.blur.glass)",
+        "borderRadius": "tokens.borderRadius.card",
+        "border": "1px solid rgba(255, 255, 255, 0.2)"
+      },
+      "number": {
+        "font": "tokens.typography.fontFamily.display",
+        "fontSize": "clamp(2.5rem, 5vw, 4rem)",
+        "fontWeight": 300,
+        "color": "tokens.colors.text.light",
+        "fontStyle": "italic",
+        "marginBottom": "0.5rem"
+      },
+      "label": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.lightMuted",
+        "fontWeight": 400
+      },
+      "container": {
+        "description": "Stats shown on gradient background image",
+        "borderRadius": "tokens.borderRadius.3xl",
+        "overflow": "hidden",
+        "background": "linear-gradient(135deg, tokens.colors.gradient.coral, tokens.colors.gradient.orange, #4A9B9B)"
+      }
+    },
+
+    "servicesTabs": {
+      "description": "Numbered service tabs with image and description",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr",
+        "gap": "3rem",
+        "alignItems": "start"
+      },
+      "tabList": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "0"
+      },
+      "tab": {
+        "padding": "1.5rem 0",
+        "borderBottom": "1px solid tokens.colors.ui.border",
+        "cursor": "pointer",
+        "display": "flex",
+        "alignItems": "baseline",
+        "gap": "1rem"
+      },
+      "tabNumber": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "0.75rem",
+        "color": "tokens.colors.text.muted",
+        "verticalAlign": "super"
+      },
+      "tabTitle": {
+        "font": "tokens.typography.fontFamily.display",
+        "fontSize": "clamp(1.5rem, 3vw, 2.5rem)",
+        "fontWeight": 400,
+        "color": "tokens.colors.text.muted",
+        "transition": "color 300ms ease"
+      },
+      "tabActive": {
+        "color": "tokens.colors.text.primary",
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.lg"
+      },
+      "content": {
+        "image": {
+          "borderRadius": "tokens.borderRadius.image",
+          "aspectRatio": "4/3",
+          "objectFit": "cover"
+        },
+        "title": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "marginTop": "1.5rem",
+          "marginBottom": "0.5rem"
+        },
+        "description": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary",
+          "lineHeight": 1.6
+        }
+      }
+    },
+
+    "testimonial": {
+      "description": "Large quote with gradient background and author info",
+      "layout": {
+        "padding": "4rem",
+        "borderRadius": "tokens.borderRadius.3xl",
+        "overflow": "hidden",
+        "position": "relative"
+      },
+      "background": {
+        "type": "image with gradient overlay",
+        "gradient": "linear-gradient(135deg, rgba(255,107,53,0.8), rgba(74,155,155,0.8))"
+      },
+      "quote": {
+        "font": "tokens.typography.fontFamily.display",
+        "fontSize": "clamp(1.5rem, 3vw, 2.5rem)",
+        "fontWeight": 400,
+        "color": "tokens.colors.text.light",
+        "lineHeight": 1.3,
+        "marginBottom": "2rem",
+        "maxWidth": "700px"
+      },
+      "author": {
+        "name": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "color": "tokens.colors.text.light"
+        },
+        "role": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.lightMuted"
+        }
+      },
+      "animation": "characterByCharacter text reveal on scroll"
+    },
+
+    "processTimeline": {
+      "description": "Numbered steps with timeline visualization",
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "0"
+      },
+      "step": {
+        "display": "grid",
+        "gridTemplateColumns": "60px 1fr auto",
+        "gap": "2rem",
+        "padding": "2rem 0",
+        "borderBottom": "1px solid tokens.colors.ui.border",
+        "alignItems": "start"
+      },
+      "number": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.muted"
+      },
+      "content": {
+        "title": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "1.125rem",
+          "fontWeight": 600,
+          "marginBottom": "0.5rem"
+        },
+        "description": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary",
+          "lineHeight": 1.6
+        }
+      },
+      "timeline": {
+        "badge": {
+          "padding": "0.25rem 0.75rem",
+          "fontSize": "0.75rem",
+          "background": "tokens.colors.primary.creamDark",
+          "borderRadius": "tokens.borderRadius.full",
+          "color": "tokens.colors.text.secondary"
+        }
+      }
+    },
+
+    "comparisonCards": {
+      "description": "Side-by-side comparison of 'Other agencies' vs 'Claura'",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr",
+        "gap": "1.5rem"
+      },
+      "card": {
+        "padding": "2rem",
+        "borderRadius": "tokens.borderRadius.card",
+        "overflow": "hidden",
+        "position": "relative",
+        "minHeight": "400px",
+        "display": "flex",
+        "flexDirection": "column"
+      },
+      "competitorCard": {
+        "background": "tokens.colors.secondary.charcoal",
+        "color": "tokens.colors.text.light"
+      },
+      "brandCard": {
+        "background": "linear-gradient(135deg, tokens.colors.gradient.orange, tokens.colors.gradient.coral)",
+        "color": "tokens.colors.text.light"
+      },
+      "tagMarquee": {
+        "description": "Scrolling tags at top of card",
+        "tags": {
+          "padding": "0.5rem 1rem",
+          "fontSize": "0.75rem",
+          "borderRadius": "tokens.borderRadius.full",
+          "background": "rgba(255,255,255,0.15)",
+          "color": "tokens.colors.text.light"
+        },
+        "animation": "horizontal scroll"
+      },
+      "image": {
+        "position": "absolute",
+        "bottom": 0,
+        "right": 0,
+        "width": "60%",
+        "opacity": 0.6
+      },
+      "content": {
+        "title": {
+          "font": "tokens.typography.fontFamily.display",
+          "fontSize": "2rem",
+          "fontWeight": 400,
+          "marginTop": "auto"
+        },
+        "description": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.lightMuted",
+          "marginTop": "1rem"
+        }
+      }
+    },
+
+    "caseStudy": {
+      "description": "Case study section with stats and client logo",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr",
+        "gap": "4rem",
+        "alignItems": "center"
+      },
+      "content": {
+        "heading": "component.sectionHeading",
+        "description": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "1rem",
+          "color": "tokens.colors.text.secondary",
+          "lineHeight": 1.7,
+          "marginBottom": "2rem"
+        },
+        "stats": {
+          "display": "grid",
+          "gridTemplateColumns": "1fr 1fr",
+          "gap": "2rem"
+        },
+        "stat": {
+          "number": {
+            "font": "tokens.typography.fontFamily.display",
+            "fontSize": "3rem",
+            "fontWeight": 300,
+            "fontStyle": "italic"
+          },
+          "label": {
+            "font": "tokens.typography.fontFamily.body",
+            "fontSize": "0.875rem",
+            "fontWeight": 600
+          },
+          "sublabel": {
+            "font": "tokens.typography.fontFamily.body",
+            "fontSize": "0.75rem",
+            "color": "tokens.colors.text.muted"
+          }
+        }
+      },
+      "visual": {
+        "image": {
+          "borderRadius": "tokens.borderRadius.image"
+        },
+        "clientLogo": {
+          "marginTop": "1.5rem"
+        }
+      }
+    },
+
+    "teamGrid": {
+      "description": "Grid of team member photos with overlay info",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(4, 1fr)",
+        "gap": "1.5rem"
+      },
+      "card": {
+        "position": "relative",
+        "borderRadius": "tokens.borderRadius.card",
+        "overflow": "hidden",
+        "aspectRatio": "3/4"
+      },
+      "image": {
+        "width": "100%",
+        "height": "100%",
+        "objectFit": "cover",
+        "transition": "transform 500ms ease"
+      },
+      "overlay": {
+        "position": "absolute",
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "padding": "1.5rem",
+        "background": "linear-gradient(transparent, rgba(0,0,0,0.7))"
+      },
+      "name": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "1rem",
+        "fontWeight": 600,
+        "color": "tokens.colors.text.light"
+      },
+      "role": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.lightMuted"
+      },
+      "hover": {
+        "imageScale": 1.05,
+        "overlayOpacity": 1
+      }
+    },
+
+    "hiringBanner": {
+      "description": "Recruitment banner with CTA",
+      "layout": {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "padding": "1.5rem 2rem",
+        "borderTop": "1px solid tokens.colors.ui.border"
+      },
+      "content": {
+        "title": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "1rem",
+          "fontWeight": 600
+        },
+        "badge": {
+          "display": "inline-flex",
+          "padding": "0.25rem 0.75rem",
+          "fontSize": "0.75rem",
+          "background": "tokens.colors.primary.creamDark",
+          "borderRadius": "tokens.borderRadius.full",
+          "marginLeft": "0.75rem"
+        },
+        "description": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary"
+        }
+      }
+    },
+
+    "faqAccordion": {
+      "description": "Expandable FAQ items",
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "0",
+        "maxWidth": "800px"
+      },
+      "item": {
+        "padding": "1.5rem",
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.lg",
+        "marginBottom": "0.75rem",
+        "cursor": "pointer"
+      },
+      "question": {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "1rem",
+        "fontWeight": 500
+      },
+      "icon": {
+        "size": "1.25rem",
+        "transition": "transform 200ms ease",
+        "rotateOnOpen": "45deg"
+      },
+      "answer": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.secondary",
+        "lineHeight": 1.7,
+        "paddingTop": "1rem",
+        "animation": "expand with height transition"
+      }
+    },
+
+    "ctaSection": {
+      "description": "Final call-to-action with split layout - visual + form",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr",
+        "gap": "2rem",
+        "alignItems": "stretch"
+      },
+      "visual": {
+        "borderRadius": "tokens.borderRadius.3xl",
+        "overflow": "hidden",
+        "background": "gradient image with orange/coral tones",
+        "padding": "3rem",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "flex-end",
+        "minHeight": "600px"
+      },
+      "form": {
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.3xl",
+        "padding": "2rem"
+      }
+    },
+
+    "form": {
+      "description": "Contact/booking form",
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "1rem"
+      },
+      "input": {
+        "padding": "1rem 1.25rem",
+        "fontSize": "1rem",
+        "border": "none",
+        "borderRadius": "tokens.borderRadius.lg",
+        "background": "tokens.colors.primary.cream",
+        "color": "tokens.colors.text.primary",
+        "placeholder": {
+          "color": "tokens.colors.text.muted"
+        },
+        "focus": {
+          "outline": "2px solid tokens.colors.accent.brown",
+          "outlineOffset": "2px"
+        }
+      },
+      "textarea": {
+        "minHeight": "120px",
+        "resize": "vertical"
+      },
+      "radioGroup": {
+        "label": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+          "marginBottom": "0.75rem"
+        },
+        "options": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "0.5rem"
+        },
+        "option": {
+          "padding": "0.5rem 1rem",
+          "fontSize": "0.875rem",
+          "borderRadius": "tokens.borderRadius.full",
+          "border": "1px solid tokens.colors.ui.border",
+          "background": "transparent",
+          "cursor": "pointer",
+          "transition": "all 200ms ease"
+        },
+        "optionSelected": {
+          "background": "tokens.colors.secondary.charcoal",
+          "color": "tokens.colors.text.light",
+          "border": "1px solid tokens.colors.secondary.charcoal"
+        }
+      },
+      "submitButton": {
+        "width": "100%",
+        "marginTop": "1rem"
+      },
+      "disclaimer": {
+        "font": "tokens.typography.fontFamily.body",
+        "fontSize": "0.75rem",
+        "color": "tokens.colors.text.muted",
+        "textAlign": "center",
+        "marginTop": "1rem"
+      }
+    },
+
+    "footer": {
+      "description": "Multi-column footer with centered branding",
+      "layout": {
+        "padding": "4rem 2rem",
+        "background": "tokens.colors.primary.cream"
+      },
+      "branding": {
+        "textAlign": "center",
+        "marginBottom": "3rem",
+        "logo": {
+          "font": "tokens.typography.fontFamily.display",
+          "fontSize": "2rem",
+          "fontWeight": 400,
+          "marginBottom": "0.5rem"
+        },
+        "tagline": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary",
+          "fontStyle": "italic"
+        },
+        "socialLinks": {
+          "display": "flex",
+          "gap": "1rem",
+          "justifyContent": "center",
+          "marginTop": "1.5rem"
+        },
+        "socialIcon": {
+          "size": "2.5rem",
+          "padding": "0.5rem",
+          "borderRadius": "tokens.borderRadius.full",
+          "border": "1px solid tokens.colors.ui.border",
+          "color": "tokens.colors.text.primary",
+          "hoverBackground": "tokens.colors.primary.creamDark"
+        }
+      },
+      "decorativeImage": {
+        "description": "Large flower/organic image in center",
+        "maxWidth": "400px",
+        "margin": "3rem auto"
+      },
+      "navigation": {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(4, 1fr)",
+        "gap": "2rem",
+        "maxWidth": "900px",
+        "margin": "0 auto"
+      },
+      "column": {
+        "title": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+          "marginBottom": "1rem",
+          "color": "tokens.colors.text.primary"
+        },
+        "link": {
+          "font": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary",
+          "display": "block",
+          "marginBottom": "0.5rem",
+          "hoverColor": "tokens.colors.text.primary"
+        }
+      },
+      "bottom": {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "paddingTop": "2rem",
+        "marginTop": "3rem",
+        "borderTop": "1px solid tokens.colors.ui.border",
+        "fontSize": "0.75rem",
+        "color": "tokens.colors.text.muted"
+      }
+    },
+
+    "logoMarquee": {
+      "description": "Infinite scrolling brand logos",
+      "layout": {
+        "overflow": "hidden",
+        "padding": "2rem 0"
+      },
+      "track": {
+        "display": "flex",
+        "gap": "4rem",
+        "animation": "marquee 30s linear infinite"
+      },
+      "logo": {
+        "height": "24px",
+        "opacity": 0.5,
+        "filter": "grayscale(100%)",
+        "hoverOpacity": 1,
+        "hoverFilter": "grayscale(0%)",
+        "transition": "all 300ms ease"
+      }
+    }
+  },
+
+  "patterns": {
+    "alternatingBackgrounds": {
+      "description": "Sections alternate between light cream and dark charcoal backgrounds",
+      "sequence": ["cream", "dark", "cream", "dark"],
+      "textColorMapping": {
+        "cream": "tokens.colors.text.primary",
+        "dark": "tokens.colors.text.light"
+      }
+    },
+
+    "sectionStructure": {
+      "description": "Standard section layout pattern",
+      "padding": {
+        "desktop": "6rem 4rem",
+        "tablet": "4rem 2rem",
+        "mobile": "3rem 1.5rem"
+      },
+      "container": {
+        "maxWidth": "1200px",
+        "margin": "0 auto"
+      },
+      "header": {
+        "marginBottom": "4rem"
+      }
+    },
+
+    "gridLayouts": {
+      "twoColumn": {
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr",
+        "gap": "4rem",
+        "mobileStack": true
+      },
+      "threeColumn": {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(3, 1fr)",
+        "gap": "2rem"
+      },
+      "fourColumn": {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(4, 1fr)",
+        "gap": "1.5rem"
+      },
+      "asymmetric": {
+        "display": "grid",
+        "gridTemplateColumns": "2fr 1fr",
+        "gap": "4rem"
+      }
+    },
+
+    "cardStyles": {
+      "elevated": {
+        "background": "white",
+        "borderRadius": "tokens.borderRadius.card",
+        "boxShadow": "tokens.shadows.card",
+        "padding": "2rem"
+      },
+      "flat": {
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.card",
+        "padding": "2rem"
+      },
+      "glass": {
+        "background": "tokens.colors.ui.glassBg",
+        "backdropFilter": "blur(tokens.blur.glass)",
+        "borderRadius": "tokens.borderRadius.card",
+        "border": "1px solid rgba(255,255,255,0.2)"
+      },
+      "gradient": {
+        "background": "linear-gradient(135deg, ...)",
+        "borderRadius": "tokens.borderRadius.card",
+        "color": "white"
+      }
+    },
+
+    "responsiveText": {
+      "heroHeadline": "clamp(2.5rem, 6vw, 4.5rem)",
+      "sectionHeadline": "clamp(2rem, 4vw, 3.5rem)",
+      "cardHeadline": "clamp(1.5rem, 3vw, 2.5rem)",
+      "body": "clamp(0.875rem, 1vw, 1rem)"
+    }
+  },
+
+  "imagery": {
+    "style": {
+      "description": "Organic, warm imagery - flowers, natural elements, soft gradients",
+      "colorTreatment": "Warm tones, orange/coral/teal gradients",
+      "subjects": ["Flowers (tulips, abstract florals)", "Soft abstract gradients", "Human portraits (warm, professional)", "Dot grid patterns"],
+      "avoid": ["Cold tech imagery", "Circuit patterns", "Harsh neon colors", "Stock photo clichés"]
+    },
+    "gradients": {
+      "primary": "linear-gradient(135deg, #FF6B35, #E8A87C, #4A9B9B)",
+      "warm": "linear-gradient(135deg, #FF8C61, #FFCBA4)",
+      "sunset": "linear-gradient(180deg, #F4C542, #FF6B35, #E8A87C)"
+    },
+    "aspectRatios": {
+      "hero": "16/9",
+      "card": "4/3",
+      "portrait": "3/4",
+      "square": "1/1"
+    },
+    "borderRadius": "Always use rounded corners (1.5rem - 2rem) for images"
+  },
+
+  "iconography": {
+    "style": "Simple, minimal line icons",
+    "strokeWidth": "1.5px - 2px",
+    "size": {
+      "sm": "16px",
+      "md": "20px",
+      "lg": "24px",
+      "xl": "32px"
+    },
+    "commonIcons": {
+      "arrow": "Right arrow for CTAs",
+      "plus": "Expand/add",
+      "play": "Video play button",
+      "star": "Ratings",
+      "check": "List items, features"
+    }
+  },
+
+  "accessibility": {
+    "colorContrast": {
+      "minimumRatio": "4.5:1 for normal text",
+      "largeText": "3:1 for text 18px+ bold or 24px+ regular"
+    },
+    "focusStates": {
+      "outline": "2px solid tokens.colors.accent.brown",
+      "outlineOffset": "2px"
+    },
+    "motionPreferences": {
+      "reduceMotion": "Disable animations for users who prefer reduced motion"
+    },
+    "semanticHTML": "Use proper heading hierarchy, landmarks, and ARIA labels"
+  }
+}

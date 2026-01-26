@@ -1,0 +1,1654 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "meta": {
+    "name": "Claura Design System",
+    "version": "1.0.0",
+    "description": "Comprehensive design system for AI Agency website based on claura.framer.ai. This file serves as the single source of truth for all UI components, styles, and design guidelines.",
+    "source": "https://claura.framer.ai/",
+    "lastUpdated": "2026-01-25"
+  },
+
+  "guidelines": {
+    "overview": "Claura is a warm, professional, and trustworthy design system for AI/automation service businesses. It avoids cold tech aesthetics in favor of organic warmth, natural imagery, and human-centered design.",
+    
+    "corePrinciples": [
+      {
+        "id": "warmth-over-tech",
+        "name": "Warmth Over Tech",
+        "description": "Use warm, organic color palettes (creams, browns, coral) and natural imagery (flowers, soft gradients) instead of cold blues, circuits, or harsh neon. The goal is to make AI feel approachable, not intimidating."
+      },
+      {
+        "id": "trust-through-clarity",
+        "name": "Trust Through Clarity",
+        "description": "Build trust with clear typography hierarchy, prominent statistics and social proof, straightforward messaging, and no jargon. Every element should reduce cognitive load."
+      },
+      {
+        "id": "generous-whitespace",
+        "name": "Generous Breathing Room",
+        "description": "Use ample whitespace and generous padding (80-120px between sections) to let content breathe. This creates a premium, unhurried feel that builds confidence."
+      },
+      {
+        "id": "high-contrast-sections",
+        "name": "Contrast for Impact",
+        "description": "Alternate between light cream (#FAF9F6) and dark charcoal (#1A1A1F) sections to create visual rhythm, emphasize key content, and maintain engagement during scroll."
+      },
+      {
+        "id": "subtle-sophistication",
+        "name": "Subtle Sophistication",
+        "description": "Animations should be smooth and understated (300-600ms, ease curves), never flashy or distracting. The interface should feel polished but not performative."
+      },
+      {
+        "id": "typography-hierarchy",
+        "name": "Strong Typography Hierarchy",
+        "description": "Use large, confident serif headlines (Playfair Display) with highlighted accent words (lighter weight, italic) paired with clean sans-serif body text (Inter)."
+      }
+    ],
+
+    "doAndDont": {
+      "do": [
+        "Use warm, organic colors (cream, brown, coral, teal)",
+        "Include social proof prominently (stats, testimonials, logos)",
+        "Use generous padding and whitespace",
+        "Apply smooth, subtle animations",
+        "Use natural imagery (flowers, soft gradients)",
+        "Highlight key words in headlines with italic/lighter weight",
+        "Use rounded corners on all cards and images (1.5-2rem)",
+        "Maintain clear visual hierarchy"
+      ],
+      "dont": [
+        "Use cold blues, purples, or neon colors",
+        "Clutter the interface with too many elements",
+        "Use harsh, sudden animations",
+        "Include tech clichés (circuits, robots, matrix effects)",
+        "Use sharp corners or boxy layouts",
+        "Overwhelm with too much text",
+        "Neglect mobile responsiveness",
+        "Use generic stock photos"
+      ]
+    }
+  },
+
+  "tokens": {
+    "colors": {
+      "description": "Color palette inspired by natural warmth - creams, earth tones, and sunset gradients",
+      
+      "primary": {
+        "cream": {
+          "value": "#FAF9F6",
+          "usage": "Main background color for light sections"
+        },
+        "creamLight": {
+          "value": "#FFFDF9",
+          "usage": "Lighter variant for subtle contrast"
+        },
+        "creamDark": {
+          "value": "#F5F0EA",
+          "usage": "Input backgrounds, card backgrounds, hover states"
+        },
+        "warmWhite": {
+          "value": "#FDF8F3",
+          "usage": "Alternative light background"
+        }
+      },
+
+      "secondary": {
+        "charcoal": {
+          "value": "#1A1A1F",
+          "usage": "Primary dark background, button backgrounds"
+        },
+        "charcoalLight": {
+          "value": "#2D2D35",
+          "usage": "Hover state for dark elements"
+        },
+        "navy": {
+          "value": "#0D0D12",
+          "usage": "Darkest background variant"
+        },
+        "darkBrown": {
+          "value": "#1C1917",
+          "usage": "Alternative dark tone"
+        }
+      },
+
+      "accent": {
+        "brown": {
+          "value": "#3D2C1E",
+          "usage": "Focus states, accent elements"
+        },
+        "brownLight": {
+          "value": "#5C4332",
+          "usage": "Secondary accent"
+        },
+        "brownMuted": {
+          "value": "#8B7355",
+          "usage": "Highlighted text in headlines, stars"
+        },
+        "chocolate": {
+          "value": "#4A3728",
+          "usage": "Rich accent variant"
+        }
+      },
+
+      "gradient": {
+        "orange": {
+          "value": "#FF6B35",
+          "usage": "Primary gradient color, energy"
+        },
+        "coral": {
+          "value": "#E8A87C",
+          "usage": "Warm gradient transition"
+        },
+        "peach": {
+          "value": "#FFCBA4",
+          "usage": "Soft gradient endpoint"
+        },
+        "sunset": {
+          "value": "#FF8C61",
+          "usage": "Mid-tone gradient"
+        },
+        "teal": {
+          "value": "#4A9B9B",
+          "usage": "Cool contrast in gradients"
+        },
+        "warmYellow": {
+          "value": "#F4C542",
+          "usage": "Highlight gradient"
+        }
+      },
+
+      "text": {
+        "primary": {
+          "value": "#1A1A1F",
+          "usage": "Main text on light backgrounds"
+        },
+        "secondary": {
+          "value": "#6B6B6B",
+          "usage": "Subtext, descriptions"
+        },
+        "muted": {
+          "value": "#9CA3AF",
+          "usage": "Placeholders, disabled text"
+        },
+        "light": {
+          "value": "#FFFFFF",
+          "usage": "Text on dark backgrounds"
+        },
+        "lightMuted": {
+          "value": "rgba(255, 255, 255, 0.7)",
+          "usage": "Secondary text on dark backgrounds"
+        }
+      },
+
+      "ui": {
+        "border": {
+          "value": "rgba(0, 0, 0, 0.08)",
+          "usage": "Borders on light backgrounds"
+        },
+        "borderDark": {
+          "value": "rgba(255, 255, 255, 0.1)",
+          "usage": "Borders on dark backgrounds"
+        },
+        "cardBg": {
+          "value": "rgba(255, 255, 255, 0.6)",
+          "usage": "Semi-transparent card backgrounds"
+        },
+        "glassBg": {
+          "value": "rgba(255, 255, 255, 0.25)",
+          "usage": "Glassmorphism backgrounds"
+        },
+        "overlay": {
+          "value": "rgba(0, 0, 0, 0.5)",
+          "usage": "Modal overlays"
+        }
+      },
+
+      "semantic": {
+        "success": "#10B981",
+        "warning": "#F59E0B",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      },
+
+      "gradients": {
+        "primary": "linear-gradient(135deg, #FF6B35, #E8A87C, #4A9B9B)",
+        "warm": "linear-gradient(135deg, #FF8C61, #FFCBA4)",
+        "sunset": "linear-gradient(180deg, #F4C542, #FF6B35, #E8A87C)",
+        "dark": "linear-gradient(135deg, #1A1A1F, #2D2D35)"
+      }
+    },
+
+    "typography": {
+      "description": "Elegant serif for display, clean sans-serif for body",
+      
+      "fontFamily": {
+        "display": {
+          "value": "'Playfair Display', 'Times New Roman', Georgia, serif",
+          "usage": "Headlines, large display text, brand name"
+        },
+        "body": {
+          "value": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+          "usage": "Body text, UI elements, navigation"
+        },
+        "mono": {
+          "value": "'JetBrains Mono', 'Fira Code', monospace",
+          "usage": "Code snippets if needed"
+        }
+      },
+
+      "fontSize": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "3.75rem",
+        "7xl": "4.5rem",
+        "8xl": "6rem"
+      },
+
+      "fontSizeResponsive": {
+        "heroHeadline": "clamp(2.5rem, 6vw, 4.5rem)",
+        "sectionHeadline": "clamp(2rem, 4vw, 3.5rem)",
+        "cardHeadline": "clamp(1.5rem, 3vw, 2.5rem)",
+        "statNumber": "clamp(2.5rem, 5vw, 4rem)"
+      },
+
+      "fontWeight": {
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      },
+
+      "lineHeight": {
+        "tight": 1.1,
+        "snug": 1.25,
+        "normal": 1.5,
+        "relaxed": 1.625,
+        "loose": 2
+      },
+
+      "letterSpacing": {
+        "tighter": "-0.05em",
+        "tight": "-0.025em",
+        "normal": "0",
+        "wide": "0.025em",
+        "wider": "0.05em",
+        "widest": "0.1em",
+        "animated": "0.3em"
+      }
+    },
+
+    "spacing": {
+      "description": "Consistent spacing scale based on 4px",
+      "scale": {
+        "0": "0",
+        "1": "0.25rem",
+        "2": "0.5rem",
+        "3": "0.75rem",
+        "4": "1rem",
+        "5": "1.25rem",
+        "6": "1.5rem",
+        "8": "2rem",
+        "10": "2.5rem",
+        "12": "3rem",
+        "16": "4rem",
+        "20": "5rem",
+        "24": "6rem",
+        "32": "8rem",
+        "40": "10rem"
+      },
+      "section": {
+        "paddingY": {
+          "mobile": "3rem",
+          "tablet": "4rem",
+          "desktop": "6rem"
+        },
+        "paddingX": {
+          "mobile": "1.5rem",
+          "tablet": "2rem",
+          "desktop": "4rem"
+        }
+      },
+      "container": {
+        "maxWidth": "1200px",
+        "paddingX": "2rem"
+      }
+    },
+
+    "borderRadius": {
+      "none": "0",
+      "sm": "0.25rem",
+      "md": "0.5rem",
+      "lg": "0.75rem",
+      "xl": "1rem",
+      "2xl": "1.5rem",
+      "3xl": "2rem",
+      "full": "9999px",
+      "card": "1.5rem",
+      "button": "9999px",
+      "image": "1.5rem",
+      "input": "0.75rem"
+    },
+
+    "shadows": {
+      "sm": "0 1px 2px rgba(0, 0, 0, 0.05)",
+      "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+      "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+      "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1)",
+      "card": "0 4px 24px rgba(0, 0, 0, 0.06)",
+      "cardHover": "0 8px 32px rgba(0, 0, 0, 0.12)",
+      "button": "0 2px 8px rgba(0, 0, 0, 0.15)",
+      "glass": "0 8px 32px rgba(0, 0, 0, 0.08)"
+    },
+
+    "blur": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "16px",
+      "xl": "24px",
+      "glass": "12px"
+    },
+
+    "transitions": {
+      "fast": "150ms ease",
+      "normal": "300ms ease",
+      "slow": "500ms ease",
+      "slower": "700ms ease",
+      "spring": "500ms cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "smooth": "400ms cubic-bezier(0.4, 0, 0.2, 1)",
+      "bounce": "600ms cubic-bezier(0.68, -0.55, 0.265, 1.55)"
+    },
+
+    "breakpoints": {
+      "sm": "640px",
+      "md": "768px",
+      "lg": "1024px",
+      "xl": "1280px",
+      "2xl": "1536px"
+    },
+
+    "zIndex": {
+      "base": 0,
+      "dropdown": 100,
+      "sticky": 200,
+      "fixed": 300,
+      "modalBackdrop": 400,
+      "modal": 500,
+      "popover": 600,
+      "tooltip": 700
+    }
+  },
+
+  "animations": {
+    "description": "Smooth, subtle animations powered by Framer Motion. All animations should feel polished but understated.",
+    "framework": "Framer Motion (React) or CSS animations with similar easing",
+    
+    "entrance": {
+      "fadeIn": {
+        "description": "Simple opacity fade",
+        "framerMotion": {
+          "initial": { "opacity": 0 },
+          "animate": { "opacity": 1 },
+          "transition": { "duration": 0.6, "ease": "easeOut" }
+        },
+        "css": {
+          "keyframes": "@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }",
+          "animation": "fadeIn 0.6s ease-out forwards"
+        }
+      },
+      "fadeInUp": {
+        "description": "Fade in while moving up - primary scroll-triggered animation",
+        "framerMotion": {
+          "initial": { "opacity": 0, "y": 30 },
+          "whileInView": { "opacity": 1, "y": 0 },
+          "viewport": { "once": true, "amount": 0.2 },
+          "transition": { "duration": 0.6, "ease": [0.4, 0, 0.2, 1] }
+        },
+        "css": {
+          "keyframes": "@keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }",
+          "animation": "fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards"
+        }
+      },
+      "fadeInDown": {
+        "description": "Fade in while moving down - for dropdowns/menus",
+        "framerMotion": {
+          "initial": { "opacity": 0, "y": -20 },
+          "animate": { "opacity": 1, "y": 0 },
+          "transition": { "duration": 0.5, "ease": "easeOut" }
+        }
+      },
+      "scaleIn": {
+        "description": "Fade in with subtle scale",
+        "framerMotion": {
+          "initial": { "opacity": 0, "scale": 0.95 },
+          "animate": { "opacity": 1, "scale": 1 },
+          "transition": { "duration": 0.4, "ease": [0.4, 0, 0.2, 1] }
+        }
+      },
+      "staggerChildren": {
+        "description": "Parent container that staggers child animations",
+        "framerMotion": {
+          "variants": {
+            "hidden": {},
+            "visible": {
+              "transition": {
+                "staggerChildren": 0.1,
+                "delayChildren": 0.1
+              }
+            }
+          },
+          "initial": "hidden",
+          "whileInView": "visible"
+        }
+      }
+    },
+
+    "textReveal": {
+      "characterByCharacter": {
+        "description": "Letters appear one by one - used for hero 'Claura' text and testimonial quotes. Split text into individual spans and stagger their animations.",
+        "framerMotion": {
+          "containerVariants": {
+            "hidden": {},
+            "visible": {
+              "transition": { "staggerChildren": 0.05 }
+            }
+          },
+          "letterVariants": {
+            "hidden": { "opacity": 0, "y": 20 },
+            "visible": { 
+              "opacity": 1, 
+              "y": 0,
+              "transition": { "duration": 0.4, "ease": "easeOut" }
+            }
+          },
+          "implementation": "text.split('').map((char, i) => <motion.span key={i} variants={letterVariants}>{char}</motion.span>)"
+        },
+        "staggerDelay": "50ms",
+        "duration": "400ms"
+      },
+      "wordByWord": {
+        "description": "Words fade in sequentially - alternative to character animation",
+        "framerMotion": {
+          "containerVariants": {
+            "hidden": {},
+            "visible": { "transition": { "staggerChildren": 0.1 } }
+          },
+          "wordVariants": {
+            "hidden": { "opacity": 0, "y": 10 },
+            "visible": { "opacity": 1, "y": 0 }
+          }
+        }
+      }
+    },
+
+    "hover": {
+      "buttonTextSlide": {
+        "description": "Button contains two identical text layers stacked vertically. Container has overflow:hidden. On hover, both translate up by 100%, revealing the bottom text. Creates a sliding reveal effect.",
+        "framerMotion": {
+          "whileHover": { "y": "-100%" },
+          "transition": { "duration": 0.3, "ease": [0.4, 0, 0.2, 1] }
+        },
+        "css": {
+          "structure": ".btn { overflow: hidden; } .btn-text { display: block; transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); } .btn:hover .btn-text { transform: translateY(-100%); }",
+          "note": "Requires two text elements stacked"
+        }
+      },
+      "cardLift": {
+        "description": "Card lifts up slightly with enhanced shadow",
+        "framerMotion": {
+          "whileHover": { 
+            "y": -4, 
+            "boxShadow": "0 12px 24px rgba(0, 0, 0, 0.15)",
+            "transition": { "duration": 0.3 }
+          }
+        }
+      },
+      "imageZoom": {
+        "description": "Image scales up on hover - used in team cards",
+        "framerMotion": {
+          "whileHover": { "scale": 1.05 },
+          "transition": { "duration": 0.5, "ease": "easeOut" }
+        },
+        "css": "img { transition: transform 0.5s ease-out; } .card:hover img { transform: scale(1.05); }"
+      },
+      "linkUnderline": {
+        "description": "Underline grows from left to right on hover",
+        "css": "a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 1px; background: currentColor; transition: width 0.3s ease; } a:hover::after { width: 100%; }"
+      },
+      "buttonScale": {
+        "description": "Subtle scale on button hover",
+        "framerMotion": {
+          "whileHover": { "scale": 1.02 },
+          "whileTap": { "scale": 0.98 },
+          "transition": { "type": "spring", "stiffness": 400, "damping": 17 }
+        }
+      }
+    },
+
+    "scroll": {
+      "parallax": {
+        "description": "Subtle vertical movement based on scroll position using useScroll and useTransform",
+        "framerMotion": {
+          "implementation": "const { scrollYProgress } = useScroll(); const y = useTransform(scrollYProgress, [0, 1], [0, -100]);",
+          "speed": 0.3
+        }
+      },
+      "fadeOnScroll": {
+        "description": "Elements fade in when entering viewport",
+        "framerMotion": {
+          "initial": { "opacity": 0, "y": 20 },
+          "whileInView": { "opacity": 1, "y": 0 },
+          "viewport": { "once": true, "amount": 0.2 },
+          "transition": { "duration": 0.6 }
+        }
+      },
+      "progressBar": {
+        "description": "Reading progress indicator linked to scroll",
+        "framerMotion": {
+          "implementation": "const { scrollYProgress } = useScroll(); <motion.div style={{ scaleX: scrollYProgress, transformOrigin: 'left' }} />"
+        },
+        "height": "3px",
+        "color": "tokens.colors.accent.brown"
+      }
+    },
+
+    "marquee": {
+      "logoScroll": {
+        "description": "Infinite horizontal scroll for brand logos. Duplicate the content to create seamless loop.",
+        "css": {
+          "keyframes": "@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }",
+          "animation": "marquee 30s linear infinite",
+          "structure": "Two identical copies of logos side by side, animate the container"
+        },
+        "pauseOnHover": true,
+        "gap": "4rem",
+        "duration": "30s"
+      },
+      "tagScroll": {
+        "description": "Scrolling tags/pills above comparison cards",
+        "duration": "20s",
+        "direction": "left"
+      }
+    },
+
+    "interactive": {
+      "accordion": {
+        "description": "Smooth expand/collapse for FAQ items",
+        "framerMotion": {
+          "variants": {
+            "collapsed": { "height": 0, "opacity": 0 },
+            "expanded": { "height": "auto", "opacity": 1 }
+          },
+          "transition": { "duration": 0.3, "ease": [0.4, 0, 0.2, 1] }
+        },
+        "iconRotate": {
+          "framerMotion": {
+            "animate": { "rotate": "isOpen ? 45 : 0" },
+            "transition": { "duration": 0.2 }
+          }
+        }
+      },
+      "tabs": {
+        "description": "Tab content transitions",
+        "framerMotion": {
+          "contentVariants": {
+            "enter": { "opacity": 0, "x": 10 },
+            "center": { "opacity": 1, "x": 0 },
+            "exit": { "opacity": 0, "x": -10 }
+          },
+          "transition": { "duration": 0.3 }
+        },
+        "indicatorSlide": {
+          "description": "Active indicator slides to selected tab",
+          "framerMotion": {
+            "layout": true,
+            "transition": { "type": "spring", "stiffness": 500, "damping": 30 }
+          }
+        }
+      },
+      "counter": {
+        "description": "Numbers count up from 0 to final value when entering viewport",
+        "implementation": "Use a library like react-countup or custom hook with requestAnimationFrame",
+        "duration": "2000ms",
+        "easing": "easeOut",
+        "startOnView": true
+      }
+    },
+
+    "webgl": {
+      "description": "Page uses WebGL shaders for some effects (detected uTime uniform)",
+      "usage": "Background gradients and organic effects may use canvas/WebGL",
+      "fallback": "Provide CSS gradient fallbacks for non-WebGL browsers"
+    },
+
+    "loading": {
+      "skeleton": {
+        "description": "Shimmer effect for loading states",
+        "css": {
+          "keyframes": "@keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }",
+          "background": "linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%)",
+          "backgroundSize": "200% 100%",
+          "animation": "shimmer 1.5s infinite"
+        }
+      },
+      "spinner": {
+        "size": "24px",
+        "borderWidth": "2px",
+        "duration": "750ms"
+      }
+    },
+
+    "springConfigs": {
+      "description": "Reusable spring configurations for Framer Motion",
+      "gentle": { "type": "spring", "stiffness": 120, "damping": 14 },
+      "snappy": { "type": "spring", "stiffness": 400, "damping": 30 },
+      "bouncy": { "type": "spring", "stiffness": 300, "damping": 10 },
+      "smooth": { "type": "spring", "stiffness": 100, "damping": 20 }
+    },
+
+    "easingCurves": {
+      "description": "Custom easing curves used throughout",
+      "easeOut": [0, 0, 0.2, 1],
+      "easeInOut": [0.4, 0, 0.2, 1],
+      "easeIn": [0.4, 0, 1, 1],
+      "sharp": [0.4, 0, 0.6, 1]
+    }
+  },
+
+  "components": {
+    "navigation": {
+      "description": "Sticky header navigation with centered or left-aligned logo",
+      "variants": {
+        "default": {
+          "position": "sticky",
+          "top": 0,
+          "height": "80px",
+          "background": "transparent",
+          "backdropFilter": "blur(12px)",
+          "borderBottom": "1px solid tokens.colors.ui.border",
+          "zIndex": "tokens.zIndex.sticky"
+        },
+        "scrolled": {
+          "background": "tokens.colors.primary.cream",
+          "boxShadow": "tokens.shadows.sm"
+        },
+        "dark": {
+          "background": "tokens.colors.secondary.charcoal",
+          "borderBottom": "1px solid tokens.colors.ui.borderDark"
+        }
+      },
+      "structure": {
+        "layout": "flex",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "padding": "1rem 2rem"
+      },
+      "logo": {
+        "fontFamily": "tokens.typography.fontFamily.display",
+        "fontSize": "1.5rem",
+        "fontWeight": 600,
+        "color": "tokens.colors.text.primary"
+      },
+      "links": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "fontWeight": 400,
+        "color": "tokens.colors.text.secondary",
+        "gap": "2rem",
+        "hover": {
+          "color": "tokens.colors.text.primary"
+        }
+      },
+      "mobileMenu": {
+        "breakpoint": "tokens.breakpoints.md",
+        "icon": "Two horizontal lines",
+        "animation": "slideFromRight 300ms"
+      }
+    },
+
+    "button": {
+      "description": "Rounded pill buttons with text-slide hover animation",
+      "baseStyle": {
+        "borderRadius": "tokens.borderRadius.button",
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontWeight": 500,
+        "cursor": "pointer",
+        "display": "inline-flex",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": "0.5rem",
+        "transition": "tokens.transitions.normal",
+        "overflow": "hidden",
+        "position": "relative"
+      },
+      "sizes": {
+        "sm": {
+          "padding": "0.5rem 1.25rem",
+          "fontSize": "0.875rem",
+          "height": "40px"
+        },
+        "md": {
+          "padding": "0.75rem 1.5rem",
+          "fontSize": "1rem",
+          "height": "48px"
+        },
+        "lg": {
+          "padding": "1rem 2rem",
+          "fontSize": "1rem",
+          "height": "56px"
+        }
+      },
+      "variants": {
+        "primary": {
+          "background": "tokens.colors.secondary.charcoal",
+          "color": "tokens.colors.text.light",
+          "border": "none",
+          "hover": {
+            "background": "tokens.colors.secondary.charcoalLight"
+          }
+        },
+        "secondary": {
+          "background": "transparent",
+          "color": "tokens.colors.text.primary",
+          "border": "1px solid tokens.colors.ui.border",
+          "hover": {
+            "background": "tokens.colors.primary.creamDark"
+          }
+        },
+        "ghost": {
+          "background": "transparent",
+          "color": "tokens.colors.text.primary",
+          "border": "none",
+          "hover": {
+            "background": "rgba(0, 0, 0, 0.05)"
+          }
+        },
+        "light": {
+          "background": "tokens.colors.text.light",
+          "color": "tokens.colors.text.primary",
+          "border": "none",
+          "hover": {
+            "background": "tokens.colors.primary.cream"
+          }
+        }
+      },
+      "hoverAnimation": {
+        "type": "textSlide",
+        "description": "Container has overflow:hidden. Contains two identical text elements stacked vertically. On hover, both translate up by 100%, revealing the bottom text."
+      },
+      "withIcon": {
+        "iconPosition": "right",
+        "iconSize": "1rem",
+        "icon": "arrow-right for CTAs, play for video buttons"
+      }
+    },
+
+    "hero": {
+      "description": "Full-width hero section with centered content",
+      "structure": {
+        "minHeight": "90vh",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "textAlign": "center",
+        "padding": "6rem 2rem",
+        "background": "tokens.colors.primary.cream"
+      },
+      "elements": {
+        "trustBadge": {
+          "display": "flex",
+          "alignItems": "center",
+          "gap": "0.5rem",
+          "marginBottom": "1.5rem",
+          "stars": {
+            "count": 5,
+            "color": "tokens.colors.accent.brownMuted",
+            "size": "1rem"
+          },
+          "text": {
+            "content": "Helped over 100+ businesses",
+            "fontSize": "0.875rem",
+            "color": "tokens.colors.text.secondary"
+          }
+        },
+        "headline": {
+          "fontFamily": "tokens.typography.fontFamily.display",
+          "fontSize": "tokens.typography.fontSizeResponsive.heroHeadline",
+          "fontWeight": 400,
+          "lineHeight": "tokens.typography.lineHeight.tight",
+          "maxWidth": "800px",
+          "marginBottom": "1.5rem",
+          "highlightedWord": {
+            "description": "Key words like 'AI', 'everything', 'typical' are styled differently",
+            "fontWeight": 300,
+            "fontStyle": "italic",
+            "color": "tokens.colors.accent.brownMuted | inherit"
+          }
+        },
+        "subheadline": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "1.125rem",
+          "fontWeight": 400,
+          "color": "tokens.colors.text.secondary",
+          "maxWidth": "600px",
+          "lineHeight": "tokens.typography.lineHeight.relaxed",
+          "marginBottom": "2rem"
+        },
+        "ctaGroup": {
+          "display": "flex",
+          "gap": "1rem",
+          "flexWrap": "wrap",
+          "justifyContent": "center"
+        },
+        "heroImage": {
+          "marginTop": "3rem",
+          "borderRadius": "tokens.borderRadius.image",
+          "overflow": "hidden",
+          "maxWidth": "100%"
+        }
+      }
+    },
+
+    "sectionLabel": {
+      "description": "Small pill badge that labels sections (e.g., 'Services', 'How we work')",
+      "style": {
+        "display": "inline-flex",
+        "padding": "0.5rem 1rem",
+        "fontSize": "0.875rem",
+        "fontWeight": 500,
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "borderRadius": "tokens.borderRadius.full",
+        "marginBottom": "1.5rem"
+      },
+      "variants": {
+        "light": {
+          "background": "tokens.colors.primary.creamDark",
+          "color": "tokens.colors.text.primary"
+        },
+        "dark": {
+          "background": "tokens.colors.secondary.charcoalLight",
+          "color": "tokens.colors.text.light"
+        }
+      }
+    },
+
+    "sectionHeading": {
+      "description": "Large section headlines with optional highlighted words",
+      "style": {
+        "fontFamily": "tokens.typography.fontFamily.display",
+        "fontSize": "tokens.typography.fontSizeResponsive.sectionHeadline",
+        "fontWeight": 400,
+        "lineHeight": "tokens.typography.lineHeight.snug",
+        "maxWidth": "800px",
+        "marginBottom": "1.5rem"
+      },
+      "highlightedWord": {
+        "fontWeight": 300,
+        "fontStyle": "italic",
+        "color": "inherit | tokens.colors.accent.brownMuted"
+      },
+      "subtext": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "1rem",
+        "color": "tokens.colors.text.secondary",
+        "maxWidth": "600px",
+        "lineHeight": "tokens.typography.lineHeight.relaxed"
+      }
+    },
+
+    "statsCard": {
+      "description": "Glassmorphism cards displaying key metrics on gradient background",
+      "container": {
+        "borderRadius": "tokens.borderRadius.3xl",
+        "overflow": "hidden",
+        "background": "url(gradient-image) or tokens.colors.gradients.primary",
+        "padding": "3rem"
+      },
+      "card": {
+        "background": "tokens.colors.ui.glassBg",
+        "backdropFilter": "blur(tokens.blur.glass)",
+        "borderRadius": "tokens.borderRadius.card",
+        "border": "1px solid rgba(255, 255, 255, 0.2)",
+        "padding": "2rem",
+        "textAlign": "center"
+      },
+      "number": {
+        "fontFamily": "tokens.typography.fontFamily.display",
+        "fontSize": "tokens.typography.fontSizeResponsive.statNumber",
+        "fontWeight": 300,
+        "fontStyle": "italic",
+        "color": "tokens.colors.text.light",
+        "marginBottom": "0.5rem"
+      },
+      "label": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.lightMuted",
+        "fontWeight": 400
+      },
+      "animation": "countUp on scroll into view"
+    },
+
+    "servicesTabs": {
+      "description": "Numbered service tabs (01, 02, 03, 04) with image and description",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": { "desktop": "1fr 1fr", "mobile": "1fr" },
+        "gap": "3rem",
+        "alignItems": "start"
+      },
+      "tabList": {
+        "display": "flex",
+        "flexDirection": "column"
+      },
+      "tab": {
+        "padding": "1.5rem 0",
+        "borderBottom": "1px solid tokens.colors.ui.border",
+        "cursor": "pointer",
+        "display": "flex",
+        "alignItems": "baseline",
+        "gap": "0.5rem",
+        "transition": "all 300ms ease"
+      },
+      "tabNumber": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.75rem",
+        "color": "tokens.colors.text.muted",
+        "verticalAlign": "super"
+      },
+      "tabTitle": {
+        "fontFamily": "tokens.typography.fontFamily.display",
+        "fontSize": "tokens.typography.fontSizeResponsive.cardHeadline",
+        "fontWeight": 400,
+        "color": "tokens.colors.text.muted",
+        "transition": "color 300ms ease"
+      },
+      "tabActive": {
+        "tabTitle": { "color": "tokens.colors.text.primary" },
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.lg",
+        "padding": "1.5rem"
+      },
+      "content": {
+        "image": {
+          "borderRadius": "tokens.borderRadius.image",
+          "aspectRatio": "4/3",
+          "objectFit": "cover"
+        },
+        "title": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "marginTop": "1.5rem",
+          "marginBottom": "0.5rem"
+        },
+        "description": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary",
+          "lineHeight": "tokens.typography.lineHeight.relaxed"
+        }
+      }
+    },
+
+    "testimonial": {
+      "description": "Large quote card with gradient background image",
+      "structure": {
+        "padding": "4rem",
+        "borderRadius": "tokens.borderRadius.3xl",
+        "overflow": "hidden",
+        "position": "relative",
+        "minHeight": "400px"
+      },
+      "background": "Gradient image (orange/coral/teal blend) with organic imagery",
+      "quote": {
+        "fontFamily": "tokens.typography.fontFamily.display",
+        "fontSize": "clamp(1.5rem, 3vw, 2.5rem)",
+        "fontWeight": 400,
+        "color": "tokens.colors.text.light",
+        "lineHeight": "tokens.typography.lineHeight.snug",
+        "marginBottom": "2rem",
+        "maxWidth": "700px",
+        "animation": "characterByCharacter text reveal"
+      },
+      "author": {
+        "name": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+          "color": "tokens.colors.text.light"
+        },
+        "role": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.lightMuted"
+        }
+      }
+    },
+
+    "processTimeline": {
+      "description": "Numbered steps showing process/workflow",
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column"
+      },
+      "step": {
+        "display": "grid",
+        "gridTemplateColumns": "60px 1fr auto",
+        "gap": "2rem",
+        "padding": "2rem 0",
+        "borderBottom": "1px solid tokens.colors.ui.border",
+        "alignItems": "start"
+      },
+      "number": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.muted"
+      },
+      "title": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "1.125rem",
+        "fontWeight": 600,
+        "marginBottom": "0.5rem"
+      },
+      "description": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.secondary",
+        "lineHeight": "tokens.typography.lineHeight.relaxed"
+      },
+      "timeBadge": {
+        "padding": "0.25rem 0.75rem",
+        "fontSize": "0.75rem",
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.full",
+        "color": "tokens.colors.text.secondary"
+      }
+    },
+
+    "comparisonCards": {
+      "description": "Side-by-side comparison showing 'Other agencies' vs 'Claura'",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": { "desktop": "1fr 1fr", "mobile": "1fr" },
+        "gap": "1.5rem"
+      },
+      "card": {
+        "padding": "2rem",
+        "borderRadius": "tokens.borderRadius.card",
+        "overflow": "hidden",
+        "position": "relative",
+        "minHeight": "400px",
+        "display": "flex",
+        "flexDirection": "column"
+      },
+      "competitorCard": {
+        "background": "tokens.colors.secondary.charcoal",
+        "color": "tokens.colors.text.light",
+        "image": "Grayscale/dark abstract image"
+      },
+      "brandCard": {
+        "background": "tokens.colors.gradients.primary",
+        "color": "tokens.colors.text.light",
+        "image": "Warm gradient with organic imagery"
+      },
+      "tagMarquee": {
+        "description": "Scrolling tags at top showing features/anti-features",
+        "position": "absolute",
+        "top": "1.5rem",
+        "tags": {
+          "padding": "0.5rem 1rem",
+          "fontSize": "0.75rem",
+          "borderRadius": "tokens.borderRadius.full",
+          "background": "rgba(255, 255, 255, 0.15)",
+          "color": "tokens.colors.text.light"
+        },
+        "animation": "marquee horizontal scroll"
+      },
+      "title": {
+        "fontFamily": "tokens.typography.fontFamily.display",
+        "fontSize": "2rem",
+        "fontWeight": 400,
+        "marginTop": "auto"
+      },
+      "description": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.lightMuted",
+        "marginTop": "1rem"
+      }
+    },
+
+    "caseStudy": {
+      "description": "Case study section with narrative and stats",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": { "desktop": "1fr 1fr", "mobile": "1fr" },
+        "gap": "4rem",
+        "alignItems": "center"
+      },
+      "content": {
+        "description": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "1rem",
+          "color": "tokens.colors.text.secondary",
+          "lineHeight": "tokens.typography.lineHeight.loose",
+          "marginBottom": "2rem"
+        },
+        "statsGrid": {
+          "display": "grid",
+          "gridTemplateColumns": "1fr 1fr",
+          "gap": "2rem"
+        },
+        "stat": {
+          "number": {
+            "fontFamily": "tokens.typography.fontFamily.display",
+            "fontSize": "3rem",
+            "fontWeight": 300,
+            "fontStyle": "italic"
+          },
+          "label": {
+            "fontFamily": "tokens.typography.fontFamily.body",
+            "fontSize": "0.875rem",
+            "fontWeight": 600
+          },
+          "sublabel": {
+            "fontFamily": "tokens.typography.fontFamily.body",
+            "fontSize": "0.75rem",
+            "color": "tokens.colors.text.muted"
+          }
+        }
+      },
+      "visual": {
+        "image": { "borderRadius": "tokens.borderRadius.image" },
+        "clientLogo": { "marginTop": "1.5rem", "height": "32px" }
+      }
+    },
+
+    "teamGrid": {
+      "description": "Grid of team member photos with overlay info",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": {
+          "desktop": "repeat(4, 1fr)",
+          "tablet": "repeat(2, 1fr)",
+          "mobile": "1fr"
+        },
+        "gap": "1.5rem"
+      },
+      "card": {
+        "position": "relative",
+        "borderRadius": "tokens.borderRadius.card",
+        "overflow": "hidden",
+        "aspectRatio": "3/4"
+      },
+      "image": {
+        "width": "100%",
+        "height": "100%",
+        "objectFit": "cover",
+        "transition": "transform 500ms ease"
+      },
+      "overlay": {
+        "position": "absolute",
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "padding": "1.5rem",
+        "background": "linear-gradient(transparent, rgba(0, 0, 0, 0.7))"
+      },
+      "name": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "1rem",
+        "fontWeight": 600,
+        "color": "tokens.colors.text.light"
+      },
+      "role": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.lightMuted"
+      },
+      "hover": {
+        "image": { "transform": "scale(1.05)" }
+      }
+    },
+
+    "hiringBanner": {
+      "description": "Recruitment CTA banner",
+      "layout": {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "padding": "1.5rem 2rem",
+        "borderTop": "1px solid tokens.colors.ui.border"
+      },
+      "title": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "1rem",
+        "fontWeight": 600
+      },
+      "badge": {
+        "display": "inline-flex",
+        "padding": "0.25rem 0.75rem",
+        "fontSize": "0.75rem",
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.full",
+        "marginLeft": "0.75rem"
+      },
+      "description": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.secondary"
+      }
+    },
+
+    "faqAccordion": {
+      "description": "Expandable FAQ items",
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "0.75rem",
+        "maxWidth": "800px"
+      },
+      "item": {
+        "padding": "1.5rem",
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.lg",
+        "cursor": "pointer",
+        "transition": "all 300ms ease"
+      },
+      "question": {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "1rem",
+        "fontWeight": 500
+      },
+      "icon": {
+        "width": "1.25rem",
+        "height": "1.25rem",
+        "transition": "transform 200ms ease",
+        "rotateOnOpen": "45deg"
+      },
+      "answer": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.875rem",
+        "color": "tokens.colors.text.secondary",
+        "lineHeight": "tokens.typography.lineHeight.loose",
+        "paddingTop": "1rem",
+        "animation": "height transition 300ms"
+      }
+    },
+
+    "ctaSection": {
+      "description": "Final CTA with split layout - visual card + form",
+      "layout": {
+        "display": "grid",
+        "gridTemplateColumns": { "desktop": "1fr 1fr", "mobile": "1fr" },
+        "gap": "2rem",
+        "alignItems": "stretch"
+      },
+      "visualCard": {
+        "borderRadius": "tokens.borderRadius.3xl",
+        "overflow": "hidden",
+        "background": "Gradient image with orange/coral organic imagery",
+        "padding": "3rem",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "flex-end",
+        "minHeight": "600px",
+        "color": "tokens.colors.text.light"
+      },
+      "formCard": {
+        "background": "tokens.colors.primary.creamDark",
+        "borderRadius": "tokens.borderRadius.3xl",
+        "padding": "2rem"
+      }
+    },
+
+    "form": {
+      "description": "Contact/booking form",
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "gap": "1rem"
+      },
+      "input": {
+        "padding": "1rem 1.25rem",
+        "fontSize": "1rem",
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "border": "none",
+        "borderRadius": "tokens.borderRadius.input",
+        "background": "tokens.colors.primary.cream",
+        "color": "tokens.colors.text.primary",
+        "placeholder": { "color": "tokens.colors.text.muted" },
+        "focus": {
+          "outline": "2px solid tokens.colors.accent.brown",
+          "outlineOffset": "2px"
+        }
+      },
+      "textarea": {
+        "minHeight": "120px",
+        "resize": "vertical"
+      },
+      "radioGroup": {
+        "label": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+          "marginBottom": "0.75rem"
+        },
+        "options": {
+          "display": "flex",
+          "flexWrap": "wrap",
+          "gap": "0.5rem"
+        },
+        "option": {
+          "padding": "0.5rem 1rem",
+          "fontSize": "0.875rem",
+          "borderRadius": "tokens.borderRadius.full",
+          "border": "1px solid tokens.colors.ui.border",
+          "background": "transparent",
+          "cursor": "pointer",
+          "transition": "all 200ms ease"
+        },
+        "optionSelected": {
+          "background": "tokens.colors.secondary.charcoal",
+          "color": "tokens.colors.text.light",
+          "borderColor": "tokens.colors.secondary.charcoal"
+        }
+      },
+      "submitButton": {
+        "width": "100%",
+        "marginTop": "1rem"
+      },
+      "disclaimer": {
+        "fontFamily": "tokens.typography.fontFamily.body",
+        "fontSize": "0.75rem",
+        "color": "tokens.colors.text.muted",
+        "textAlign": "center",
+        "marginTop": "1rem"
+      }
+    },
+
+    "footer": {
+      "description": "Multi-column footer with centered branding",
+      "structure": {
+        "padding": "4rem 2rem",
+        "background": "tokens.colors.primary.cream"
+      },
+      "branding": {
+        "textAlign": "center",
+        "marginBottom": "3rem",
+        "logo": {
+          "fontFamily": "tokens.typography.fontFamily.display",
+          "fontSize": "2rem",
+          "fontWeight": 400,
+          "marginBottom": "0.5rem"
+        },
+        "tagline": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary",
+          "fontStyle": "italic"
+        },
+        "socialLinks": {
+          "display": "flex",
+          "gap": "1rem",
+          "justifyContent": "center",
+          "marginTop": "1.5rem"
+        },
+        "socialIcon": {
+          "size": "2.5rem",
+          "padding": "0.5rem",
+          "borderRadius": "tokens.borderRadius.full",
+          "border": "1px solid tokens.colors.ui.border",
+          "color": "tokens.colors.text.primary",
+          "hover": { "background": "tokens.colors.primary.creamDark" }
+        }
+      },
+      "decorativeImage": {
+        "description": "Large flower/organic image centered",
+        "maxWidth": "400px",
+        "margin": "3rem auto"
+      },
+      "navigation": {
+        "display": "grid",
+        "gridTemplateColumns": "repeat(4, 1fr)",
+        "gap": "2rem",
+        "maxWidth": "900px",
+        "margin": "0 auto"
+      },
+      "column": {
+        "title": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+          "marginBottom": "1rem",
+          "color": "tokens.colors.text.primary"
+        },
+        "link": {
+          "fontFamily": "tokens.typography.fontFamily.body",
+          "fontSize": "0.875rem",
+          "color": "tokens.colors.text.secondary",
+          "display": "block",
+          "marginBottom": "0.5rem",
+          "hover": { "color": "tokens.colors.text.primary" }
+        }
+      },
+      "bottom": {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "paddingTop": "2rem",
+        "marginTop": "3rem",
+        "borderTop": "1px solid tokens.colors.ui.border",
+        "fontSize": "0.75rem",
+        "color": "tokens.colors.text.muted"
+      }
+    },
+
+    "logoMarquee": {
+      "description": "Infinite scrolling brand logos",
+      "layout": {
+        "overflow": "hidden",
+        "padding": "2rem 0"
+      },
+      "track": {
+        "display": "flex",
+        "gap": "4rem",
+        "animation": "marquee 30s linear infinite"
+      },
+      "logo": {
+        "height": "24px",
+        "opacity": 0.5,
+        "filter": "grayscale(100%)",
+        "hover": {
+          "opacity": 1,
+          "filter": "grayscale(0%)"
+        },
+        "transition": "all 300ms ease"
+      }
+    },
+
+    "card": {
+      "description": "Generic card component with variants",
+      "variants": {
+        "elevated": {
+          "background": "white",
+          "borderRadius": "tokens.borderRadius.card",
+          "boxShadow": "tokens.shadows.card",
+          "padding": "2rem"
+        },
+        "flat": {
+          "background": "tokens.colors.primary.creamDark",
+          "borderRadius": "tokens.borderRadius.card",
+          "padding": "2rem"
+        },
+        "glass": {
+          "background": "tokens.colors.ui.glassBg",
+          "backdropFilter": "blur(tokens.blur.glass)",
+          "borderRadius": "tokens.borderRadius.card",
+          "border": "1px solid rgba(255, 255, 255, 0.2)"
+        },
+        "gradient": {
+          "background": "tokens.colors.gradients.primary",
+          "borderRadius": "tokens.borderRadius.card",
+          "color": "white"
+        }
+      }
+    }
+  },
+
+  "patterns": {
+    "alternatingBackgrounds": {
+      "description": "Sections alternate between light and dark backgrounds for visual rhythm",
+      "sequence": ["cream", "dark", "cream", "dark"],
+      "mapping": {
+        "cream": {
+          "background": "tokens.colors.primary.cream",
+          "text": "tokens.colors.text.primary",
+          "subtext": "tokens.colors.text.secondary"
+        },
+        "dark": {
+          "background": "tokens.colors.secondary.charcoal",
+          "text": "tokens.colors.text.light",
+          "subtext": "tokens.colors.text.lightMuted"
+        }
+      }
+    },
+
+    "sectionStructure": {
+      "description": "Standard section layout pattern",
+      "padding": {
+        "desktop": "6rem 4rem",
+        "tablet": "4rem 2rem",
+        "mobile": "3rem 1.5rem"
+      },
+      "container": {
+        "maxWidth": "1200px",
+        "margin": "0 auto"
+      },
+      "header": {
+        "elements": ["sectionLabel", "sectionHeading", "subtext"],
+        "marginBottom": "4rem"
+      }
+    },
+
+    "gridLayouts": {
+      "twoColumn": {
+        "display": "grid",
+        "gridTemplateColumns": { "desktop": "1fr 1fr", "mobile": "1fr" },
+        "gap": "4rem"
+      },
+      "threeColumn": {
+        "display": "grid",
+        "gridTemplateColumns": { "desktop": "repeat(3, 1fr)", "tablet": "repeat(2, 1fr)", "mobile": "1fr" },
+        "gap": "2rem"
+      },
+      "fourColumn": {
+        "display": "grid",
+        "gridTemplateColumns": { "desktop": "repeat(4, 1fr)", "tablet": "repeat(2, 1fr)", "mobile": "1fr" },
+        "gap": "1.5rem"
+      },
+      "asymmetric": {
+        "display": "grid",
+        "gridTemplateColumns": { "desktop": "2fr 1fr", "mobile": "1fr" },
+        "gap": "4rem"
+      }
+    },
+
+    "responsiveBreakpoints": {
+      "mobile": {
+        "maxWidth": "tokens.breakpoints.sm",
+        "stackColumns": true,
+        "reducePadding": true,
+        "smallerText": true
+      },
+      "tablet": {
+        "minWidth": "tokens.breakpoints.sm",
+        "maxWidth": "tokens.breakpoints.lg"
+      },
+      "desktop": {
+        "minWidth": "tokens.breakpoints.lg"
+      }
+    }
+  },
+
+  "imagery": {
+    "style": {
+      "description": "Warm, organic imagery that humanizes AI",
+      "subjects": [
+        "Flowers (tulips, abstract florals)",
+        "Soft abstract gradients",
+        "Human portraits (warm, professional, diverse)",
+        "Dot grid patterns",
+        "Natural textures"
+      ],
+      "colorTreatment": "Warm tones - orange, coral, teal, earth tones",
+      "avoid": [
+        "Cold tech imagery (circuits, code, robots)",
+        "Harsh neon colors",
+        "Stock photo clichés",
+        "Overly corporate/sterile shots"
+      ]
+    },
+    "aspectRatios": {
+      "hero": "16/9",
+      "card": "4/3",
+      "portrait": "3/4",
+      "square": "1/1"
+    },
+    "treatment": {
+      "borderRadius": "Always use tokens.borderRadius.image (1.5rem)",
+      "overflow": "hidden"
+    }
+  },
+
+  "iconography": {
+    "style": "Simple, minimal line icons with rounded caps",
+    "strokeWidth": "1.5px - 2px",
+    "sizes": {
+      "sm": "16px",
+      "md": "20px",
+      "lg": "24px",
+      "xl": "32px"
+    },
+    "common": {
+      "arrow-right": "CTAs, links",
+      "plus": "Accordion expand, add actions",
+      "play": "Video buttons",
+      "star": "Ratings, reviews",
+      "check": "Features, lists",
+      "x": "Close, dismiss",
+      "menu": "Mobile navigation (two horizontal lines)"
+    }
+  },
+
+  "accessibility": {
+    "colorContrast": {
+      "normalText": "4.5:1 minimum",
+      "largeText": "3:1 minimum (18px bold or 24px regular)"
+    },
+    "focusStates": {
+      "outline": "2px solid tokens.colors.accent.brown",
+      "outlineOffset": "2px"
+    },
+    "motionPreferences": {
+      "respectReducedMotion": true,
+      "implementation": "@media (prefers-reduced-motion: reduce) { animation: none; }"
+    },
+    "semantics": {
+      "headingHierarchy": "Use proper h1-h6 levels",
+      "landmarks": "Use header, main, footer, nav, section",
+      "ariaLabels": "Provide labels for interactive elements"
+    }
+  }
+}

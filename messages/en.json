@@ -1,0 +1,444 @@
+{
+  "metadata": {
+    "title": "Claura - AI Agency | From AI Confusion to Clarity",
+    "description": "We identify where AI saves time and money in your business, then build and implement the systems that make it happen.",
+    "ogTitle": "Claura - AI Agency",
+    "ogDescription": "From AI confusion to clarity. We build AI systems that actually work for your business."
+  },
+  "navigation": {
+    "about": "About",
+    "caseStudies": "Case Studies",
+    "bookFreeCall": "Book a free call",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "trustBadge": "Helped over 100+ businesses",
+    "titlePart1": "From",
+    "titleHighlight": "AI",
+    "titlePart2": "confusion to clarity.",
+    "subtitle": "We identify where AI saves time and money in your business, then build and implement the systems that make it happen.",
+    "ctaPrimary": "Book a free call",
+    "ctaSecondary": "How we work",
+    "brandsLabel": "Brands we've helped implement AI:"
+  },
+  "stats": {
+    "sectionLabel": "Who we are",
+    "title": "The AI agency built for",
+    "titleHighlight": "you",
+    "description": "We built this agency to help businesses avoid AI overwhelm. We listen first, recommend only what works, and build systems you'll actually use—without the hype or complexity.",
+    "stat1Value": "1,500+",
+    "stat1Label": "Hours saved for clients monthly",
+    "stat2Value": "35%",
+    "stat2Label": "Average reduction in manual work",
+    "stat3Value": "45 days",
+    "stat3Label": "Average time to measurable ROI",
+    "hiringTitle": "Want to be part of the team?",
+    "hiringBadge": "3 vacancies available",
+    "hiringDescription": "We're always looking for talented people who want to help businesses cut through AI overwhelm and build systems that work.",
+    "applyNow": "Apply now"
+  },
+  "services": {
+    "sectionLabel": "Services",
+    "title": "We handle",
+    "titleHighlight": "everything",
+    "titleEnd": "so you don't have to.",
+    "description": "From identifying opportunities to building systems and training your team—we manage the entire process while you focus on running your business.",
+    "discover": {
+      "title": "Discover",
+      "number": "01",
+      "description": "We analyze your workflows and identify where automation creates the most value for your business."
+    },
+    "build": {
+      "title": "Build",
+      "number": "02",
+      "description": "Custom automation designed for how you work, eliminating repetitive tasks without disrupting."
+    },
+    "deploy": {
+      "title": "Deploy",
+      "number": "03",
+      "description": "We handle installation, testing, and launch so your systems work perfectly from day one."
+    },
+    "optimize": {
+      "title": "Optimize",
+      "number": "04",
+      "description": "Ongoing training and support to ensure your automation keeps delivering results over time."
+    },
+    "bookFreeCall": "Book a free call"
+  },
+  "testimonial": {
+    "quote": "They didn't overwhelm us with options. They just built exactly what we needed. We're saving 15 hours a week and saw ROI in under two months.",
+    "authorName": "Ines Oreilly",
+    "authorRole": "Broker at Remax"
+  },
+  "howWeWork": {
+    "sectionLabel": "How we work",
+    "title": "Getting you results",
+    "titleHighlight": "without",
+    "titleEnd": "the complexity.",
+    "description": "Our three-step process takes you from identifying opportunities to launching systems, with clear communication and support at every stage.",
+    "ctaPrimary": "Book a free call",
+    "ctaSecondary": "Watch the video",
+    "step1": {
+      "number": "01",
+      "title": "Discovery & Assessment",
+      "timeline": "Week 1",
+      "description": "We analyze your workflows and identify where automation creates the most value for your business."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Build & Deploy",
+      "timeline": "Weeks 2-4",
+      "description": "We create and launch custom systems tailored to your operations without disrupting daily work."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Train & Support",
+      "timeline": "Ongoing",
+      "description": "We train your team and provide ongoing support to keep your automation running smoothly."
+    }
+  },
+  "comparison": {
+    "sectionLabel": "Why choose us",
+    "title": "We're not your typical AI agency.",
+    "description": "We skip the buzzwords and experimental projects to build systems that actually work for your business.",
+    "otherAgencies": {
+      "title": "Other agencies",
+      "description": "Other agencies overwhelm you with buzzwords, take months to deliver, and leave you with tools you can't use.",
+      "tag1": "Sell what's trendy",
+      "tag2": "Unclear timelines",
+      "tag3": "Hidden costs"
+    },
+    "claura": {
+      "title": "Claura",
+      "description": "At Claura, we use simple language, deliver results in weeks, and build systems that work from day one.",
+      "tag1": "Build what matters",
+      "tag2": "Done with you",
+      "tag3": "Transparent process",
+      "tag4": "Real results"
+    }
+  },
+  "caseStudy": {
+    "sectionLabel": "Case study",
+    "title": "We help automate what matters most.",
+    "paragraph1": "Hamilton, a growing e-commerce business, was overwhelmed by repetitive order processing and customer support tasks.",
+    "paragraph2": "We analyzed their workflows, identified high-impact opportunities, and built custom automation that integrated seamlessly with their existing tools.",
+    "paragraph3": "Within 30 days, they saw measurable results.",
+    "stat1Value": "50+",
+    "stat1Title": "Hours saved",
+    "stat1Subtitle": "In the first month",
+    "stat2Value": "40%",
+    "stat2Title": "Reduction",
+    "stat2Subtitle": "In manual work"
+  },
+  "team": {
+    "sectionLabel": "Meet the team",
+    "title": "You're in experienced hands.",
+    "description": "No layers of management. You work directly with the specialists who understand your business and build your automation from start to finish.",
+    "member1": {
+      "name": "Marcus Chen",
+      "role": "Lead AI Consultant"
+    },
+    "member2": {
+      "name": "Amira Hassan",
+      "role": "Automation Specialist"
+    },
+    "member3": {
+      "name": "David Park",
+      "role": "Implementation Engineer"
+    },
+    "member4": {
+      "name": "Elena Martinez",
+      "role": "Client Success Manager"
+    },
+    "hiringTitle": "Want to be part of the team?",
+    "hiringBadge": "3 vacancies available",
+    "hiringDescription": "We're always looking for talented people who want to help businesses cut through AI overwhelm and build systems that work.",
+    "applyNow": "Apply now"
+  },
+  "faq": {
+    "sectionLabel": "FAQ",
+    "title": "Your questions answered.",
+    "description": "Everything you need to know about working with us. Still have questions?",
+    "bookCall": "Book a free call",
+    "descriptionEnd": "and we'll walk you through it.",
+    "question1": {
+      "question": "Do I need technical knowledge to work with you?",
+      "answer": "No. We handle all the technical work from start to finish. You just need to share how your business operates, and we take care of the rest."
+    },
+    "question2": {
+      "question": "How long does it take to see results?",
+      "answer": "Most clients see measurable results within 45 days. We focus on quick wins first, then build on that foundation over time."
+    },
+    "question3": {
+      "question": "What if the automation doesn't work for my business?",
+      "answer": "We start with a thorough assessment to ensure automation makes sense for your specific workflows. If something isn't working, we refine it until it does."
+    },
+    "question4": {
+      "question": "How much does it cost?",
+      "answer": "Pricing depends on your needs and scope. After our free assessment, we'll provide a clear proposal with transparent pricing and no hidden fees."
+    },
+    "question5": {
+      "question": "What happens after implementation?",
+      "answer": "We provide training for your team and ongoing support to ensure everything runs smoothly. As your business evolves, we help optimize and refine your systems."
+    }
+  },
+  "cta": {
+    "trustBadge": "Helped over 100+ businesses",
+    "title": "Turn confusion into clarity, today.",
+    "description": "Book a free 30-minute assessment and we'll show you exactly where AI can save you time and money.",
+    "form": {
+      "namePlaceholder": "Name*",
+      "emailPlaceholder": "Email*",
+      "servicesLabel": "What services are you interested in?",
+      "challengeLabel": "What's your biggest automation challenge?",
+      "messagePlaceholder": "Tell us about your business...",
+      "submitButton": "Book a call",
+      "disclaimer": "By submitting, you agree to our",
+      "termsLink": "terms of service."
+    },
+    "services": {
+      "aiAssessment": "AI Assessment",
+      "workflowAutomation": "Workflow Automation",
+      "customAITools": "Custom AI Tools",
+      "trainingSupport": "Training & Support",
+      "implementingAI": "Implementing AI",
+      "allAbove": "All of the above"
+    },
+    "challenges": {
+      "manualTasks": "Too many manual tasks",
+      "unclearStart": "Unclear where to start",
+      "previousFailed": "Previous solutions didn't work",
+      "scaleOperations": "Need to scale operations"
+    }
+  },
+  "footer": {
+    "tagline": "Helping you automate what matters.",
+    "navigate": "Navigate",
+    "resources": "Resources",
+    "connect": "Connect",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "team": "Team",
+      "caseStudies": "Case Studies",
+      "howWeWork": "How We Work",
+      "faq": "FAQ",
+      "bookCall": "Book a Call"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "linkedin": "LinkedIn"
+    },
+    "legal": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "copyright": "© {year} Claura. All rights reserved."
+  },
+  "about": {
+    "hero": {
+      "sectionLabel": "About us",
+      "titleLine1": "On a mission to",
+      "titleLine2Highlight": "simplify",
+      "titleLine2End": "automation.",
+      "subtitle": "Most AI agencies complicate things. We built Claura to do the opposite—helping businesses cut through the noise and build automation that actually delivers results.",
+      "ctaPrimary": "Book a free call",
+      "ctaSecondary": "How we work"
+    },
+    "stats": {
+      "sectionLabel": "Who we are",
+      "title": "The AI agency built for you.",
+      "description": "We built this agency to help businesses avoid AI overwhelm. We listen first, recommend only what works, and build systems you'll actually use—without the hype or complexity.",
+      "stat1Value": "1,500+",
+      "stat1Label": "Hours saved for clients monthly",
+      "stat2Value": "35%",
+      "stat2Label": "Average reduction in manual work",
+      "stat3Value": "45 days",
+      "stat3Label": "Average time to measurable ROI"
+    },
+    "testimonial": {
+      "quote": "They didn't overwhelm us with options. They just built exactly what we needed. We're saving 15 hours a week and saw ROI in under two months.",
+      "authorName": "Sarah Chen",
+      "authorRole": "Founder at BrightPath Consulting"
+    },
+    "metadata": {
+      "title": "About - Claura AI Agency",
+      "description": "Learn about Claura, the AI agency built to help businesses avoid AI overwhelm."
+    }
+  },
+  "bookACall": {
+    "metadata": {
+      "title": "Book a Call - Claura AI Agency",
+      "description": "Book a free 30-minute assessment and discover how AI can save you time and money."
+    }
+  },
+  "caseStudies": {
+    "sectionLabel": "Case studies",
+    "title": "Real results for real businesses.",
+    "subtitle": "See how we've helped businesses like yours save time, reduce manual work, and achieve measurable ROI.",
+    "metadata": {
+      "title": "Case Studies - Claura AI Agency",
+      "description": "See how we've helped businesses automate what matters most."
+    },
+    "hamilton": {
+      "title": "Hamilton E-commerce",
+      "category": "E-commerce",
+      "description": "Automated order processing and customer support for a growing online retailer.",
+      "stat1Value": "50+",
+      "stat1Label": "Hours saved monthly",
+      "stat2Value": "40%",
+      "stat2Label": "Reduction in manual work"
+    },
+    "brightpath": {
+      "title": "BrightPath Consulting",
+      "category": "Professional Services",
+      "description": "Streamlined client onboarding and project management workflows.",
+      "stat1Value": "15",
+      "stat1Label": "Hours saved weekly",
+      "stat2Value": "2 mo",
+      "stat2Label": "Time to ROI"
+    },
+    "nexusTech": {
+      "title": "Nexus Tech",
+      "category": "SaaS",
+      "description": "Built automated customer success workflows and reporting dashboards.",
+      "stat1Value": "60%",
+      "stat1Label": "Faster response time",
+      "stat2Value": "35%",
+      "stat2Label": "Increase in retention"
+    },
+    "readMore": "Read more"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2026",
+    "metadata": {
+      "title": "Privacy Policy - Claura",
+      "description": "Learn how Claura collects, uses, and protects your personal information."
+    },
+    "section1": {
+      "title": "1. Information We Collect",
+      "content": "We collect information you provide directly to us, such as when you fill out a form, book a call, or communicate with us. This may include your name, email address, company name, and any other information you choose to provide."
+    },
+    "section2": {
+      "title": "2. How We Use Your Information",
+      "intro": "We use the information we collect to:",
+      "item1": "Provide, maintain, and improve our services",
+      "item2": "Respond to your inquiries and communicate with you",
+      "item3": "Send you technical notices, updates, and support messages",
+      "item4": "Comply with legal obligations"
+    },
+    "section3": {
+      "title": "3. Information Sharing",
+      "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as necessary to provide our services or comply with the law."
+    },
+    "section4": {
+      "title": "4. Data Security",
+      "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+    },
+    "section5": {
+      "title": "5. Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at"
+    }
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 2026",
+    "metadata": {
+      "title": "Terms of Service - Claura",
+      "description": "Read the terms and conditions for using Claura's services."
+    },
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing and using Claura's services, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services."
+    },
+    "section2": {
+      "title": "2. Services",
+      "content": "Claura provides AI consulting, automation implementation, and related services. The specific scope of services will be outlined in individual agreements with clients."
+    },
+    "section3": {
+      "title": "3. Client Responsibilities",
+      "intro": "Clients agree to:",
+      "item1": "Provide accurate and complete information",
+      "item2": "Cooperate with our team during implementation",
+      "item3": "Maintain the confidentiality of any credentials provided",
+      "item4": "Use our services in compliance with applicable laws"
+    },
+    "section4": {
+      "title": "4. Payment Terms",
+      "content": "Payment terms will be specified in individual service agreements. All fees are non-refundable unless otherwise stated in writing."
+    },
+    "section5": {
+      "title": "5. Limitation of Liability",
+      "content": "Claura shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services."
+    },
+    "section6": {
+      "title": "6. Contact",
+      "content": "For questions about these Terms, contact us at"
+    }
+  },
+  "languageSelector": {
+    "label": "Language",
+    "en": "English",
+    "es": "Español"
+  },
+  "accessibility": {
+    "title": "Accessibility Statement",
+    "lastUpdated": "Last updated: January 2026",
+    "metadata": {
+      "title": "Accessibility - Claura",
+      "description": "Learn about Claura's commitment to web accessibility."
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "content": "Claura is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards."
+    },
+    "standards": {
+      "title": "Standards",
+      "content": "We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. These guidelines explain how to make web content more accessible to people with disabilities."
+    },
+    "features": {
+      "title": "Features",
+      "intro": "Our website includes the following accessibility features:",
+      "item1": "Semantic HTML structure",
+      "item2": "Sufficient color contrast ratios",
+      "item3": "Keyboard navigation support",
+      "item4": "Focus indicators for interactive elements",
+      "item5": "Alternative text for images",
+      "item6": "Resizable text without loss of functionality"
+    },
+    "feedback": {
+      "title": "Feedback",
+      "content": "We welcome your feedback on the accessibility of our website. If you encounter any accessibility barriers, please contact us at"
+    }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: January 2026",
+    "metadata": {
+      "title": "Cookie Policy - Claura",
+      "description": "Learn about how Claura uses cookies on our website."
+    },
+    "whatAreCookies": {
+      "title": "What Are Cookies",
+      "content": "Cookies are small text files that are stored on your computer or mobile device when you visit our website. They help us provide you with a better experience and allow certain features to work."
+    },
+    "howWeUse": {
+      "title": "How We Use Cookies",
+      "intro": "We use cookies for the following purposes:",
+      "essential": "Essential cookies: Required for the website to function properly",
+      "analytics": "Analytics cookies: Help us understand how visitors use our site",
+      "preference": "Preference cookies: Remember your settings and preferences"
+    },
+    "managing": {
+      "title": "Managing Cookies",
+      "content": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. However, if you do this, you may have to manually adjust some preferences every time you visit our site."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have questions about our use of cookies, please contact us at"
+    }
+  }
+}

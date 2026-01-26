@@ -1,0 +1,444 @@
+{
+  "metadata": {
+    "title": "Claura - Agencia de IA | De la confusión a la claridad",
+    "description": "Identificamos dónde la IA ahorra tiempo y dinero en tu negocio, luego construimos e implementamos los sistemas que lo hacen posible.",
+    "ogTitle": "Claura - Agencia de IA",
+    "ogDescription": "De la confusión de la IA a la claridad. Construimos sistemas de IA que realmente funcionan para tu negocio."
+  },
+  "navigation": {
+    "about": "Nosotros",
+    "caseStudies": "Casos de Éxito",
+    "bookFreeCall": "Agenda una llamada gratis",
+    "toggleMenu": "Alternar menú"
+  },
+  "hero": {
+    "trustBadge": "Hemos ayudado a más de 100 negocios",
+    "titlePart1": "De la confusión de la",
+    "titleHighlight": "IA",
+    "titlePart2": "a la claridad.",
+    "subtitle": "Identificamos dónde la IA ahorra tiempo y dinero en tu negocio, luego construimos e implementamos los sistemas que lo hacen posible.",
+    "ctaPrimary": "Agenda una llamada gratis",
+    "ctaSecondary": "Cómo trabajamos",
+    "brandsLabel": "Marcas a las que hemos ayudado a implementar IA:"
+  },
+  "stats": {
+    "sectionLabel": "Quiénes somos",
+    "title": "La agencia de IA creada para",
+    "titleHighlight": "ti",
+    "description": "Creamos esta agencia para ayudar a los negocios a evitar el agobio de la IA. Escuchamos primero, recomendamos solo lo que funciona, y construimos sistemas que realmente usarás—sin exageraciones ni complejidad.",
+    "stat1Value": "1,500+",
+    "stat1Label": "Horas ahorradas mensualmente",
+    "stat2Value": "35%",
+    "stat2Label": "Reducción promedio en trabajo manual",
+    "stat3Value": "45 días",
+    "stat3Label": "Tiempo promedio para ROI medible",
+    "hiringTitle": "¿Quieres ser parte del equipo?",
+    "hiringBadge": "3 vacantes disponibles",
+    "hiringDescription": "Siempre estamos buscando personas talentosas que quieran ayudar a negocios a superar el agobio de la IA y construir sistemas que funcionen.",
+    "applyNow": "Aplicar ahora"
+  },
+  "services": {
+    "sectionLabel": "Servicios",
+    "title": "Nosotros nos encargamos de",
+    "titleHighlight": "todo",
+    "titleEnd": "para que tú no tengas que hacerlo.",
+    "description": "Desde identificar oportunidades hasta construir sistemas y capacitar a tu equipo—gestionamos todo el proceso mientras tú te enfocas en dirigir tu negocio.",
+    "discover": {
+      "title": "Descubrir",
+      "number": "01",
+      "description": "Analizamos tus flujos de trabajo e identificamos dónde la automatización crea más valor para tu negocio."
+    },
+    "build": {
+      "title": "Construir",
+      "number": "02",
+      "description": "Automatización personalizada diseñada para cómo trabajas, eliminando tareas repetitivas sin interrupciones."
+    },
+    "deploy": {
+      "title": "Implementar",
+      "number": "03",
+      "description": "Nos encargamos de la instalación, pruebas y lanzamiento para que tus sistemas funcionen perfectamente desde el primer día."
+    },
+    "optimize": {
+      "title": "Optimizar",
+      "number": "04",
+      "description": "Capacitación y soporte continuo para asegurar que tu automatización siga dando resultados a lo largo del tiempo."
+    },
+    "bookFreeCall": "Agenda una llamada gratis"
+  },
+  "testimonial": {
+    "quote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
+    "authorName": "Ines Oreilly",
+    "authorRole": "Corredora en Remax"
+  },
+  "howWeWork": {
+    "sectionLabel": "Cómo trabajamos",
+    "title": "Obteniendo resultados",
+    "titleHighlight": "sin",
+    "titleEnd": "la complejidad.",
+    "description": "Nuestro proceso de tres pasos te lleva desde identificar oportunidades hasta lanzar sistemas, con comunicación clara y soporte en cada etapa.",
+    "ctaPrimary": "Agenda una llamada gratis",
+    "ctaSecondary": "Ver el video",
+    "step1": {
+      "number": "01",
+      "title": "Descubrimiento y Evaluación",
+      "timeline": "Semana 1",
+      "description": "Analizamos tus flujos de trabajo e identificamos dónde la automatización crea más valor para tu negocio."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Construir e Implementar",
+      "timeline": "Semanas 2-4",
+      "description": "Creamos y lanzamos sistemas personalizados adaptados a tus operaciones sin interrumpir el trabajo diario."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Capacitar y Dar Soporte",
+      "timeline": "Continuo",
+      "description": "Capacitamos a tu equipo y proporcionamos soporte continuo para mantener tu automatización funcionando sin problemas."
+    }
+  },
+  "comparison": {
+    "sectionLabel": "Por qué elegirnos",
+    "title": "No somos una agencia de IA típica.",
+    "description": "Evitamos las palabras de moda y los proyectos experimentales para construir sistemas que realmente funcionen para tu negocio.",
+    "otherAgencies": {
+      "title": "Otras agencias",
+      "description": "Otras agencias te abruman con jerga, tardan meses en entregar, y te dejan con herramientas que no puedes usar.",
+      "tag1": "Venden lo que está de moda",
+      "tag2": "Plazos poco claros",
+      "tag3": "Costos ocultos"
+    },
+    "claura": {
+      "title": "Claura",
+      "description": "En Claura, usamos lenguaje simple, entregamos resultados en semanas, y construimos sistemas que funcionan desde el primer día.",
+      "tag1": "Construimos lo que importa",
+      "tag2": "Trabajamos contigo",
+      "tag3": "Proceso transparente",
+      "tag4": "Resultados reales"
+    }
+  },
+  "caseStudy": {
+    "sectionLabel": "Caso de estudio",
+    "title": "Ayudamos a automatizar lo que más importa.",
+    "paragraph1": "Hamilton, un negocio de e-commerce en crecimiento, estaba abrumado por el procesamiento repetitivo de pedidos y tareas de atención al cliente.",
+    "paragraph2": "Analizamos sus flujos de trabajo, identificamos oportunidades de alto impacto, y construimos automatización personalizada que se integró perfectamente con sus herramientas existentes.",
+    "paragraph3": "En 30 días, vieron resultados medibles.",
+    "stat1Value": "50+",
+    "stat1Title": "Horas ahorradas",
+    "stat1Subtitle": "En el primer mes",
+    "stat2Value": "40%",
+    "stat2Title": "Reducción",
+    "stat2Subtitle": "En trabajo manual"
+  },
+  "team": {
+    "sectionLabel": "Conoce al equipo",
+    "title": "Estás en manos experimentadas.",
+    "description": "Sin capas de gerencia. Trabajas directamente con los especialistas que entienden tu negocio y construyen tu automatización de principio a fin.",
+    "member1": {
+      "name": "Marcus Chen",
+      "role": "Consultor Principal de IA"
+    },
+    "member2": {
+      "name": "Amira Hassan",
+      "role": "Especialista en Automatización"
+    },
+    "member3": {
+      "name": "David Park",
+      "role": "Ingeniero de Implementación"
+    },
+    "member4": {
+      "name": "Elena Martinez",
+      "role": "Gerente de Éxito del Cliente"
+    },
+    "hiringTitle": "¿Quieres ser parte del equipo?",
+    "hiringBadge": "3 vacantes disponibles",
+    "hiringDescription": "Siempre estamos buscando personas talentosas que quieran ayudar a negocios a superar el agobio de la IA y construir sistemas que funcionen.",
+    "applyNow": "Aplicar ahora"
+  },
+  "faq": {
+    "sectionLabel": "Preguntas Frecuentes",
+    "title": "Tus preguntas respondidas.",
+    "description": "Todo lo que necesitas saber sobre trabajar con nosotros. ¿Todavía tienes preguntas?",
+    "bookCall": "Agenda una llamada gratis",
+    "descriptionEnd": "y te explicamos todo.",
+    "question1": {
+      "question": "¿Necesito conocimientos técnicos para trabajar con ustedes?",
+      "answer": "No. Nosotros manejamos todo el trabajo técnico de principio a fin. Solo necesitas compartir cómo opera tu negocio, y nosotros nos encargamos del resto."
+    },
+    "question2": {
+      "question": "¿Cuánto tiempo toma ver resultados?",
+      "answer": "La mayoría de los clientes ven resultados medibles en 45 días. Nos enfocamos en victorias rápidas primero, luego construimos sobre esa base con el tiempo."
+    },
+    "question3": {
+      "question": "¿Qué pasa si la automatización no funciona para mi negocio?",
+      "answer": "Comenzamos con una evaluación exhaustiva para asegurar que la automatización tenga sentido para tus flujos de trabajo específicos. Si algo no funciona, lo refinamos hasta que funcione."
+    },
+    "question4": {
+      "question": "¿Cuánto cuesta?",
+      "answer": "El precio depende de tus necesidades y alcance. Después de nuestra evaluación gratuita, te proporcionaremos una propuesta clara con precios transparentes y sin costos ocultos."
+    },
+    "question5": {
+      "question": "¿Qué pasa después de la implementación?",
+      "answer": "Proporcionamos capacitación para tu equipo y soporte continuo para asegurar que todo funcione sin problemas. A medida que tu negocio evoluciona, te ayudamos a optimizar y refinar tus sistemas."
+    }
+  },
+  "cta": {
+    "trustBadge": "Hemos ayudado a más de 100 negocios",
+    "title": "Convierte la confusión en claridad, hoy.",
+    "description": "Agenda una evaluación gratuita de 30 minutos y te mostraremos exactamente dónde la IA puede ahorrarte tiempo y dinero.",
+    "form": {
+      "namePlaceholder": "Nombre*",
+      "emailPlaceholder": "Correo electrónico*",
+      "servicesLabel": "¿En qué servicios estás interesado?",
+      "challengeLabel": "¿Cuál es tu mayor desafío de automatización?",
+      "messagePlaceholder": "Cuéntanos sobre tu negocio...",
+      "submitButton": "Agendar llamada",
+      "disclaimer": "Al enviar, aceptas nuestros",
+      "termsLink": "términos de servicio."
+    },
+    "services": {
+      "aiAssessment": "Evaluación de IA",
+      "workflowAutomation": "Automatización de Flujos",
+      "customAITools": "Herramientas de IA Personalizadas",
+      "trainingSupport": "Capacitación y Soporte",
+      "implementingAI": "Implementación de IA",
+      "allAbove": "Todos los anteriores"
+    },
+    "challenges": {
+      "manualTasks": "Demasiadas tareas manuales",
+      "unclearStart": "No sé por dónde empezar",
+      "previousFailed": "Soluciones anteriores no funcionaron",
+      "scaleOperations": "Necesito escalar operaciones"
+    }
+  },
+  "footer": {
+    "tagline": "Ayudándote a automatizar lo que importa.",
+    "navigate": "Navegar",
+    "resources": "Recursos",
+    "connect": "Conectar",
+    "links": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "team": "Equipo",
+      "caseStudies": "Casos de Éxito",
+      "howWeWork": "Cómo Trabajamos",
+      "faq": "Preguntas Frecuentes",
+      "bookCall": "Agendar Llamada"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "linkedin": "LinkedIn"
+    },
+    "legal": {
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfService": "Términos de Servicio"
+    },
+    "copyright": "© {year} Claura. Todos los derechos reservados."
+  },
+  "about": {
+    "hero": {
+      "sectionLabel": "Sobre nosotros",
+      "titleLine1": "En una misión para",
+      "titleLine2Highlight": "simplificar",
+      "titleLine2End": "la automatización.",
+      "subtitle": "La mayoría de las agencias de IA complican las cosas. Construimos Claura para hacer lo opuesto—ayudando a los negocios a cortar el ruido y construir automatización que realmente entrega resultados.",
+      "ctaPrimary": "Agenda una llamada gratis",
+      "ctaSecondary": "Cómo trabajamos"
+    },
+    "stats": {
+      "sectionLabel": "Quiénes somos",
+      "title": "La agencia de IA creada para ti.",
+      "description": "Creamos esta agencia para ayudar a los negocios a evitar el agobio de la IA. Escuchamos primero, recomendamos solo lo que funciona, y construimos sistemas que realmente usarás—sin exageraciones ni complejidad.",
+      "stat1Value": "1,500+",
+      "stat1Label": "Horas ahorradas mensualmente para clientes",
+      "stat2Value": "35%",
+      "stat2Label": "Reducción promedio en trabajo manual",
+      "stat3Value": "45 días",
+      "stat3Label": "Tiempo promedio para ROI medible"
+    },
+    "testimonial": {
+      "quote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
+      "authorName": "Sarah Chen",
+      "authorRole": "Fundadora de BrightPath Consulting"
+    },
+    "metadata": {
+      "title": "Nosotros - Claura Agencia de IA",
+      "description": "Conoce a Claura, la agencia de IA creada para ayudar a los negocios a evitar el agobio de la IA."
+    }
+  },
+  "bookACall": {
+    "metadata": {
+      "title": "Agendar Llamada - Claura Agencia de IA",
+      "description": "Agenda una evaluación gratuita de 30 minutos y descubre cómo la IA puede ahorrarte tiempo y dinero."
+    }
+  },
+  "caseStudies": {
+    "sectionLabel": "Casos de éxito",
+    "title": "Resultados reales para negocios reales.",
+    "subtitle": "Mira cómo hemos ayudado a negocios como el tuyo a ahorrar tiempo, reducir trabajo manual, y lograr ROI medible.",
+    "metadata": {
+      "title": "Casos de Éxito - Claura Agencia de IA",
+      "description": "Mira cómo hemos ayudado a negocios a automatizar lo que más importa."
+    },
+    "hamilton": {
+      "title": "Hamilton E-commerce",
+      "category": "E-commerce",
+      "description": "Automatización del procesamiento de pedidos y atención al cliente para un minorista en línea en crecimiento.",
+      "stat1Value": "50+",
+      "stat1Label": "Horas ahorradas mensualmente",
+      "stat2Value": "40%",
+      "stat2Label": "Reducción en trabajo manual"
+    },
+    "brightpath": {
+      "title": "BrightPath Consulting",
+      "category": "Servicios Profesionales",
+      "description": "Flujos de trabajo optimizados para incorporación de clientes y gestión de proyectos.",
+      "stat1Value": "15",
+      "stat1Label": "Horas ahorradas semanalmente",
+      "stat2Value": "2 meses",
+      "stat2Label": "Tiempo hasta ROI"
+    },
+    "nexusTech": {
+      "title": "Nexus Tech",
+      "category": "SaaS",
+      "description": "Flujos de trabajo automatizados de éxito del cliente y paneles de reportes.",
+      "stat1Value": "60%",
+      "stat1Label": "Tiempo de respuesta más rápido",
+      "stat2Value": "35%",
+      "stat2Label": "Aumento en retención"
+    },
+    "readMore": "Leer más"
+  },
+  "privacyPolicy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Enero 2026",
+    "metadata": {
+      "title": "Política de Privacidad - Claura",
+      "description": "Conoce cómo Claura recopila, usa y protege tu información personal."
+    },
+    "section1": {
+      "title": "1. Información que Recopilamos",
+      "content": "Recopilamos información que nos proporcionas directamente, como cuando llenas un formulario, agendas una llamada, o te comunicas con nosotros. Esto puede incluir tu nombre, dirección de correo electrónico, nombre de la empresa, y cualquier otra información que elijas proporcionar."
+    },
+    "section2": {
+      "title": "2. Cómo Usamos tu Información",
+      "intro": "Usamos la información que recopilamos para:",
+      "item1": "Proporcionar, mantener y mejorar nuestros servicios",
+      "item2": "Responder a tus consultas y comunicarnos contigo",
+      "item3": "Enviarte avisos técnicos, actualizaciones y mensajes de soporte",
+      "item4": "Cumplir con obligaciones legales"
+    },
+    "section3": {
+      "title": "3. Compartir Información",
+      "content": "No vendemos, comercializamos ni transferimos tu información personal a terceros sin tu consentimiento, excepto cuando sea necesario para proporcionar nuestros servicios o cumplir con la ley."
+    },
+    "section4": {
+      "title": "4. Seguridad de Datos",
+      "content": "Implementamos medidas técnicas y organizacionales apropiadas para proteger tu información personal contra acceso no autorizado, alteración, divulgación o destrucción."
+    },
+    "section5": {
+      "title": "5. Contáctanos",
+      "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en"
+    }
+  },
+  "termsOfService": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: Enero 2026",
+    "metadata": {
+      "title": "Términos de Servicio - Claura",
+      "description": "Lee los términos y condiciones para usar los servicios de Claura."
+    },
+    "section1": {
+      "title": "1. Aceptación de Términos",
+      "content": "Al acceder y usar los servicios de Claura, aceptas y acuerdas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses nuestros servicios."
+    },
+    "section2": {
+      "title": "2. Servicios",
+      "content": "Claura proporciona consultoría de IA, implementación de automatización, y servicios relacionados. El alcance específico de los servicios se detallará en acuerdos individuales con los clientes."
+    },
+    "section3": {
+      "title": "3. Responsabilidades del Cliente",
+      "intro": "Los clientes acuerdan:",
+      "item1": "Proporcionar información precisa y completa",
+      "item2": "Cooperar con nuestro equipo durante la implementación",
+      "item3": "Mantener la confidencialidad de cualquier credencial proporcionada",
+      "item4": "Usar nuestros servicios en cumplimiento con las leyes aplicables"
+    },
+    "section4": {
+      "title": "4. Términos de Pago",
+      "content": "Los términos de pago se especificarán en acuerdos de servicio individuales. Todas las tarifas no son reembolsables a menos que se indique lo contrario por escrito."
+    },
+    "section5": {
+      "title": "5. Limitación de Responsabilidad",
+      "content": "Claura no será responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos que surjan del uso de nuestros servicios."
+    },
+    "section6": {
+      "title": "6. Contacto",
+      "content": "Para preguntas sobre estos Términos, contáctanos en"
+    }
+  },
+  "languageSelector": {
+    "label": "Idioma",
+    "en": "English",
+    "es": "Español"
+  },
+  "accessibility": {
+    "title": "Declaración de Accesibilidad",
+    "lastUpdated": "Última actualización: Enero 2026",
+    "metadata": {
+      "title": "Accesibilidad - Claura",
+      "description": "Conoce el compromiso de Claura con la accesibilidad web."
+    },
+    "commitment": {
+      "title": "Nuestro Compromiso",
+      "content": "Claura está comprometida a garantizar la accesibilidad digital para personas con discapacidades. Mejoramos continuamente la experiencia del usuario para todos y aplicamos los estándares de accesibilidad relevantes."
+    },
+    "standards": {
+      "title": "Estándares",
+      "content": "Nos esforzamos por cumplir con las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1 Nivel AA. Estas pautas explican cómo hacer que el contenido web sea más accesible para personas con discapacidades."
+    },
+    "features": {
+      "title": "Características",
+      "intro": "Nuestro sitio web incluye las siguientes características de accesibilidad:",
+      "item1": "Estructura HTML semántica",
+      "item2": "Ratios de contraste de color suficientes",
+      "item3": "Soporte para navegación con teclado",
+      "item4": "Indicadores de enfoque para elementos interactivos",
+      "item5": "Texto alternativo para imágenes",
+      "item6": "Texto redimensionable sin pérdida de funcionalidad"
+    },
+    "feedback": {
+      "title": "Comentarios",
+      "content": "Agradecemos tus comentarios sobre la accesibilidad de nuestro sitio web. Si encuentras alguna barrera de accesibilidad, contáctanos en"
+    }
+  },
+  "cookiePolicy": {
+    "title": "Política de Cookies",
+    "lastUpdated": "Última actualización: Enero 2026",
+    "metadata": {
+      "title": "Política de Cookies - Claura",
+      "description": "Conoce cómo Claura usa cookies en nuestro sitio web."
+    },
+    "whatAreCookies": {
+      "title": "¿Qué Son las Cookies?",
+      "content": "Las cookies son pequeños archivos de texto que se almacenan en tu computadora o dispositivo móvil cuando visitas nuestro sitio web. Nos ayudan a brindarte una mejor experiencia y permiten que ciertas funciones trabajen."
+    },
+    "howWeUse": {
+      "title": "Cómo Usamos las Cookies",
+      "intro": "Usamos cookies para los siguientes propósitos:",
+      "essential": "Cookies esenciales: Requeridas para que el sitio web funcione correctamente",
+      "analytics": "Cookies de análisis: Nos ayudan a entender cómo los visitantes usan nuestro sitio",
+      "preference": "Cookies de preferencia: Recuerdan tu configuración y preferencias"
+    },
+    "managing": {
+      "title": "Gestión de Cookies",
+      "content": "Puedes controlar y/o eliminar cookies como desees. Puedes eliminar todas las cookies que ya están en tu computadora y puedes configurar la mayoría de los navegadores para evitar que se coloquen. Sin embargo, si haces esto, es posible que tengas que ajustar manualmente algunas preferencias cada vez que visites nuestro sitio."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "content": "Si tienes preguntas sobre nuestro uso de cookies, contáctanos en"
+    }
+  }
+}

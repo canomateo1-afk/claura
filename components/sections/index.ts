@@ -1,0 +1,13 @@
+export { Hero } from "./Hero";
+export { Stats } from "./Stats";
+export { Services } from "./Services";
+export { Testimonial } from "./Testimonial";
+export { HowWeWork } from "./HowWeWork";
+export { Comparison } from "./Comparison";
+export { CaseStudy } from "./CaseStudy";
+export { Team } from "./Team";
+export { FAQ } from "./FAQ";
+export { CTA } from "./CTA";
+export { AboutHero } from "./AboutHero";
+export { AboutStats } from "./AboutStats";
+export { AboutTestimonial } from "./AboutTestimonial";
