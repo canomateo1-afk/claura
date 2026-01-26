@@ -326,3 +326,21 @@ body {
 .hero-image-container:hover::after {
   opacity: 1;
 }
+
+/* Page Loader Animation */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+@keyframes loaderPulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.loader-pulse {
+  animation: loaderPulse 2s ease-in-out infinite;
+}

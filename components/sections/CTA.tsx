@@ -1,34 +1,12 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
+import { Star, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui";
-import { Link } from "@/i18n/navigation";
 
 export function CTA() {
   const t = useTranslations("cta");
-  const [selectedService, setSelectedService] = useState("aiAssessment");
-  const [selectedChallenge, setSelectedChallenge] = useState("manualTasks");
-
-  const serviceOptions = [
-    { key: "aiAssessment", label: t("services.aiAssessment") },
-    { key: "workflowAutomation", label: t("services.workflowAutomation") },
-    { key: "customAITools", label: t("services.customAITools") },
-    { key: "trainingSupport", label: t("services.trainingSupport") },
-    { key: "implementingAI", label: t("services.implementingAI") },
-    { key: "allAbove", label: t("services.allAbove") },
-  ];
-
-  const challengeOptions = [
-    { key: "manualTasks", label: t("challenges.manualTasks") },
-    { key: "unclearStart", label: t("challenges.unclearStart") },
-    { key: "previousFailed", label: t("challenges.previousFailed") },
-    { key: "scaleOperations", label: t("challenges.scaleOperations") },
-  ];
 
   return (
     <section id="book-a-call" className="py-24 px-6 bg-[var(--color-cream)]">
@@ -104,105 +82,40 @@ export function CTA() {
             </div>
           </motion.div>
 
-          {/* Right Side - Form */}
+          {/* Right Side - CTA Content */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-[var(--color-cream-dark)] rounded-[var(--radius-3xl)] p-8 md:p-10"
+            className="bg-[var(--color-cream-dark)] rounded-[var(--radius-3xl)] min-h-[600px] p-8 md:p-12 flex flex-col justify-center items-center text-center"
           >
-            <form className="space-y-6">
-              {/* Name & Email */}
-              <div className="space-y-4">
-                <input
-                  type="text"
-                  placeholder={t("form.namePlaceholder")}
-                  required
-                  className="w-full px-5 py-4 bg-[var(--color-cream)] rounded-lg text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--color-brown)]"
-                />
-                <input
-                  type="email"
-                  placeholder={t("form.emailPlaceholder")}
-                  required
-                  className="w-full px-5 py-4 bg-[var(--color-cream)] rounded-lg text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--color-brown)]"
-                />
-              </div>
-
-              {/* Service Selection */}
-              <div>
-                <label className="block text-sm font-medium mb-3">
-                  {t("form.servicesLabel")}
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {serviceOptions.map((option) => (
-                    <motion.button
-                      key={option.key}
-                      type="button"
-                      onClick={() => setSelectedService(option.key)}
-                      className={cn(
-                        "px-4 py-2 text-sm rounded-xl border transition-colors cursor-pointer",
-                        selectedService === option.key
-                          ? "bg-[var(--color-charcoal)] text-white border-[var(--color-charcoal)]"
-                          : "bg-transparent text-[var(--color-text-primary)] border-[var(--color-charcoal)]/20 hover:border-[var(--color-charcoal)]/40"
-                      )}
-                      whileHover={{ scale: 1.02, y: -1 }}
-                      whileTap={{ scale: 0.98 }}
-                      transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    >
-                      {option.label}
-                    </motion.button>
-                  ))}
-                </div>
-              </div>
-
-              {/* Challenge Selection */}
-              <div>
-                <label className="block text-sm font-medium mb-3">
-                  {t("form.challengeLabel")}
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  {challengeOptions.map((option) => (
-                    <motion.button
-                      key={option.key}
-                      type="button"
-                      onClick={() => setSelectedChallenge(option.key)}
-                      className={cn(
-                        "px-4 py-2 text-sm rounded-xl border transition-colors cursor-pointer",
-                        selectedChallenge === option.key
-                          ? "bg-[var(--color-charcoal)] text-white border-[var(--color-charcoal)]"
-                          : "bg-transparent text-[var(--color-text-primary)] border-[var(--color-charcoal)]/20 hover:border-[var(--color-charcoal)]/40"
-                      )}
-                      whileHover={{ scale: 1.02, y: -1 }}
-                      whileTap={{ scale: 0.98 }}
-                      transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    >
-                      {option.label}
-                    </motion.button>
-                  ))}
-                </div>
-              </div>
-
-              {/* Message */}
-              <textarea
-                placeholder={t("form.messagePlaceholder")}
-                rows={4}
-                className="w-full px-5 py-4 bg-[var(--color-cream)] rounded-lg text-[var(--color-text-primary)] placeholder:text-[var(--color-text-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--color-brown)] resize-none"
-              />
-
-              {/* Submit */}
-              <Button type="submit" icon="arrow" className="w-full" size="lg">
-                {t("form.submitButton")}
-              </Button>
-
-              {/* Disclaimer */}
-              <p className="text-xs text-center text-[var(--color-text-muted)]">
-                {t("form.disclaimer")}{" "}
-                <Link href="/legal/terms-of-service" className="underline hover:text-[var(--color-text-secondary)]">
-                  {t("form.termsLink")}
-                </Link>
+            <div className="max-w-md">
+              <h3 className="font-display text-2xl md:text-3xl text-[var(--color-text-primary)] mb-4">
+                {t("formTitle")}
+              </h3>
+              <p className="text-[var(--color-text-secondary)] mb-8">
+                {t("formSubtitle")}
               </p>
-            </form>
+              <motion.button
+                data-cal-namespace="construye-y-automatiza-con-ia"
+                data-cal-link="mateo-cano/construye-y-automatiza-con-ia"
+                data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 h-14 bg-[var(--color-charcoal)] text-white rounded-xl font-medium text-base hover:bg-[var(--color-charcoal-light)] transition-all duration-300 cursor-pointer"
+                whileHover={{ scale: 1.02, y: -1 }}
+                whileTap={{ scale: 0.98 }}
+                transition={{ type: "spring", stiffness: 400, damping: 17 }}
+              >
+                <span>{t("scheduleButton")}</span>
+                <motion.span
+                  className="inline-flex"
+                  whileHover={{ x: 4 }}
+                  transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                >
+                  <ArrowRight className="w-4 h-4" />
+                </motion.span>
+              </motion.button>
+            </div>
           </motion.div>
         </div>
       </div>

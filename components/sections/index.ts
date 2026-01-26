@@ -5,6 +5,7 @@ export { Testimonial } from "./Testimonial";
 export { HowWeWork } from "./HowWeWork";
 export { Comparison } from "./Comparison";
 export { CaseStudy } from "./CaseStudy";
+export { CaseStudiesContent } from "./CaseStudiesContent";
 export { Team } from "./Team";
 export { FAQ } from "./FAQ";
 export { CTA } from "./CTA";

@@ -56,7 +56,7 @@ export function Footer() {
       { href: "/#faq", label: t("links.faq") },
     ],
     connect: [
-      { href: "/book-a-call", label: t("links.bookCall") },
+      { href: "#", label: t("links.bookCall"), calLink: true },
       { href: "https://www.instagram.com/mateocano_ia/", label: t("social.instagram"), external: true },
       { href: "https://www.tiktok.com/@mate_cano", label: t("social.tiktok"), external: true },
       { href: "https://www.linkedin.com/in/mateocano/", label: t("social.linkedin"), external: true },
@@ -68,7 +68,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-[var(--color-cream)] pt-20 pb-8">
+    <footer className="bg-[#f6f0e9] pt-20 pb-8">
       <div className="max-w-[var(--container-max-width)] mx-auto px-6 lg:px-8">
         {/* Top section - Branding */}
         <motion.div 
@@ -183,8 +183,17 @@ export function Footer() {
             <h4 className="font-semibold text-sm mb-4">{t("connect")}</h4>
             <ul className="space-y-3">
               {footerLinks.connect.map((link) => (
-                <li key={link.href}>
-                  {link.external ? (
+                <li key={link.label}>
+                  {link.calLink ? (
+                    <button
+                      data-cal-namespace="construye-y-automatiza-con-ia"
+                      data-cal-link="mateo-cano/construye-y-automatiza-con-ia"
+                      data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+                      className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors cursor-pointer"
+                    >
+                      {link.label}
+                    </button>
+                  ) : link.external ? (
                     <a
                       href={link.href}
                       target="_blank"

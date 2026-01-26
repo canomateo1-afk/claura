@@ -69,7 +69,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="flex flex-wrap items-center justify-center gap-4"
         >
-          <Button href="/book-a-call">
+          <Button calLink="mateo-cano/construye-y-automatiza-con-ia">
             {t("ctaPrimary")}
           </Button>
           <Button variant="secondary" href="#how-we-work" icon="play">

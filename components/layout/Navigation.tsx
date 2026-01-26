@@ -66,7 +66,7 @@ export function Navigation() {
           {/* Right side - Language selector & CTA button (desktop) */}
           <div className="hidden md:flex items-center gap-4">
             <LanguageSelector />
-            <Button href="/book-a-call" size="sm">
+            <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm">
               {t("bookFreeCall")}
             </Button>
           </div>
@@ -110,7 +110,7 @@ export function Navigation() {
               <div className="py-2">
                 <LanguageSelector />
               </div>
-              <Button href="/book-a-call" size="sm" className="w-full">
+              <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm" className="w-full">
                 {t("bookFreeCall")}
               </Button>
             </div>

@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Plus } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { SectionLabel, SectionHeading } from "@/components/ui";
-import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 interface FAQItemProps {
@@ -93,9 +92,14 @@ export function FAQ() {
           </SectionHeading>
           <p className="text-[var(--color-text-secondary)] mt-4">
             {t("description")}{" "}
-            <Link href="/book-a-call" className="underline hover:text-[var(--color-text-primary)]">
+            <button
+              data-cal-namespace="construye-y-automatiza-con-ia"
+              data-cal-link="mateo-cano/construye-y-automatiza-con-ia"
+              data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+              className="underline hover:text-[var(--color-text-primary)] cursor-pointer"
+            >
               {t("bookCall")}
-            </Link>{" "}
+            </button>{" "}
             {t("descriptionEnd")}
           </p>
         </div>

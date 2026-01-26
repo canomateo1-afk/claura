@@ -7,7 +7,6 @@ import { useTranslations } from "next-intl";
 import { SectionLabel } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import { CornerDownRight } from "lucide-react";
-import { Link } from "@/i18n/navigation";
 
 export function Services() {
   const t = useTranslations("services");
@@ -144,13 +143,15 @@ export function Services() {
                   {activeService.description}
                 </p>
 
-                <Link
-                  href="/book-a-call"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-[var(--color-text-primary)] hover:text-[var(--color-brown)] transition-colors"
+                <button
+                  data-cal-namespace="construye-y-automatiza-con-ia"
+                  data-cal-link="mateo-cano/construye-y-automatiza-con-ia"
+                  data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+                  className="inline-flex items-center gap-2 text-sm font-medium text-[var(--color-text-primary)] hover:text-[var(--color-brown)] transition-colors cursor-pointer"
                 >
                   <CornerDownRight className="w-4 h-4" />
                   {t("bookFreeCall")}
-                </Link>
+                </button>
               </motion.div>
             </AnimatePresence>
           </div>

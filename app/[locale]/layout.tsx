@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/i18n/config";
+import { CalProvider } from "@/components/CalProvider";
 import "../globals.css";
 
 const instrumentSerif = Instrument_Serif({
@@ -76,7 +77,9 @@ export default async function LocaleLayout({
         suppressHydrationWarning
       >
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <CalProvider>
+            {children}
+          </CalProvider>
         </NextIntlClientProvider>
       </body>
     </html>

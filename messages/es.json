@@ -186,6 +186,9 @@
     "trustBadge": "Hemos ayudado a más de 100 negocios",
     "title": "Convierte la confusión en claridad, hoy.",
     "description": "Agenda una evaluación gratuita de 30 minutos y te mostraremos exactamente dónde la IA puede ahorrarte tiempo y dinero.",
+    "formTitle": "¿Listo para transformar tu negocio?",
+    "formSubtitle": "Agenda una llamada gratuita de 30 minutos para descubrir cómo la IA puede automatizar tus flujos de trabajo y ahorrarte horas cada semana.",
+    "scheduleButton": "Agenda una llamada gratis",
     "form": {
       "namePlaceholder": "Nombre*",
       "emailPlaceholder": "Correo electrónico*",
@@ -276,40 +279,36 @@
   },
   "caseStudies": {
     "sectionLabel": "Casos de éxito",
-    "title": "Resultados reales para negocios reales.",
-    "subtitle": "Mira cómo hemos ayudado a negocios como el tuyo a ahorrar tiempo, reducir trabajo manual, y lograr ROI medible.",
+    "title": "Negocios reales, resultados reales.",
+    "subtitle": "Mira cómo hemos ayudado a empresas a automatizar sus flujos de trabajo más consumidores de tiempo y entregar impacto medible en semanas, no meses.",
+    "ctaButton": "Agenda una llamada gratis",
+    "ctaSecondary": "Cómo trabajamos",
+    "howWeWorkLabel": "Cómo trabajamos",
     "metadata": {
       "title": "Casos de Éxito - Claura Agencia de IA",
       "description": "Mira cómo hemos ayudado a negocios a automatizar lo que más importa."
     },
     "hamilton": {
-      "title": "Hamilton E-commerce",
-      "category": "E-commerce",
-      "description": "Automatización del procesamiento de pedidos y atención al cliente para un minorista en línea en crecimiento.",
-      "stat1Value": "50+",
-      "stat1Label": "Horas ahorradas mensualmente",
-      "stat2Value": "40%",
-      "stat2Label": "Reducción en trabajo manual"
+      "title": "Hamilton",
+      "category": "Ecommerce",
+      "description": "Un negocio de comercio electrónico de rápido crecimiento especializado en productos para el hogar y estilo de vida."
     },
-    "brightpath": {
-      "title": "BrightPath Consulting",
-      "category": "Servicios Profesionales",
-      "description": "Flujos de trabajo optimizados para incorporación de clientes y gestión de proyectos.",
-      "stat1Value": "15",
-      "stat1Label": "Horas ahorradas semanalmente",
-      "stat2Value": "2 meses",
-      "stat2Label": "Tiempo hasta ROI"
+    "terra": {
+      "title": "Terra",
+      "category": "Alimentos y Bebidas",
+      "description": "Una empresa de alimentos sostenible que entrega kits de comidas orgánicas a clientes conscientes de su salud en todo el país."
     },
-    "nexusTech": {
-      "title": "Nexus Tech",
-      "category": "SaaS",
-      "description": "Flujos de trabajo automatizados de éxito del cliente y paneles de reportes.",
-      "stat1Value": "60%",
-      "stat1Label": "Tiempo de respuesta más rápido",
-      "stat2Value": "35%",
-      "stat2Label": "Aumento en retención"
+    "savannah": {
+      "title": "Savannah",
+      "category": "Marketing",
+      "description": "Una agencia de marketing boutique que ayuda a pequeños negocios a construir su presencia digital y crecer en línea."
     },
-    "readMore": "Leer más"
+    "snowflake": {
+      "title": "Snowflake",
+      "category": "Software",
+      "description": "Una empresa SaaS que proporciona herramientas de gestión de proyectos para equipos remotos en múltiples industrias."
+    },
+    "readMore": "Ver caso de estudio"
   },
   "privacyPolicy": {
     "title": "Política de Privacidad",

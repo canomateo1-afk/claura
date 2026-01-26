@@ -8,10 +8,11 @@ import {
   HowWeWork,
   Comparison,
   CaseStudy,
-  Team,
+  // Team,
   FAQ,
   CTA,
 } from "@/components/sections";
+import { PageLoader } from "@/components/animations";
 
 export default async function Home({
   params,
@@ -22,7 +23,7 @@ export default async function Home({
   setRequestLocale(locale);
 
   return (
-    <>
+    <PageLoader>
       <Navigation />
       <main>
         <Hero />
@@ -32,11 +33,11 @@ export default async function Home({
         <HowWeWork />
         <Comparison />
         <CaseStudy />
-        <Team />
+        {/* <Team /> */}
         <FAQ />
         <CTA />
       </main>
       <Footer />
-    </>
+    </PageLoader>
   );
 }

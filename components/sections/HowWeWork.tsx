@@ -49,7 +49,7 @@ export function HowWeWork() {
                 {t("description")}
               </p>
               <div className="flex flex-wrap items-center gap-4">
-                <Button href="/book-a-call">{t("ctaPrimary")}</Button>
+                <Button calLink="mateo-cano/construye-y-automatiza-con-ia">{t("ctaPrimary")}</Button>
                 <Button variant="secondary" icon="play">
                   {t("ctaSecondary")}
                 </Button>

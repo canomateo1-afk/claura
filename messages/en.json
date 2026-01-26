@@ -186,6 +186,9 @@
     "trustBadge": "Helped over 100+ businesses",
     "title": "Turn confusion into clarity, today.",
     "description": "Book a free 30-minute assessment and we'll show you exactly where AI can save you time and money.",
+    "formTitle": "Ready to transform your business?",
+    "formSubtitle": "Schedule a free 30-minute call to discover how AI can automate your workflows and save you hours every week.",
+    "scheduleButton": "Book a free call",
     "form": {
       "namePlaceholder": "Name*",
       "emailPlaceholder": "Email*",
@@ -276,40 +279,36 @@
   },
   "caseStudies": {
     "sectionLabel": "Case studies",
-    "title": "Real results for real businesses.",
-    "subtitle": "See how we've helped businesses like yours save time, reduce manual work, and achieve measurable ROI.",
+    "title": "Real businesses, real results.",
+    "subtitle": "See how we've helped companies automate their most time-consuming workflows and deliver measurable impact in weeks, not months.",
+    "ctaButton": "Book a free call",
+    "ctaSecondary": "How we work",
+    "howWeWorkLabel": "How we work",
     "metadata": {
       "title": "Case Studies - Claura AI Agency",
       "description": "See how we've helped businesses automate what matters most."
     },
     "hamilton": {
-      "title": "Hamilton E-commerce",
-      "category": "E-commerce",
-      "description": "Automated order processing and customer support for a growing online retailer.",
-      "stat1Value": "50+",
-      "stat1Label": "Hours saved monthly",
-      "stat2Value": "40%",
-      "stat2Label": "Reduction in manual work"
+      "title": "Hamilton",
+      "category": "Ecommerce",
+      "description": "A fast-growing e-commerce business specializing in home goods and lifestyle products."
     },
-    "brightpath": {
-      "title": "BrightPath Consulting",
-      "category": "Professional Services",
-      "description": "Streamlined client onboarding and project management workflows.",
-      "stat1Value": "15",
-      "stat1Label": "Hours saved weekly",
-      "stat2Value": "2 mo",
-      "stat2Label": "Time to ROI"
+    "terra": {
+      "title": "Terra",
+      "category": "Food & Beverage",
+      "description": "A sustainable food company delivering organic meal kits to health-conscious customers nationwide."
     },
-    "nexusTech": {
-      "title": "Nexus Tech",
-      "category": "SaaS",
-      "description": "Built automated customer success workflows and reporting dashboards.",
-      "stat1Value": "60%",
-      "stat1Label": "Faster response time",
-      "stat2Value": "35%",
-      "stat2Label": "Increase in retention"
+    "savannah": {
+      "title": "Savannah",
+      "category": "Marketing",
+      "description": "A boutique marketing agency helping small businesses build their digital presence and grow online."
     },
-    "readMore": "Read more"
+    "snowflake": {
+      "title": "Snowflake",
+      "category": "Software",
+      "description": "A SaaS company providing project management tools for remote teams across multiple industries."
+    },
+    "readMore": "View case study"
   },
   "privacyPolicy": {
     "title": "Privacy Policy",

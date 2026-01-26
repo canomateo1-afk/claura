@@ -15,7 +15,7 @@ export function SectionLabel({
   className,
 }: SectionLabelProps) {
   const variants = {
-    light: "bg-[var(--color-cream-dark)] text-[var(--color-text-primary)]",
+    light: "bg-[var(--color-cream-dark)] text-[var(--color-brown)]",
     dark: "bg-[var(--color-charcoal-light)] text-white",
   };
 

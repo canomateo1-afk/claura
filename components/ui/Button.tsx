@@ -14,6 +14,7 @@ interface ButtonProps {
   className?: string;
   onClick?: () => void;
   type?: "button" | "submit";
+  calLink?: string; // Cal.com link for popup booking
 }
 
 const variants = {
@@ -40,6 +41,7 @@ export function Button({
   className,
   onClick,
   type = "button",
+  calLink,
 }: ButtonProps) {
   const buttonContent = (
     <>
@@ -71,6 +73,25 @@ export function Button({
     sizes[size],
     className
   );
+
+  // Cal.com popup button
+  if (calLink) {
+    return (
+      <motion.button
+        type="button"
+        className={buttonClasses}
+        onClick={onClick}
+        whileHover={{ scale: 1.02, y: -1 }}
+        whileTap={{ scale: 0.98 }}
+        transition={springTransition}
+        data-cal-namespace="construye-y-automatiza-con-ia"
+        data-cal-link={calLink}
+        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+      >
+        {buttonContent}
+      </motion.button>
+    );
+  }
 
   if (href) {
     return (
