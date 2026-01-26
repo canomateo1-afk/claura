@@ -188,7 +188,7 @@
     "description": "Book a free 30-minute assessment and we'll show you exactly where AI can save you time and money.",
     "formTitle": "Ready to transform your business?",
     "formSubtitle": "Schedule a free 30-minute call to discover how AI can automate your workflows and save you hours every week.",
-    "scheduleButton": "Book a free call",
+    "scheduleButton": "Book a call",
     "form": {
       "namePlaceholder": "Name*",
       "emailPlaceholder": "Email*",

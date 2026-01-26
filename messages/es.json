@@ -188,7 +188,7 @@
     "description": "Agenda una evaluación gratuita de 30 minutos y te mostraremos exactamente dónde la IA puede ahorrarte tiempo y dinero.",
     "formTitle": "¿Listo para transformar tu negocio?",
     "formSubtitle": "Agenda una llamada gratuita de 30 minutos para descubrir cómo la IA puede automatizar tus flujos de trabajo y ahorrarte horas cada semana.",
-    "scheduleButton": "Agenda una llamada gratis",
+    "scheduleButton": "Agenda una llamada",
     "form": {
       "namePlaceholder": "Nombre*",
       "emailPlaceholder": "Correo electrónico*",
