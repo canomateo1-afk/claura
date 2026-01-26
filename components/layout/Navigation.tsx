@@ -42,13 +42,26 @@ export function Navigation() {
     >
       <nav className="max-w-[var(--container-max-width)] mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Left side - Navigation links (desktop) */}
-          <div className="hidden md:flex items-center gap-8">
+          {/* Left side - Navigation links (desktop) / Hamburger (mobile) */}
+          <div className="flex items-center gap-8">
+            {/* Mobile hamburger menu */}
+            <button
+              className="md:hidden p-2 -ml-2"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={t("toggleMenu")}
+            >
+              {isMobileMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
+            </button>
+            {/* Desktop nav links */}
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors duration-300"
+                className="hidden md:block text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors duration-300"
               >
                 {link.label}
               </Link>
@@ -66,16 +79,11 @@ export function Navigation() {
             Claura
           </Link>
 
-          {/* Right side - Language selector & CTA button (desktop) */}
-          <div className="hidden md:flex items-center gap-4">
-            <LanguageSelector />
-            <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm">
-              {t("bookFreeCall")}
-            </Button>
-          </div>
-
-          {/* Mobile CTA + menu button */}
-          <div className="md:hidden flex items-center gap-2">
+          {/* Right side - Language selector & CTA button (desktop) / CTA (mobile on scroll) */}
+          <div className="flex items-center gap-4">
+            <div className="hidden md:flex items-center gap-4">
+              <LanguageSelector />
+            </div>
             <AnimatePresence>
               {isScrolled && (
                 <motion.div
@@ -83,6 +91,7 @@ export function Navigation() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.2 }}
+                  className="md:hidden"
                 >
                   <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm">
                     {t("bookFreeCall")}
@@ -90,17 +99,9 @@ export function Navigation() {
                 </motion.div>
               )}
             </AnimatePresence>
-            <button
-              className="p-2"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              aria-label={t("toggleMenu")}
-            >
-              {isMobileMenuOpen ? (
-                <X className="w-6 h-6" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
-            </button>
+            <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm" className="hidden md:inline-flex">
+              {t("bookFreeCall")}
+            </Button>
           </div>
         </div>
       </nav>
