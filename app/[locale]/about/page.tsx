@@ -5,7 +5,7 @@ import {
   AboutHero,
   AboutStats,
   AboutTestimonial,
-  Team,
+  // Team,
   FAQ,
   CTA,
 } from "@/components/sections";
@@ -44,8 +44,8 @@ export default async function AboutPage({
         {/* Testimonial - Sarah Chen */}
         <AboutTestimonial />
 
-        {/* Team Section */}
-        <Team />
+        {/* Team Section - Hidden for now */}
+        {/* <Team /> */}
 
         {/* FAQ Section */}
         <FAQ />

@@ -27,10 +27,10 @@ export default async function Home({
       <Navigation />
       <main>
         <Hero />
-        <Stats />
         <Services />
-        <Testimonial />
         <HowWeWork />
+        <Stats />
+        <Testimonial />
         <Comparison />
         <CaseStudy />
         {/* <Team /> */}

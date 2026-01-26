@@ -26,7 +26,7 @@ export function SectionLabel({
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
       className={cn(
-        "inline-flex px-4 py-2 text-sm font-medium rounded-full mb-6",
+        "inline-flex px-4 py-2 text-sm font-medium rounded-lg mb-6",
         variants[variant],
         className
       )}

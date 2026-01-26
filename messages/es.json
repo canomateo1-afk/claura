@@ -13,10 +13,12 @@
   },
   "hero": {
     "trustBadge": "Hemos ayudado a más de 100 negocios",
-    "titlePart1": "De la confusión de la",
+    "titleLine1": "Ayudamos a dueños de empresas",
+    "titleLine2": "a construir y automatizar",
+    "titleLine3Start": "con",
     "titleHighlight": "IA",
-    "titlePart2": "a la claridad.",
-    "subtitle": "Identificamos dónde la IA ahorra tiempo y dinero en tu negocio, luego construimos e implementamos los sistemas que lo hacen posible.",
+    "titleLine3End": ".",
+    "subtitle": "Identificamos qué automatizar, lo construimos, y te capacitamos para ahorrar tiempo y dinero.",
     "ctaPrimary": "Agenda una llamada gratis",
     "ctaSecondary": "Cómo trabajamos",
     "brandsLabel": "Marcas a las que hemos ayudado a implementar IA:"

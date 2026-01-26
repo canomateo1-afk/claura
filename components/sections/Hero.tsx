@@ -27,7 +27,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="flex items-center gap-2 mb-6"
+          className="flex flex-col sm:flex-row items-center gap-1 sm:gap-2 mb-6"
         >
           <div className="flex">
             {[...Array(5)].map((_, i) => (
@@ -47,9 +47,14 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="font-display text-[clamp(2.5rem,6vw,4.5rem)] font-normal leading-[1.1] max-w-[800px] mb-6"
+          className="font-display text-[clamp(2rem,5.5vw,4.5rem)] font-normal leading-[1.1] max-w-[800px] mb-6"
         >
-          {t("titlePart1")} <span className="font-light italic text-[var(--color-brown-muted)]">{t("titleHighlight")}</span> {t("titlePart2")}
+          <span className="whitespace-nowrap">{t("titleLine1")}</span>
+          <br />
+          <span className="whitespace-nowrap">{t("titleLine2")}</span>
+          <br className="sm:hidden" />
+          <span className="hidden sm:inline"> </span>
+          <span className="whitespace-nowrap">{t("titleLine3Start")} <span className="font-light italic text-[var(--color-brown-muted)]">{t("titleHighlight")}</span>{t("titleLine3End")}</span>
         </motion.h1>
 
         {/* Subheadline */}

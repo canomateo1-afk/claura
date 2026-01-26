@@ -68,7 +68,7 @@ export function Button({
   );
 
   const buttonClasses = cn(
-    "inline-flex items-center justify-center gap-2 font-medium rounded-xl transition-all duration-300 cursor-pointer group",
+    "inline-flex items-center justify-center gap-2 font-medium rounded-lg transition-all duration-300 cursor-pointer group",
     variants[variant],
     sizes[size],
     className

@@ -37,7 +37,7 @@ export function HowWeWork() {
           {/* Left Column - Heading & CTAs */}
           <FadeInLeft>
             <div className="lg:sticky lg:top-32">
-              <SectionLabel>{t("sectionLabel")}</SectionLabel>
+              <SectionLabel className="bg-[#E5DCD0]">{t("sectionLabel")}</SectionLabel>
               <h2 className="font-serif text-[clamp(2.25rem,4vw,3.25rem)] leading-[1.1] tracking-tight mb-6">
                 {t("title")}{" "}
                 <span className="italic font-light text-[var(--color-text-secondary)]">

@@ -13,10 +13,12 @@
   },
   "hero": {
     "trustBadge": "Helped over 100+ businesses",
-    "titlePart1": "From",
+    "titleLine1": "We help business owners",
+    "titleLine2": "build and automate",
+    "titleLine3Start": "with",
     "titleHighlight": "AI",
-    "titlePart2": "confusion to clarity.",
-    "subtitle": "We identify where AI saves time and money in your business, then build and implement the systems that make it happen.",
+    "titleLine3End": ".",
+    "subtitle": "We identify what to automate, build it, and train you to save time and money.",
     "ctaPrimary": "Book a free call",
     "ctaSecondary": "How we work",
     "brandsLabel": "Brands we've helped implement AI:"

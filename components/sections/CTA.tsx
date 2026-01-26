@@ -101,7 +101,7 @@ export function CTA() {
                 data-cal-namespace="construye-y-automatiza-con-ia"
                 data-cal-link="mateo-cano/construye-y-automatiza-con-ia"
                 data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 h-14 bg-[var(--color-charcoal)] text-white rounded-xl font-medium text-base hover:bg-[var(--color-charcoal-light)] transition-all duration-300 cursor-pointer"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 h-14 bg-[var(--color-charcoal)] text-white rounded-lg font-medium text-base hover:bg-[var(--color-charcoal-light)] transition-all duration-300 cursor-pointer"
                 whileHover={{ scale: 1.02, y: -1 }}
                 whileTap={{ scale: 0.98 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
