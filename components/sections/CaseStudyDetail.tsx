@@ -474,7 +474,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
           </FadeInUp>
 
           <FadeInUp delay={0.1}>
-            <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory md:grid md:grid-cols-4 md:gap-6 md:overflow-visible md:pb-0">
+            <div className="flex gap-4 overflow-x-auto overflow-y-hidden pb-4 snap-x snap-mandatory md:grid md:grid-cols-4 md:gap-6 md:overflow-visible md:pb-0">
               {allCaseStudies
                 .filter((cs) => cs.id !== slug)
                 .slice(0, 4)
