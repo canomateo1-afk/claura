@@ -169,7 +169,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="relative aspect-[4/5] sm:aspect-[3/2] md:aspect-[16/7] rounded-[28px] overflow-hidden"
+            className="relative aspect-[1/1] sm:aspect-[3/2] md:aspect-[16/6] rounded-[28px] overflow-hidden"
           >
             <Image
               src={caseStudyImages[slug]}
