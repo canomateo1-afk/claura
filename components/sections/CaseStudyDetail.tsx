@@ -325,22 +325,30 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
                 .map((cs) => (
                   <Link key={cs.id} href={`/case-studies/${cs.id}`}>
                     <motion.div
-                      whileHover={{ y: -4 }}
-                      transition={{ duration: 0.2 }}
-                      className="group bg-[var(--color-cream-dark)] rounded-[28px] p-5 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer h-full flex flex-col justify-between min-h-[160px]"
+                      initial={{ opacity: 0, y: 40 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, amount: 0.2 }}
+                      transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
+                      className="group bg-[var(--color-cream-dark)] rounded-[28px] p-5 pb-6 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer h-full flex flex-col justify-between min-h-[180px]"
                     >
+                      {/* Top: category badge */}
                       <div>
-                        <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-white text-[var(--color-brown)] mb-3">
+                        <span className="px-4 py-2 text-sm font-medium rounded-full bg-white text-[var(--color-charcoal)] shadow-sm inline-block mb-4">
                           {cs.category}
                         </span>
-                        <h3 className="font-display text-xl font-normal italic text-[var(--color-charcoal)] leading-snug">
+                        <h3 className="font-display text-xl md:text-2xl font-normal italic text-[var(--color-charcoal)]">
                           {cs.title}
                         </h3>
                       </div>
+
+                      {/* Bottom: arrow */}
                       <div className="flex justify-end mt-4">
-                        <div className="w-9 h-9 rounded-full border-2 border-[var(--color-charcoal)] flex items-center justify-center group-hover:bg-[var(--color-charcoal)] transition-all duration-300">
-                          <ArrowUpRight className="w-4 h-4 text-[var(--color-charcoal)] group-hover:text-white transition-colors duration-300" strokeWidth={2.5} />
-                        </div>
+                        <motion.div
+                          className="w-10 h-10 rounded-full border-2 border-[var(--color-charcoal)] flex items-center justify-center group-hover:bg-[var(--color-charcoal)] transition-all duration-300"
+                          whileHover={{ scale: 1.1 }}
+                        >
+                          <ArrowUpRight className="w-5 h-5 text-[var(--color-charcoal)] group-hover:text-white transition-colors duration-300" strokeWidth={2.5} />
+                        </motion.div>
                       </div>
                     </motion.div>
                   </Link>
