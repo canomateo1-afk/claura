@@ -29,6 +29,80 @@ const caseStudyExtras: Record<string, { siteUrl?: string; tools?: string[] }> = 
   },
 };
 
+// Services provided per case study
+const caseStudyServices: Record<string, string[]> = {
+  hamilton: [
+    "Content Generation", "Email Automation", "Customer Support AI",
+    "Inventory Management", "Order Processing", "Workflow Automation",
+  ],
+  terra: [
+    "Content Generation", "Demand Forecasting", "Subscription Management",
+    "Customer Portal", "Delivery Optimization", "Supply Chain AI",
+  ],
+  savannah: [
+    "Meta Ads", "Google Ads", "Automated Reporting",
+    "Content Generation", "Campaign Setup", "Data Analytics",
+  ],
+  snowflake: [
+    "Customer Onboarding", "Churn Prediction", "Content Generation",
+    "Support Automation", "User Analytics", "Retention Systems",
+  ],
+  loop: [
+    "Content Generation", "Meta Ads", "Auto-clipping", "Edition",
+    "Multi cuentas", "Competitor Analysis", "AI Agent", "3D Rendering",
+  ],
+  spacepal: [
+    "SEO", "Programmatic SEO", "Google Ads", "Meta Ads", "Multi cuentas",
+    "Youtube Long form videos", "Auto-clipping", "LLM Presence",
+    "Email Marketing", "WhatsApp Campaigns", "TikTok",
+  ],
+};
+
+// Tech stack per case study
+const caseStudyTechStack: Record<string, { name: string; color: string }[]> = {
+  hamilton: [
+    { name: "Shopify", color: "#96BF48" },
+    { name: "ChatGPT", color: "#10A37F" },
+    { name: "Zapier", color: "#FF4A00" },
+    { name: "Slack", color: "#4A154B" },
+  ],
+  terra: [
+    { name: "ChatGPT", color: "#10A37F" },
+    { name: "Notion", color: "#000000" },
+    { name: "Zapier", color: "#FF4A00" },
+    { name: "Slack", color: "#4A154B" },
+  ],
+  savannah: [
+    { name: "Google Analytics", color: "#E37400" },
+    { name: "Meta", color: "#0081FB" },
+    { name: "Google Ads", color: "#4285F4" },
+    { name: "ChatGPT", color: "#10A37F" },
+    { name: "Slack", color: "#4A154B" },
+  ],
+  snowflake: [
+    { name: "ChatGPT", color: "#10A37F" },
+    { name: "Intercom", color: "#6AFDEF" },
+    { name: "Slack", color: "#4A154B" },
+    { name: "Notion", color: "#000000" },
+  ],
+  loop: [
+    { name: "Meta", color: "#0081FB" },
+    { name: "Instagram", color: "#E4405F" },
+    { name: "ComfyUI", color: "#7C3AED" },
+    { name: "ChatGPT", color: "#10A37F" },
+    { name: "Vercel", color: "#000000" },
+  ],
+  spacepal: [
+    { name: "Google", color: "#4285F4" },
+    { name: "Meta", color: "#0081FB" },
+    { name: "ChatGPT", color: "#10A37F" },
+    { name: "TikTok", color: "#000000" },
+    { name: "Reddit", color: "#FF4500" },
+    { name: "WhatsApp", color: "#25D366" },
+    { name: "Next.js", color: "#000000" },
+  ],
+};
+
 const caseStudyImages: Record<string, string> = {
   hamilton: "/images/case-study.png",
   terra: "/images/case-study.png",
@@ -61,6 +135,8 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
   const tCaseStudies = useTranslations("caseStudies");
   const hasSolutionP3 = solutionP3Slugs.includes(slug);
   const hasSolutionP4 = solutionP4Slugs.includes(slug);
+  const services = caseStudyServices[slug] || [];
+  const techStack = caseStudyTechStack[slug] || [];
 
   return (
     <>
@@ -197,6 +273,95 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
           </div>
         </div>
       </section>
+
+      {/* Services & Tech Stack */}
+      {(services.length > 0 || techStack.length > 0) && (
+        <section className="py-14 px-6 bg-[var(--color-charcoal)] overflow-hidden">
+          <div className="max-w-[var(--container-max-width)] mx-auto">
+            {/* Services */}
+            {services.length > 0 && (
+              <FadeInUp>
+                <div className="mb-12">
+                  <h3 className="font-display text-2xl md:text-3xl font-normal text-white mb-6">
+                    {tCommon("servicesLabel")}
+                  </h3>
+                  {/* Marquee rows */}
+                  <div
+                    className="space-y-3"
+                    style={{
+                      maskImage:
+                        "linear-gradient(to right, rgba(0,0,0,0), rgb(0,0,0) 8%, rgb(0,0,0) 92%, rgba(0,0,0,0))",
+                      WebkitMaskImage:
+                        "linear-gradient(to right, rgba(0,0,0,0), rgb(0,0,0) 8%, rgb(0,0,0) 92%, rgba(0,0,0,0))",
+                    }}
+                  >
+                    {/* Row 1 */}
+                    <div className="overflow-hidden">
+                      <ul className="flex items-center gap-3 w-max animate-marquee">
+                        {[...services, ...services, ...services, ...services].map((service, i) => (
+                          <li
+                            key={`r1-${i}`}
+                            className="h-[38px] px-5 text-[14px] font-medium rounded-[10px] whitespace-nowrap backdrop-blur-[32px] flex items-center text-white"
+                            style={{ backgroundColor: "rgba(240, 231, 221, 0.15)" }}
+                          >
+                            {service}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    {/* Row 2 (reversed order, opposite direction) */}
+                    <div className="overflow-hidden">
+                      <ul className="flex items-center gap-3 w-max animate-marquee-reverse">
+                        {[...[...services].reverse(), ...[...services].reverse(), ...[...services].reverse(), ...[...services].reverse()].map(
+                          (service, i) => (
+                            <li
+                              key={`r2-${i}`}
+                              className="h-[38px] px-5 text-[14px] font-medium rounded-[10px] whitespace-nowrap backdrop-blur-[32px] flex items-center text-white"
+                              style={{ backgroundColor: "rgba(240, 231, 221, 0.15)" }}
+                            >
+                              {service}
+                            </li>
+                          )
+                        )}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </FadeInUp>
+            )}
+
+            {/* Tech Stack */}
+            {techStack.length > 0 && (
+              <FadeInUp delay={0.1}>
+                <div>
+                  <h3 className="font-display text-2xl md:text-3xl font-normal text-white mb-6">
+                    {tCommon("techStackLabel")}
+                  </h3>
+                  <div className="flex flex-wrap items-center gap-3">
+                    {techStack.map((tool) => (
+                      <motion.div
+                        key={tool.name}
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
+                        className="flex items-center gap-2.5 h-[42px] px-5 rounded-[12px] bg-white/10 backdrop-blur-[32px] border border-white/5"
+                      >
+                        <span
+                          className="w-[18px] h-[18px] rounded-[5px] shrink-0"
+                          style={{ backgroundColor: tool.color }}
+                        />
+                        <span className="text-[14px] font-medium text-white whitespace-nowrap">
+                          {tool.name}
+                        </span>
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              </FadeInUp>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Stats Bar */}
       <section className="py-12 px-6 bg-[var(--color-cream)]">

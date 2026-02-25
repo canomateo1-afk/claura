@@ -434,7 +434,9 @@
       "resultsLabel": "The results",
       "ctaButton": "Book a free call",
       "relatedTitle": "Related stories",
-      "caseStudyTag": "Customer story"
+      "caseStudyTag": "Customer story",
+      "servicesLabel": "Services",
+      "techStackLabel": "Tech Stack"
     },
     "hamilton": {
       "metaTitle": "Hamilton Case Study - Claura AI Agency",
