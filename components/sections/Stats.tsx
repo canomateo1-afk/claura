@@ -13,12 +13,17 @@ interface StatCardProps {
 }
 
 function CountUp({ value, duration = 2000 }: { value: string; duration?: number }) {
-  const [count, setCount] = useState("0");
+  const [count, setCount] = useState(value); // SSR: valor real
+  const [mounted, setMounted] = useState(false);
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
-    if (!isInView) return;
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted || !isInView) return;
 
     // Extract number and suffix
     const numericMatch = value.match(/^([\d,]+)/);
@@ -48,7 +53,7 @@ function CountUp({ value, duration = 2000 }: { value: string; duration?: number 
     };
 
     requestAnimationFrame(updateCount);
-  }, [isInView, value, duration]);
+  }, [isInView, value, duration, mounted]);
 
   return <span ref={ref}>{count}</span>;
 }
