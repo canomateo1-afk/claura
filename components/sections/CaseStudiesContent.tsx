@@ -54,7 +54,7 @@ function CaseStudyCard({ id, title, category, description, image, index }: CaseS
           
           {/* Category badge - top right */}
           <div className="absolute top-4 right-4 z-10">
-            <span className="px-4 py-2 text-sm font-medium rounded-full bg-white/95 text-[var(--color-charcoal)] backdrop-blur-sm shadow-sm">
+            <span className="px-4 py-2 text-sm font-medium rounded-lg bg-white/95 text-[var(--color-charcoal)] backdrop-blur-sm shadow-sm">
               {category}
             </span>
           </div>
