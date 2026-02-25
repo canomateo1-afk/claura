@@ -5,8 +5,33 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { SectionLabel, Button } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
-import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, ArrowUpRight, ChevronRight } from "lucide-react";
+import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, ArrowUpRight, ChevronRight, Sparkles } from "lucide-react";
+import {
+  SiShopify, SiOpenai, SiZapier, SiSlack, SiNotion, SiGoogleanalytics,
+  SiMeta, SiGoogleads, SiIntercom, SiInstagram, SiVercel, SiGoogle,
+  SiTiktok, SiReddit, SiWhatsapp, SiNextdotjs,
+} from "react-icons/si";
 import { Link } from "@/i18n/navigation";
+import type { IconType } from "react-icons";
+
+const techIconMap: Record<string, IconType> = {
+  shopify: SiShopify,
+  openai: SiOpenai,
+  zapier: SiZapier,
+  slack: SiSlack,
+  notion: SiNotion,
+  googleanalytics: SiGoogleanalytics,
+  meta: SiMeta,
+  googleads: SiGoogleads,
+  intercom: SiIntercom,
+  instagram: SiInstagram,
+  vercel: SiVercel,
+  google: SiGoogle,
+  tiktok: SiTiktok,
+  reddit: SiReddit,
+  whatsapp: SiWhatsapp,
+  nextdotjs: SiNextdotjs,
+};
 
 const allCaseStudies = [
   { id: "hamilton", title: "Hamilton", category: "Ecommerce" },
@@ -59,47 +84,47 @@ const caseStudyServices: Record<string, string[]> = {
 };
 
 // Tech stack per case study
-const caseStudyTechStack: Record<string, { name: string; color: string }[]> = {
+const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
   hamilton: [
-    { name: "Shopify", color: "#96BF48" },
-    { name: "ChatGPT", color: "#10A37F" },
-    { name: "Zapier", color: "#FF4A00" },
-    { name: "Slack", color: "#4A154B" },
+    { name: "Shopify", icon: "shopify" },
+    { name: "ChatGPT", icon: "openai" },
+    { name: "Zapier", icon: "zapier" },
+    { name: "Slack", icon: "slack" },
   ],
   terra: [
-    { name: "ChatGPT", color: "#10A37F" },
-    { name: "Notion", color: "#000000" },
-    { name: "Zapier", color: "#FF4A00" },
-    { name: "Slack", color: "#4A154B" },
+    { name: "ChatGPT", icon: "openai" },
+    { name: "Notion", icon: "notion" },
+    { name: "Zapier", icon: "zapier" },
+    { name: "Slack", icon: "slack" },
   ],
   savannah: [
-    { name: "Google Analytics", color: "#E37400" },
-    { name: "Meta", color: "#0081FB" },
-    { name: "Google Ads", color: "#4285F4" },
-    { name: "ChatGPT", color: "#10A37F" },
-    { name: "Slack", color: "#4A154B" },
+    { name: "Google Analytics", icon: "googleanalytics" },
+    { name: "Meta", icon: "meta" },
+    { name: "Google Ads", icon: "googleads" },
+    { name: "ChatGPT", icon: "openai" },
+    { name: "Slack", icon: "slack" },
   ],
   snowflake: [
-    { name: "ChatGPT", color: "#10A37F" },
-    { name: "Intercom", color: "#6AFDEF" },
-    { name: "Slack", color: "#4A154B" },
-    { name: "Notion", color: "#000000" },
+    { name: "ChatGPT", icon: "openai" },
+    { name: "Intercom", icon: "intercom" },
+    { name: "Slack", icon: "slack" },
+    { name: "Notion", icon: "notion" },
   ],
   loop: [
-    { name: "Meta", color: "#0081FB" },
-    { name: "Instagram", color: "#E4405F" },
-    { name: "ComfyUI", color: "#7C3AED" },
-    { name: "ChatGPT", color: "#10A37F" },
-    { name: "Vercel", color: "#000000" },
+    { name: "Meta", icon: "meta" },
+    { name: "Instagram", icon: "instagram" },
+    { name: "ComfyUI", icon: "comfyui" },
+    { name: "ChatGPT", icon: "openai" },
+    { name: "Vercel", icon: "vercel" },
   ],
   spacepal: [
-    { name: "Google", color: "#4285F4" },
-    { name: "Meta", color: "#0081FB" },
-    { name: "ChatGPT", color: "#10A37F" },
-    { name: "TikTok", color: "#000000" },
-    { name: "Reddit", color: "#FF4500" },
-    { name: "WhatsApp", color: "#25D366" },
-    { name: "Next.js", color: "#000000" },
+    { name: "Google", icon: "google" },
+    { name: "Meta", icon: "meta" },
+    { name: "ChatGPT", icon: "openai" },
+    { name: "TikTok", icon: "tiktok" },
+    { name: "Reddit", icon: "reddit" },
+    { name: "WhatsApp", icon: "whatsapp" },
+    { name: "Next.js", icon: "nextdotjs" },
   ],
 };
 
@@ -143,7 +168,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-[#f6f0e9] pt-32 pb-16 overflow-hidden">
+      <section className="bg-[var(--color-cream)] pt-32 pb-16 overflow-hidden">
         <div className="max-w-[var(--container-max-width)] mx-auto px-6 w-full">
           {/* Hero Image Card */}
           <motion.div
@@ -292,50 +317,39 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
       </section>
 
       {/* Results */}
-      <section className="py-20 px-6 bg-[var(--color-cream-dark)]">
+      <section className="py-20 px-6 bg-[var(--color-cream)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
-            <div className="text-center mb-12">
-              <SectionLabel variant="medium">{tCommon("resultsLabel")}</SectionLabel>
-              <h2 className="font-display text-3xl md:text-4xl font-normal leading-tight mt-4">
-                {t("resultsTitle")}
-              </h2>
-            </div>
-          </FadeInUp>
-
-          <FadeInUp delay={0.1}>
-            <div className="space-y-4 text-[var(--color-text-secondary)] leading-relaxed max-w-3xl mx-auto mb-12">
-              <p>{t("resultsP1")}</p>
-              <p>{t("resultsP2")}</p>
-            </div>
-          </FadeInUp>
-
-          {/* Stats Bar */}
-          <FadeInUp delay={0.15}>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div className="rounded-2xl bg-[var(--color-cream)] px-6 py-5 shadow-[var(--shadow-sm)] text-center">
-                <div className="font-display text-3xl md:text-4xl font-light italic mb-2 text-[var(--color-brown)]">
-                  {t("stat1Value")}
-                </div>
-                <p className="font-semibold text-sm">{t("stat1Label")}</p>
+            <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-12">
+              <div>
+                <span className="text-sm text-[var(--color-text-secondary)] font-medium tracking-wide">
+                  {tCommon("resultsLabel")}
+                </span>
               </div>
-              <div className="rounded-2xl bg-[var(--color-cream)] px-6 py-5 shadow-[var(--shadow-sm)] text-center">
-                <div className="font-display text-3xl md:text-4xl font-light italic mb-2 text-[var(--color-brown)]">
-                  {t("stat2Value")}
+              <div>
+                <h2 className="font-display text-2xl md:text-[2.5rem] leading-[1.2] font-normal mb-6">
+                  {t("resultsTitle")}
+                </h2>
+                <div className="space-y-4 text-[var(--color-text-secondary)] leading-relaxed mb-10">
+                  <p>{t("resultsP1")}</p>
+                  <p>{t("resultsP2")}</p>
                 </div>
-                <p className="font-semibold text-sm">{t("stat2Label")}</p>
-              </div>
-              <div className="rounded-2xl bg-[var(--color-cream)] px-6 py-5 shadow-[var(--shadow-sm)] text-center">
-                <div className="font-display text-3xl md:text-4xl font-light italic mb-2 text-[var(--color-brown)]">
-                  {t("stat3Value")}
+                {/* Stats */}
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                  {[1, 2, 3, 4].map((n) => (
+                    <div
+                      key={n}
+                      className="rounded-3xl bg-[var(--color-cream-dark)] px-7 py-6"
+                    >
+                      <div className="font-display text-4xl md:text-5xl font-normal mb-2 text-[var(--color-charcoal)]">
+                        {t(`stat${n}Value`)}
+                      </div>
+                      <p className="text-sm text-[var(--color-text-secondary)]">
+                        {t(`stat${n}Label`)}
+                      </p>
+                    </div>
+                  ))}
                 </div>
-                <p className="font-semibold text-sm">{t("stat3Label")}</p>
-              </div>
-              <div className="rounded-2xl bg-[var(--color-cream)] px-6 py-5 shadow-[var(--shadow-sm)] text-center">
-                <div className="font-display text-3xl md:text-4xl font-light italic mb-2 text-[var(--color-brown)]">
-                  {t("stat4Value")}
-                </div>
-                <p className="font-semibold text-sm">{t("stat4Label")}</p>
               </div>
             </div>
           </FadeInUp>
@@ -344,55 +358,26 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
 
       {/* Services & Tech Stack */}
       {(services.length > 0 || techStack.length > 0) && (
-        <section className="py-14 px-6 bg-[var(--color-charcoal)] overflow-hidden">
-          <div className="max-w-[var(--container-max-width)] mx-auto">
+        <section className="py-20 px-6 bg-[var(--color-cream)]">
+          <div className="max-w-[var(--container-max-width)] mx-auto space-y-20">
             {/* Services */}
             {services.length > 0 && (
               <FadeInUp>
-                <div className="mb-12">
-                  <h3 className="font-display text-2xl md:text-3xl font-normal text-white mb-6">
-                    {tCommon("servicesLabel")}
-                  </h3>
-                  {/* Marquee rows */}
-                  <div
-                    className="space-y-3"
-                    style={{
-                      maskImage:
-                        "linear-gradient(to right, rgba(0,0,0,0), rgb(0,0,0) 8%, rgb(0,0,0) 92%, rgba(0,0,0,0))",
-                      WebkitMaskImage:
-                        "linear-gradient(to right, rgba(0,0,0,0), rgb(0,0,0) 8%, rgb(0,0,0) 92%, rgba(0,0,0,0))",
-                    }}
-                  >
-                    {/* Row 1 */}
-                    <div className="overflow-hidden">
-                      <ul className="flex items-center gap-3 w-max animate-marquee">
-                        {[...services, ...services, ...services, ...services].map((service, i) => (
-                          <li
-                            key={`r1-${i}`}
-                            className="h-[38px] px-5 text-[14px] font-medium rounded-[10px] whitespace-nowrap backdrop-blur-[32px] flex items-center text-white"
-                            style={{ backgroundColor: "rgba(240, 231, 221, 0.15)" }}
-                          >
-                            {service}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    {/* Row 2 (reversed order, opposite direction) */}
-                    <div className="overflow-hidden">
-                      <ul className="flex items-center gap-3 w-max animate-marquee-reverse">
-                        {[...[...services].reverse(), ...[...services].reverse(), ...[...services].reverse(), ...[...services].reverse()].map(
-                          (service, i) => (
-                            <li
-                              key={`r2-${i}`}
-                              className="h-[38px] px-5 text-[14px] font-medium rounded-[10px] whitespace-nowrap backdrop-blur-[32px] flex items-center text-white"
-                              style={{ backgroundColor: "rgba(240, 231, 221, 0.15)" }}
-                            >
-                              {service}
-                            </li>
-                          )
-                        )}
-                      </ul>
-                    </div>
+                <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-12">
+                  <div>
+                    <span className="text-sm text-[var(--color-text-secondary)] font-medium tracking-wide">
+                      {tCommon("servicesLabel")}
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap gap-3">
+                    {services.map((service) => (
+                      <span
+                        key={service}
+                        className="h-[38px] px-5 text-[14px] font-medium rounded-[10px] whitespace-nowrap flex items-center text-[var(--color-charcoal)] bg-[var(--color-cream-dark)]"
+                      >
+                        {service}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </FadeInUp>
@@ -401,28 +386,34 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
             {/* Tech Stack */}
             {techStack.length > 0 && (
               <FadeInUp delay={0.1}>
-                <div>
-                  <h3 className="font-display text-2xl md:text-3xl font-normal text-white mb-6">
-                    {tCommon("techStackLabel")}
-                  </h3>
+                <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-12">
+                  <div>
+                    <span className="text-sm text-[var(--color-text-secondary)] font-medium tracking-wide">
+                      {tCommon("techStackLabel")}
+                    </span>
+                  </div>
                   <div className="flex flex-wrap items-center gap-3">
-                    {techStack.map((tool) => (
-                      <motion.div
-                        key={tool.name}
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        viewport={{ once: true }}
-                        className="flex items-center gap-2.5 h-[42px] px-5 rounded-[12px] bg-white/10 backdrop-blur-[32px] border border-white/5"
-                      >
-                        <span
-                          className="w-[18px] h-[18px] rounded-[5px] shrink-0"
-                          style={{ backgroundColor: tool.color }}
-                        />
-                        <span className="text-[14px] font-medium text-white whitespace-nowrap">
-                          {tool.name}
-                        </span>
-                      </motion.div>
-                    ))}
+                    {techStack.map((tool) => {
+                      const IconComp = techIconMap[tool.icon];
+                      return (
+                        <motion.div
+                          key={tool.name}
+                          initial={{ opacity: 0, scale: 0.9 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          viewport={{ once: true }}
+                          className="flex items-center gap-2.5 h-[42px] px-5 rounded-[12px] bg-[var(--color-cream-dark)] border border-[var(--color-border)]"
+                        >
+                          {IconComp ? (
+                            <IconComp className="w-[18px] h-[18px] shrink-0 text-[var(--color-charcoal)]" />
+                          ) : (
+                            <Sparkles className="w-[18px] h-[18px] shrink-0 text-[var(--color-charcoal)]" />
+                          )}
+                          <span className="text-[14px] font-medium text-[var(--color-charcoal)] whitespace-nowrap">
+                            {tool.name}
+                          </span>
+                        </motion.div>
+                      );
+                    })}
                   </div>
                 </div>
               </FadeInUp>
@@ -432,20 +423,25 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
       )}
 
       {/* Testimonial */}
-      <section className="py-20 px-6 bg-[var(--color-cream-dark)]">
+      <section className="py-20 px-6 bg-[var(--color-cream)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
-            <blockquote className="max-w-3xl mx-auto text-center">
-              <div className="w-full h-px bg-[var(--color-border)] mb-12" />
-              <p className="font-display text-2xl md:text-3xl lg:text-4xl font-normal leading-snug text-[var(--color-charcoal)] mb-10">
-                &ldquo;{t("testimonialQuote")}&rdquo;
-              </p>
-              <div className="w-full h-px bg-[var(--color-border)] mb-10" />
-              <footer>
-                <p className="text-[var(--color-charcoal)] font-medium text-sm mb-1">{t("testimonialAuthor")}</p>
-                <p className="text-[var(--color-text-secondary)] text-xs">{t("testimonialRole")}</p>
-              </footer>
-            </blockquote>
+            <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-12">
+              <div>
+                <span className="text-sm text-[var(--color-text-secondary)] font-medium tracking-wide">
+                  {tCommon("testimonialLabel")}
+                </span>
+              </div>
+              <blockquote>
+                <p className="font-display text-2xl md:text-3xl lg:text-[2.5rem] font-normal leading-snug text-[var(--color-charcoal)] mb-8">
+                  &ldquo;{t("testimonialQuote")}&rdquo;
+                </p>
+                <footer>
+                  <p className="text-[var(--color-charcoal)] font-medium text-sm mb-1">{t("testimonialAuthor")}</p>
+                  <p className="text-[var(--color-text-secondary)] text-xs">{t("testimonialRole")}</p>
+                </footer>
+              </blockquote>
+            </div>
           </FadeInUp>
         </div>
       </section>

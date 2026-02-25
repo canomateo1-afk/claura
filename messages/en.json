@@ -437,7 +437,8 @@
       "relatedTitle": "Related stories",
       "caseStudyTag": "Customer story",
       "servicesLabel": "Services",
-      "techStackLabel": "Tech Stack"
+      "techStackLabel": "Tech Stack",
+      "testimonialLabel": "Testimonial"
     },
     "hamilton": {
       "metaTitle": "Hamilton Case Study - Claura AI Agency",
