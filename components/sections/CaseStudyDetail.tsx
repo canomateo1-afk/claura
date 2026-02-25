@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { SectionLabel, Button } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
-import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, Link2 } from "lucide-react";
+import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, ArrowUpRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
 const allCaseStudies = [
@@ -306,33 +306,43 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
         </div>
       </section>
       {/* Related Stories */}
-      <section className="py-20 px-6 bg-[var(--color-charcoal)]">
+      <section className="py-20 px-6 bg-[var(--color-cream)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
             <div className="text-center mb-14">
-              <BookOpen className="w-10 h-10 text-white/80 mx-auto mb-5" strokeWidth={1.5} />
-              <h2 className="font-display text-3xl md:text-4xl font-normal text-white">
+              <BookOpen className="w-10 h-10 text-[var(--color-brown-muted)] mx-auto mb-5" strokeWidth={1.5} />
+              <h2 className="font-display text-3xl md:text-4xl font-normal text-[var(--color-charcoal)]">
                 {tCommon("relatedTitle")}
               </h2>
             </div>
           </FadeInUp>
 
           <FadeInUp delay={0.1}>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {allCaseStudies
                 .filter((cs) => cs.id !== slug)
                 .slice(0, 4)
                 .map((cs) => (
                   <Link key={cs.id} href={`/case-studies/${cs.id}`}>
-                    <div className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-colors duration-200 cursor-pointer h-full flex flex-col justify-between min-h-[140px]">
-                      <p className="text-white text-sm font-medium leading-snug mb-6">
-                        {cs.title}
-                      </p>
-                      <div className="flex items-center gap-2 text-white/40 text-xs">
-                        <Link2 className="w-3.5 h-3.5" />
-                        <span>{tCommon("caseStudyTag")}</span>
+                    <motion.div
+                      whileHover={{ y: -4 }}
+                      transition={{ duration: 0.2 }}
+                      className="group bg-[var(--color-cream-dark)] rounded-[28px] p-5 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer h-full flex flex-col justify-between min-h-[160px]"
+                    >
+                      <div>
+                        <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-white text-[var(--color-brown)] mb-3">
+                          {cs.category}
+                        </span>
+                        <h3 className="font-display text-xl font-normal italic text-[var(--color-charcoal)] leading-snug">
+                          {cs.title}
+                        </h3>
                       </div>
-                    </div>
+                      <div className="flex justify-end mt-4">
+                        <div className="w-9 h-9 rounded-full border-2 border-[var(--color-charcoal)] flex items-center justify-center group-hover:bg-[var(--color-charcoal)] transition-all duration-300">
+                          <ArrowUpRight className="w-4 h-4 text-[var(--color-charcoal)] group-hover:text-white transition-colors duration-300" strokeWidth={2.5} />
+                        </div>
+                      </div>
+                    </motion.div>
                   </Link>
                 ))}
             </div>
