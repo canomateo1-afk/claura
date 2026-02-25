@@ -6,31 +6,25 @@ import Image from "next/image";
 import { SectionLabel, Button } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
 import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, ArrowUpRight, ChevronRight, Sparkles } from "lucide-react";
-import {
-  SiShopify, SiOpenai, SiZapier, SiSlack, SiNotion, SiGoogleanalytics,
-  SiMeta, SiGoogleads, SiIntercom, SiInstagram, SiVercel, SiGoogle,
-  SiTiktok, SiReddit, SiWhatsapp, SiNextdotjs,
-} from "react-icons/si";
 import { Link } from "@/i18n/navigation";
-import type { IconType } from "react-icons";
 
-const techIconMap: Record<string, IconType> = {
-  shopify: SiShopify,
-  openai: SiOpenai,
-  zapier: SiZapier,
-  slack: SiSlack,
-  notion: SiNotion,
-  googleanalytics: SiGoogleanalytics,
-  meta: SiMeta,
-  googleads: SiGoogleads,
-  intercom: SiIntercom,
-  instagram: SiInstagram,
-  vercel: SiVercel,
-  google: SiGoogle,
-  tiktok: SiTiktok,
-  reddit: SiReddit,
-  whatsapp: SiWhatsapp,
-  nextdotjs: SiNextdotjs,
+const techLogoMap: Record<string, string> = {
+  shopify: "/images/tech-logos/shopify.svg",
+  openai: "/images/tech-logos/openai.svg",
+  zapier: "/images/tech-logos/zapier.svg",
+  slack: "/images/tech-logos/slack.svg",
+  notion: "/images/tech-logos/notion.svg",
+  googleanalytics: "/images/tech-logos/googleanalytics.svg",
+  meta: "/images/tech-logos/meta.svg",
+  googleads: "/images/tech-logos/googleads.svg",
+  intercom: "/images/tech-logos/intercom.svg",
+  instagram: "/images/tech-logos/instagram.svg",
+  vercel: "/images/tech-logos/vercel.svg",
+  google: "/images/tech-logos/google.svg",
+  tiktok: "/images/tech-logos/tiktok.svg",
+  reddit: "/images/tech-logos/reddit.svg",
+  whatsapp: "/images/tech-logos/whatsapp.svg",
+  nextdotjs: "/images/tech-logos/nextdotjs.svg",
 };
 
 const allCaseStudies = [
@@ -394,7 +388,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
                   </div>
                   <div className="flex flex-wrap items-center gap-3">
                     {techStack.map((tool) => {
-                      const IconComp = techIconMap[tool.icon];
+                      const logoSrc = techLogoMap[tool.icon];
                       return (
                         <motion.div
                           key={tool.name}
@@ -403,8 +397,12 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
                           viewport={{ once: true }}
                           className="flex items-center gap-2.5 h-[42px] px-5 rounded-[12px] bg-[var(--color-cream-dark)] border border-[var(--color-border)]"
                         >
-                          {IconComp ? (
-                            <IconComp className="w-[18px] h-[18px] shrink-0 text-[var(--color-charcoal)]" />
+                          {logoSrc ? (
+                            <img
+                              src={logoSrc}
+                              alt={tool.name}
+                              className="w-[18px] h-[18px] shrink-0 object-contain"
+                            />
                           ) : (
                             <Sparkles className="w-[18px] h-[18px] shrink-0 text-[var(--color-charcoal)]" />
                           )}
