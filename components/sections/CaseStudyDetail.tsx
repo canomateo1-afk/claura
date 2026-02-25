@@ -248,8 +248,27 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
             </div>
           </FadeInUp>
 
-          {/* The Solution */}
+          {/* Our Strategy */}
           <FadeInUp delay={0.1}>
+            <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-12">
+              <div>
+                <span className="text-sm text-[var(--color-text-secondary)] font-medium tracking-wide">
+                  {tCommon("strategyLabel")}
+                </span>
+              </div>
+              <div>
+                <h2 className="font-display text-2xl md:text-[2.5rem] leading-[1.2] font-normal mb-6">
+                  {t("strategyTitle")}
+                </h2>
+                <div className="space-y-4 text-[var(--color-text-secondary)] leading-relaxed">
+                  <p>{t("strategyP1")}</p>
+                </div>
+              </div>
+            </div>
+          </FadeInUp>
+
+          {/* The Solution */}
+          <FadeInUp delay={0.2}>
             <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-12">
               <div>
                 <span className="text-sm text-[var(--color-text-secondary)] font-medium tracking-wide">
