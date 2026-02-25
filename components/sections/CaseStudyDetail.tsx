@@ -446,6 +446,23 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
         </div>
       </section>
 
+      {/* CTA */}
+      <section className="py-20 px-6 bg-[var(--color-cream)] border-t border-[var(--color-border)]">
+        <div className="max-w-[var(--container-max-width)] mx-auto text-center">
+          <FadeInUp>
+            <h2 className="font-display text-3xl md:text-[2.75rem] font-normal text-[var(--color-charcoal)] mb-6 leading-snug">
+              {tCommon("ctaTitle")}
+            </h2>
+            <p className="text-[var(--color-text-secondary)] text-lg mb-10 max-w-xl mx-auto leading-relaxed">
+              {tCommon("ctaBody")}
+            </p>
+            <Button calLink="mateo-cano/construye-y-automatiza-con-ia" variant="primary" size="lg">
+              {tCommon("ctaButton")}
+            </Button>
+          </FadeInUp>
+        </div>
+      </section>
+
       {/* Related Stories */}
       <section className="py-20 px-6 bg-[var(--color-cream)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
