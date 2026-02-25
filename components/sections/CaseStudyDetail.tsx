@@ -14,6 +14,7 @@ const allCaseStudies = [
   { id: "savannah", title: "Savannah", category: "Marketing" },
   { id: "snowflake", title: "Snowflake", category: "Software" },
   { id: "loop", title: "Loop", category: "SaaS / Publicidad" },
+  { id: "spacepal", title: "SpacePal", category: "Marketplace / Eventos" },
 ];
 
 // Case studies that have optional extra fields
@@ -21,6 +22,10 @@ const caseStudyExtras: Record<string, { siteUrl?: string; tools?: string[] }> = 
   loop: {
     siteUrl: "https://www.adloop.app",
     tools: ["Instagram", "Facebook", "Meta"],
+  },
+  spacepal: {
+    siteUrl: "https://www.space-pal.com",
+    tools: ["SEO Programático", "Reddit", "TikTok", "Email", "WhatsApp"],
   },
 };
 
@@ -30,6 +35,7 @@ const caseStudyImages: Record<string, string> = {
   savannah: "/images/case-study.png",
   snowflake: "/images/case-study.png",
   loop: "/images/case-study.png",
+  spacepal: "/images/case-study.png",
 };
 
 const caseStudyIcons: Record<string, typeof Clock> = {

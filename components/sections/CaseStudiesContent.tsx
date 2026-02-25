@@ -15,6 +15,7 @@ const caseStudyImages = {
   savannah: "/images/case-study.png",
   snowflake: "/images/case-study.png",
   loop: "/images/case-study.png",
+  spacepal: "/images/case-study.png",
 };
 
 interface CaseStudyCardProps {
@@ -129,6 +130,13 @@ export function CaseStudiesContent() {
       category: t("loop.category"),
       description: t("loop.description"),
       image: caseStudyImages.loop,
+    },
+    {
+      id: "spacepal",
+      title: t("spacepal.title"),
+      category: t("spacepal.category"),
+      description: t("spacepal.description"),
+      image: caseStudyImages.spacepal,
     },
   ];
 

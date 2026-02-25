@@ -316,6 +316,11 @@
       "title": "Loop",
       "category": "SaaS / Publicidad",
       "description": "Una plataforma que permite a marcas de e-commerce generar contenido publicitario, analizar competidores y publicar en Meta de forma completamente automática."
+    },
+    "spacepal": {
+      "title": "SpacePal",
+      "category": "Marketplace / Eventos",
+      "description": "Un marketplace para alquilar espacios premium para eventos que generó el 50% de su tráfico desde SEO orgánico — sin un peso en publicidad paga."
     }
   },
   "privacyPolicy": {
@@ -574,6 +579,38 @@
       "siteLinkLabel": "www.adloop.app",
       "tools": "Instagram, Facebook, Meta",
       "toolsLabel": "Plataformas"
+    },
+    "spacepal": {
+      "metaTitle": "Caso SpacePal - Claura Agencia de IA",
+      "metaDescription": "Cómo construimos el motor de tráfico de SpacePal: SEO programático, presencia en LLMs y multicuentas TikTok que generan el 50% del tráfico total.",
+      "category": "Marketplace / Eventos",
+      "title": "SpacePal",
+      "tagline": "De cero a 50% de tráfico orgánico, sin un peso en ads.",
+      "heroDescription": "SpacePal es el marketplace para alquilar espacios premium para eventos. El desafío era claro: competir en un nicho dominado por el boca en boca y conseguir tráfico escalable sin depender de publicidad paga.",
+      "siteUrl": "https://www.space-pal.com",
+      "siteLinkLabel": "www.space-pal.com",
+      "tools": "SEO Programático, Reddit, TikTok, Email, WhatsApp",
+      "toolsLabel": "Canales",
+      "stat1Value": "50%",
+      "stat1Label": "Del tráfico total es orgánico",
+      "stat2Value": "100+",
+      "stat2Label": "Landing pages programáticas",
+      "stat3Value": "LLMs",
+      "stat3Label": "Aparece en ChatGPT y Perplexity",
+      "stat4Value": "3",
+      "stat4Label": "Motores de crecimiento simultáneos",
+      "challengeTitle": "Visibilidad en un nicho competitivo, sin presupuesto ilimitado.",
+      "challengeP1": "Los marketplaces de espacios para eventos dependen históricamente del boca en boca. El tráfico pago en este nicho es caro y poco escalable. SpacePal necesitaba construir un motor de tráfico orgánico que funcionara sin depender de un presupuesto publicitario constante.",
+      "challengeP2": "Además, los canales emergentes como los LLMs (ChatGPT, Perplexity) estaban captando cada vez más búsquedas de alta intención — y ningún competidor estaba posicionado ahí. Era una ventana de oportunidad que había que aprovechar antes de que se cerrara.",
+      "solutionTitle": "SEO programático, LLMs y TikTok: tres motores en paralelo.",
+      "solutionP1": "Construimos un sistema de SEO programático que genera y actualiza automáticamente landing pages para cada ciudad, tipo de espacio y tipo de evento. Las páginas se scrapeaban semanalmente para incorporar cambios de posicionamiento y actualizaciones del mercado — cubriéndolo todo desde estudios fotográficos en Buenos Aires hasta salones de eventos en Mendoza.",
+      "solutionP2": "En paralelo, ejecutamos una estrategia de presencia en LLMs: identificamos las preguntas más frecuentes del nicho en Reddit, participamos en threads clave y construimos autoridad temática para que SpacePal apareciera en respuestas de ChatGPT y Perplexity. Se complementó con multicuentas de TikTok en formato carrusel — tips sobre organización de eventos, cómo encontrar espacios, gestión de locaciones — redirigiendo de forma orgánica e indirecta hacia la plataforma.",
+      "resultsTitle": "Un motor de tráfico que trabaja 24/7.",
+      "resultsP1": "El 50% del tráfico total de SpacePal hoy viene de SEO. Las landing pages programáticas cubren decenas de ciudades y categorías, atrayendo tráfico de alta intención en el momento exacto de la decisión. El contenido se actualiza solo, sin intervención manual.",
+      "resultsP2": "SpacePal aparece en respuestas de LLMs para consultas clave del nicho — un canal de distribución que la mayoría de competidores todavía ignora. El TikTok multicanal genera audiencia fría que se convierte en tráfico directo semanas después, cerrando el funnel de forma orgánica.",
+      "testimonialQuote": "Teníamos el producto. El problema era que nadie nos encontraba. Hoy el 50% del tráfico llega solo, sin que tengamos que hacer nada. El sistema trabaja mientras nosotros dormimos.",
+      "testimonialAuthor": "Mateo Caño",
+      "testimonialRole": "Cofundador de SpacePal"
     }
   },
   "cookiePolicy": {

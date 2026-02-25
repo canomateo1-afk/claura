@@ -316,6 +316,11 @@
       "title": "Loop",
       "category": "SaaS / Advertising",
       "description": "A platform that lets e-commerce brands generate ad creative, analyze competitors, and publish to Meta — fully automatically."
+    },
+    "spacepal": {
+      "title": "SpacePal",
+      "category": "Marketplace / Events",
+      "description": "A marketplace for renting premium event spaces that generated 50% of its traffic from organic SEO — without spending a dollar on paid ads."
     }
   },
   "privacyPolicy": {
@@ -574,6 +579,38 @@
       "siteLinkLabel": "www.adloop.app",
       "tools": "Instagram, Facebook, Meta",
       "toolsLabel": "Platforms"
+    },
+    "spacepal": {
+      "metaTitle": "SpacePal Case Study - Claura AI Agency",
+      "metaDescription": "How we built SpacePal's traffic engine: programmatic SEO, LLM presence, and TikTok multi-accounts driving 50% of total traffic.",
+      "category": "Marketplace / Events",
+      "title": "SpacePal",
+      "tagline": "From zero to 50% organic traffic, without spending on ads.",
+      "heroDescription": "SpacePal is the marketplace for renting premium event spaces. The challenge was clear: compete in a word-of-mouth-driven niche and build scalable traffic without relying on paid advertising.",
+      "siteUrl": "https://www.space-pal.com",
+      "siteLinkLabel": "www.space-pal.com",
+      "tools": "Programmatic SEO, Reddit, TikTok, Email, WhatsApp",
+      "toolsLabel": "Channels",
+      "stat1Value": "50%",
+      "stat1Label": "Of total traffic is organic",
+      "stat2Value": "100+",
+      "stat2Label": "Programmatic landing pages",
+      "stat3Value": "LLMs",
+      "stat3Label": "Appears in ChatGPT & Perplexity",
+      "stat4Value": "3",
+      "stat4Label": "Simultaneous growth engines",
+      "challengeTitle": "Visibility in a competitive niche, without unlimited budget.",
+      "challengeP1": "Event space marketplaces have historically relied on word of mouth. Paid traffic in this niche is expensive and hard to scale. SpacePal needed to build an organic traffic engine that could work without a constant advertising budget.",
+      "challengeP2": "On top of that, emerging channels like LLMs (ChatGPT, Perplexity) were capturing more and more high-intent searches — and no competitor was positioned there yet. It was a window of opportunity that needed to be seized before it closed.",
+      "solutionTitle": "Programmatic SEO, LLMs, and TikTok: three engines running in parallel.",
+      "solutionP1": "We built a programmatic SEO system that automatically generates and updates landing pages for every city, space type, and event type. Pages were scraped weekly to incorporate ranking changes and market updates — covering everything from photography studios in Buenos Aires to event halls in Mendoza.",
+      "solutionP2": "In parallel, we executed an LLM presence strategy: identified the most frequently asked questions in the niche on Reddit, engaged in key threads, and built topical authority so SpacePal would appear in ChatGPT and Perplexity answers. This was complemented by TikTok multi-accounts in carousel format — tips on event organization, how to find venues, location management — organically and indirectly redirecting audience to the platform.",
+      "resultsTitle": "A traffic engine that works 24/7.",
+      "resultsP1": "50% of SpacePal's total traffic today comes from SEO. The programmatic landing pages cover dozens of cities and categories, attracting high-intent traffic at the exact moment of decision. Content updates itself, with no manual intervention.",
+      "resultsP2": "SpacePal appears in LLM responses for key niche queries — a distribution channel that most competitors still ignore. The multi-channel TikTok generates cold audiences that convert into direct traffic weeks later, closing the funnel organically.",
+      "testimonialQuote": "We had the product. The problem was nobody could find us. Today 50% of traffic arrives on its own, without us doing anything. The system works while we sleep.",
+      "testimonialAuthor": "Mateo Caño",
+      "testimonialRole": "Co-founder of SpacePal"
     }
   },
   "cookiePolicy": {
