@@ -275,16 +275,16 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
 
           {/* Testimonial */}
           <FadeInUp delay={0.2}>
-            <div className="mt-16 -mx-6 px-6 py-16 bg-[#3D2C1E]">
+            <div className="mt-16 py-16">
               <blockquote className="max-w-3xl mx-auto text-center">
-                <div className="w-full h-px bg-white/20 mb-12" />
-                <p className="font-display text-2xl md:text-3xl lg:text-4xl font-normal leading-snug text-white mb-10">
+                <div className="w-full h-px bg-[var(--color-border)] mb-12" />
+                <p className="font-display text-2xl md:text-3xl lg:text-4xl font-normal leading-snug text-[var(--color-charcoal)] mb-10">
                   &ldquo;{t("testimonialQuote")}&rdquo;
                 </p>
-                <div className="w-full h-px bg-white/20 mb-10" />
+                <div className="w-full h-px bg-[var(--color-border)] mb-10" />
                 <footer>
-                  <p className="text-white font-medium text-sm mb-1">{t("testimonialAuthor")}</p>
-                  <p className="text-white/50 text-xs">{t("testimonialRole")}</p>
+                  <p className="text-[var(--color-charcoal)] font-medium text-sm mb-1">{t("testimonialAuthor")}</p>
+                  <p className="text-[var(--color-text-secondary)] text-xs">{t("testimonialRole")}</p>
                 </footer>
               </blockquote>
             </div>
@@ -292,7 +292,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
         </div>
       </section>
       {/* Related Stories */}
-      <section className="py-20 px-6 bg-[#3D2C1E]">
+      <section className="py-20 px-6 bg-[var(--color-charcoal)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
             <div className="text-center mb-14">
