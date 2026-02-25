@@ -49,11 +49,15 @@ interface CaseStudyDetailProps {
   slug: string;
 }
 
+// Case studies with optional extra solution paragraph
+const solutionP3Slugs = ["spacepal"];
+
 export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
   const t = useTranslations(`caseStudyDetail.${slug}`);
   const tCommon = useTranslations("caseStudyDetail.common");
   const Icon = caseStudyIcons[slug] || TrendingUp;
   const extras = caseStudyExtras[slug];
+  const hasSolutionP3 = solutionP3Slugs.includes(slug);
 
   return (
     <>
@@ -253,6 +257,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
                 <div className="space-y-4 text-[var(--color-text-secondary)] leading-relaxed">
                   <p>{t("solutionP1")}</p>
                   <p>{t("solutionP2")}</p>
+                  {hasSolutionP3 && <p>{t("solutionP3")}</p>}
                 </div>
               </div>
             </FadeInUp>

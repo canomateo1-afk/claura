@@ -610,7 +610,8 @@
       "resultsP2": "SpacePal appears in LLM responses for key niche queries — a distribution channel that most competitors still ignore. The multi-channel TikTok generates cold audiences that convert into direct traffic weeks later, closing the funnel organically.",
       "testimonialQuote": "We had the product. The problem was nobody could find us. Today 50% of traffic arrives on its own, without us doing anything. The system works while we sleep.",
       "testimonialAuthor": "Mateo Caño",
-      "testimonialRole": "Co-founder of SpacePal"
+      "testimonialRole": "Co-founder of SpacePal",
+      "solutionP3": "On top of this, we built a personalized segmentation system: based on each user's behavior on the platform — which spaces they viewed, how long they stayed, which categories they explored — automatic segments were created that triggered personalized communication campaigns via WhatsApp, email, and push notifications. The content of each message was generated automatically based on the user's profile. The result: higher engagement and retention without any manual intervention from the team."
     }
   },
   "cookiePolicy": {
