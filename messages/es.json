@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Claura - Agencia de IA | De la confusión a la claridad",
-    "description": "Identificamos dónde la IA ahorra tiempo y dinero en tu negocio, luego construimos e implementamos los sistemas que lo hacen posible.",
-    "ogTitle": "Claura - Agencia de IA",
-    "ogDescription": "De la confusión de la IA a la claridad. Construimos sistemas de IA que realmente funcionan para tu negocio."
+    "title": "Claura | Sistemas de Automatización de Contenido",
+    "description": "Construimos sistemas de automatización de contenido que ayudan a las empresas a crear, publicar y escalar contenido sin el trabajo manual.",
+    "ogTitle": "Claura | Sistemas de Automatización de Contenido",
+    "ogDescription": "Construimos sistemas de contenido que realmente funcionan para tu negocio. Desde la creación hasta la publicación y distribución—automatizado."
   },
   "navigation": {
     "about": "Nosotros",
@@ -13,30 +13,30 @@
   },
   "hero": {
     "trustBadge": "Hemos ayudado a más de 100 negocios",
-    "titleLine1": "Ayudamos a dueños de empresas",
-    "titleLine2": "a construir y automatizar",
-    "titleLine3Start": "con",
-    "titleHighlight": "IA",
+    "titleLine1": "Ayudamos a empresas a convertir",
+    "titleLine2": "la creación de contenido en",
+    "titleLine3Start": "sistemas",
+    "titleHighlight": "automatizados",
     "titleLine3End": ".",
-    "subtitle": "Identificamos qué automatizar, lo construimos, y te capacitamos para ahorrar tiempo y dinero.",
+    "subtitle": "Diseñamos, construimos y capacitamos a tu equipo en sistemas de contenido que te ahorran tiempo y escalan con tu negocio.",
     "ctaPrimary": "Agenda una llamada gratis",
     "ctaSecondary": "Cómo trabajamos",
-    "brandsLabel": "Marcas a las que hemos ayudado a implementar IA:"
+    "brandsLabel": "Marcas que operan con nuestros sistemas de contenido:"
   },
   "stats": {
     "sectionLabel": "Quiénes somos",
-    "title": "La agencia de IA creada para",
+    "title": "El socio en sistemas de contenido creado para",
     "titleHighlight": "ti",
-    "description": "Creamos esta agencia para ayudar a los negocios a evitar el agobio de la IA. Escuchamos primero, recomendamos solo lo que funciona, y construimos sistemas que realmente usarás—sin exageraciones ni complejidad.",
+    "description": "Creamos esta empresa para ayudar a los negocios a dejar de crear contenido de la manera difícil. Escuchamos primero, diseñamos sistemas que se adaptan a cómo trabajas, y capacitamos a tu equipo para operarlos—sin la complejidad.",
     "stat1Value": "1,500+",
-    "stat1Label": "Horas ahorradas mensualmente",
+    "stat1Label": "Horas de trabajo de contenido ahorradas al mes",
     "stat2Value": "35%",
-    "stat2Label": "Reducción promedio en trabajo manual",
+    "stat2Label": "Producción de contenido más rápida en promedio",
     "stat3Value": "45 días",
-    "stat3Label": "Tiempo promedio para ROI medible",
+    "stat3Label": "Tiempo promedio para un sistema de contenido funcionando",
     "hiringTitle": "¿Quieres ser parte del equipo?",
     "hiringBadge": "3 vacantes disponibles",
-    "hiringDescription": "Siempre estamos buscando personas talentosas que quieran ayudar a negocios a superar el agobio de la IA y construir sistemas que funcionen.",
+    "hiringDescription": "Siempre estamos buscando personas talentosas que quieran ayudar a negocios a sistematizar su contenido y construir sistemas que funcionen.",
     "applyNow": "Aplicar ahora"
   },
   "services": {
@@ -44,26 +44,26 @@
     "title": "Nosotros nos encargamos de",
     "titleHighlight": "todo",
     "titleEnd": "para que tú no tengas que hacerlo.",
-    "description": "Desde identificar oportunidades hasta construir sistemas y capacitar a tu equipo—gestionamos todo el proceso mientras tú te enfocas en dirigir tu negocio.",
+    "description": "Desde auditar tu flujo de contenido hasta construir tu sistema y capacitar a tu equipo—gestionamos todo el proceso mientras tú te enfocas en dirigir tu negocio.",
     "discover": {
       "title": "Descubrir",
       "number": "01",
-      "description": "Analizamos tus flujos de trabajo e identificamos dónde la automatización crea más valor para tu negocio."
+      "description": "Auditamos tu flujo de contenido e identificamos dónde un sistema puede reemplazar tareas manuales y repetitivas."
     },
     "build": {
       "title": "Construir",
       "number": "02",
-      "description": "Automatización personalizada diseñada para cómo trabajas, eliminando tareas repetitivas sin interrupciones."
+      "description": "Sistemas de contenido personalizados diseñados para cómo trabaja tu equipo—desde la creación hasta la publicación y distribución."
     },
     "deploy": {
       "title": "Implementar",
       "number": "03",
-      "description": "Nos encargamos de la instalación, pruebas y lanzamiento para que tus sistemas funcionen perfectamente desde el primer día."
+      "description": "Configuramos, probamos y lanzamos tu sistema para que funcione perfectamente desde el primer día."
     },
     "optimize": {
       "title": "Optimizar",
       "number": "04",
-      "description": "Capacitación y soporte continuo para asegurar que tu automatización siga dando resultados a lo largo del tiempo."
+      "description": "Capacitamos a tu equipo y proporcionamos soporte continuo para que tu sistema de contenido siga escalando contigo."
     },
     "bookFreeCall": "Agenda una llamada gratis"
   },
@@ -77,42 +77,42 @@
     "title": "Obteniendo resultados",
     "titleHighlight": "sin",
     "titleEnd": "la complejidad.",
-    "description": "Nuestro proceso de tres pasos te lleva desde identificar oportunidades hasta lanzar sistemas, con comunicación clara y soporte en cada etapa.",
+    "description": "Nuestro proceso de tres pasos te lleva del caos de contenido a un sistema funcionando, con comunicación clara en cada etapa.",
     "ctaPrimary": "Agenda una llamada gratis",
     "ctaSecondary": "Ver el video",
     "step1": {
       "number": "01",
       "title": "Descubrimiento y Evaluación",
       "timeline": "Semana 1",
-      "description": "Analizamos tus flujos de trabajo e identificamos dónde la automatización crea más valor para tu negocio."
+      "description": "Auditamos tu proceso de contenido e identificamos dónde un sistema puede eliminar cuellos de botella y trabajo manual."
     },
     "step2": {
       "number": "02",
       "title": "Construir e Implementar",
       "timeline": "Semanas 2-4",
-      "description": "Creamos y lanzamos sistemas personalizados adaptados a tus operaciones sin interrumpir el trabajo diario."
+      "description": "Diseñamos y lanzamos tu sistema de contenido personalizado—construido alrededor de cómo ya trabaja tu equipo."
     },
     "step3": {
       "number": "03",
-      "title": "Capacitar y Dar Soporte",
+      "title": "Capacitar y Asesorar",
       "timeline": "Continuo",
-      "description": "Capacitamos a tu equipo y proporcionamos soporte continuo para mantener tu automatización funcionando sin problemas."
+      "description": "Capacitamos a tu equipo para operar el sistema de forma independiente y proporcionamos asesoría continua para ayudarte a escalar."
     }
   },
   "comparison": {
     "sectionLabel": "Por qué elegirnos",
-    "title": "No somos una agencia de IA típica.",
-    "description": "Evitamos las palabras de moda y los proyectos experimentales para construir sistemas que realmente funcionen para tu negocio.",
+    "title": "No somos una agencia típica.",
+    "description": "Evitamos los proyectos de contenido puntuales y construimos sistemas que siguen produciendo resultados mucho después de que terminamos.",
     "otherAgencies": {
       "title": "Otras agencias",
-      "description": "Otras agencias te abruman con jerga, tardan meses en entregar, y te dejan con herramientas que no puedes usar.",
+      "description": "Otras agencias entregan piezas de contenido. Nosotros entregamos el sistema que las crea—en automático.",
       "tag1": "Venden lo que está de moda",
       "tag2": "Plazos poco claros",
       "tag3": "Costos ocultos"
     },
     "claura": {
       "title": "Claura",
-      "description": "En Claura, usamos lenguaje simple, entregamos resultados en semanas, y construimos sistemas que funcionan desde el primer día.",
+      "description": "En Claura, construimos sistemas de contenido que funcionan desde el primer día, capacitamos a tu equipo para que los domine, y nos quedamos como asesores.",
       "tag1": "Construimos lo que importa",
       "tag2": "Trabajamos contigo",
       "tag3": "Proceso transparente",
@@ -121,12 +121,12 @@
   },
   "caseStudy": {
     "sectionLabel": "Caso de estudio",
-    "title": "Ayudamos a automatizar lo que más importa.",
-    "paragraph1": "Hamilton, un negocio de e-commerce en crecimiento, estaba abrumado por el procesamiento repetitivo de pedidos y tareas de atención al cliente.",
-    "paragraph2": "Analizamos sus flujos de trabajo, identificamos oportunidades de alto impacto, y construimos automatización personalizada que se integró perfectamente con sus herramientas existentes.",
+    "title": "Sistemas de contenido que entregan resultados reales.",
+    "paragraph1": "Hamilton, una marca de e-commerce en crecimiento, pasaba más de 30 horas a la semana creando descripciones de productos, publicaciones en redes sociales y campañas de email manualmente.",
+    "paragraph2": "Construimos un sistema de automatización de contenido que genera, programa y publica en todos sus canales—integrado con sus herramientas existentes.",
     "paragraph3": "En 30 días, vieron resultados medibles.",
     "stat1Value": "50+",
-    "stat1Title": "Horas ahorradas",
+    "stat1Title": "Horas de contenido ahorradas",
     "stat1Subtitle": "En el primer mes",
     "stat2Value": "40%",
     "stat2Title": "Reducción",
@@ -135,14 +135,14 @@
   "team": {
     "sectionLabel": "Conoce al equipo",
     "title": "Estás en manos experimentadas.",
-    "description": "Sin capas de gerencia. Trabajas directamente con los especialistas que entienden tu negocio y construyen tu automatización de principio a fin.",
+    "description": "Sin capas de gerencia. Trabajas directamente con los especialistas que entienden tu negocio y construyen tus sistemas de contenido de principio a fin.",
     "member1": {
       "name": "Marcus Chen",
-      "role": "Consultor Principal de IA"
+      "role": "Estratega de Contenido Principal"
     },
     "member2": {
       "name": "Amira Hassan",
-      "role": "Especialista en Automatización"
+      "role": "Arquitecta de Sistemas de Contenido"
     },
     "member3": {
       "name": "David Park",
@@ -154,7 +154,7 @@
     },
     "hiringTitle": "¿Quieres ser parte del equipo?",
     "hiringBadge": "3 vacantes disponibles",
-    "hiringDescription": "Siempre estamos buscando personas talentosas que quieran ayudar a negocios a superar el agobio de la IA y construir sistemas que funcionen.",
+    "hiringDescription": "Siempre estamos buscando personas talentosas que quieran ayudar a negocios a sistematizar su contenido y construir sistemas que funcionen.",
     "applyNow": "Aplicar ahora"
   },
   "faq": {
@@ -165,15 +165,15 @@
     "descriptionEnd": "y te explicamos todo.",
     "question1": {
       "question": "¿Necesito conocimientos técnicos para trabajar con ustedes?",
-      "answer": "No. Nosotros manejamos todo el trabajo técnico de principio a fin. Solo necesitas compartir cómo opera tu negocio, y nosotros nos encargamos del resto."
+      "answer": "No. Nosotros manejamos todo el trabajo técnico de principio a fin. Solo necesitas compartir cómo funciona tu proceso de contenido, y nosotros nos encargamos del resto."
     },
     "question2": {
       "question": "¿Cuánto tiempo toma ver resultados?",
-      "answer": "La mayoría de los clientes ven resultados medibles en 45 días. Nos enfocamos en victorias rápidas primero, luego construimos sobre esa base con el tiempo."
+      "answer": "La mayoría de los clientes tienen un sistema de contenido funcionando en 45 días. Nos enfocamos en victorias rápidas primero, luego construimos sobre esa base con el tiempo."
     },
     "question3": {
-      "question": "¿Qué pasa si la automatización no funciona para mi negocio?",
-      "answer": "Comenzamos con una evaluación exhaustiva para asegurar que la automatización tenga sentido para tus flujos de trabajo específicos. Si algo no funciona, lo refinamos hasta que funcione."
+      "question": "¿Qué pasa si el sistema no funciona para mi negocio?",
+      "answer": "Comenzamos con una auditoría exhaustiva de tu flujo de contenido para asegurar que un sistema tenga sentido para tus necesidades específicas. Si algo no funciona, lo refinamos hasta que funcione."
     },
     "question4": {
       "question": "¿Cuánto cuesta?",
@@ -181,43 +181,43 @@
     },
     "question5": {
       "question": "¿Qué pasa después de la implementación?",
-      "answer": "Proporcionamos capacitación para tu equipo y soporte continuo para asegurar que todo funcione sin problemas. A medida que tu negocio evoluciona, te ayudamos a optimizar y refinar tus sistemas."
+      "answer": "Capacitamos a tu equipo para operar el sistema de forma independiente. A medida que tus necesidades de contenido evolucionen, nos quedamos como asesores para ayudarte a optimizar y escalar."
     }
   },
   "cta": {
     "trustBadge": "Hemos ayudado a más de 100 negocios",
-    "title": "Convierte la confusión en claridad, hoy.",
-    "description": "Agenda una evaluación gratuita de 30 minutos y te mostraremos exactamente dónde la IA puede ahorrarte tiempo y dinero.",
-    "formTitle": "¿Listo para transformar tu negocio?",
-    "formSubtitle": "Agenda una llamada gratuita de 30 minutos para descubrir cómo la IA puede automatizar tus flujos de trabajo y ahorrarte horas cada semana.",
+    "title": "Convierte el caos de contenido en un sistema, hoy.",
+    "description": "Agenda una evaluación gratuita de 30 minutos y te mostraremos exactamente dónde un sistema de contenido puede ahorrarte tiempo y escalar tu producción.",
+    "formTitle": "¿Listo para sistematizar tu contenido?",
+    "formSubtitle": "Agenda una llamada gratuita de 30 minutos para descubrir cómo un sistema de contenido puede reemplazar horas de trabajo manual cada semana.",
     "scheduleButton": "Agenda una llamada",
     "form": {
       "namePlaceholder": "Nombre*",
       "emailPlaceholder": "Correo electrónico*",
-      "servicesLabel": "¿En qué servicios estás interesado?",
-      "challengeLabel": "¿Cuál es tu mayor desafío de automatización?",
+      "servicesLabel": "¿En qué servicios de contenido estás interesado?",
+      "challengeLabel": "¿Cuál es tu mayor desafío de contenido?",
       "messagePlaceholder": "Cuéntanos sobre tu negocio...",
       "submitButton": "Agendar llamada",
       "disclaimer": "Al enviar, aceptas nuestros",
       "termsLink": "términos de servicio."
     },
     "services": {
-      "aiAssessment": "Evaluación de IA",
-      "workflowAutomation": "Automatización de Flujos",
-      "customAITools": "Herramientas de IA Personalizadas",
-      "trainingSupport": "Capacitación y Soporte",
-      "implementingAI": "Implementación de IA",
+      "aiAssessment": "Diseño de Sistema de Contenido",
+      "workflowAutomation": "Automatización de Contenido",
+      "customAITools": "Publicación y Distribución",
+      "trainingSupport": "Capacitación y Asesoría",
+      "implementingAI": "Sistema de Contenido Completo",
       "allAbove": "Todos los anteriores"
     },
     "challenges": {
-      "manualTasks": "Demasiadas tareas manuales",
-      "unclearStart": "No sé por dónde empezar",
-      "previousFailed": "Soluciones anteriores no funcionaron",
-      "scaleOperations": "Necesito escalar operaciones"
+      "manualTasks": "Demasiado trabajo manual de contenido",
+      "unclearStart": "Calendario de publicación inconsistente",
+      "previousFailed": "No puedo escalar la producción de contenido",
+      "scaleOperations": "Sin un proceso de contenido claro"
     }
   },
   "footer": {
-    "tagline": "Ayudándote a automatizar lo que importa.",
+    "tagline": "Ayudándote a convertir contenido en sistemas.",
     "navigate": "Navegar",
     "resources": "Recursos",
     "connect": "Conectar",
@@ -247,22 +247,22 @@
     "hero": {
       "sectionLabel": "Sobre nosotros",
       "titleLine1": "En una misión para",
-      "titleLine2Highlight": "simplificar",
-      "titleLine2End": "la automatización.",
-      "subtitle": "La mayoría de las agencias de IA complican las cosas. Construimos Claura para hacer lo opuesto—ayudando a los negocios a cortar el ruido y construir automatización que realmente entrega resultados.",
+      "titleLine2Highlight": "sistematizar",
+      "titleLine2End": "el contenido.",
+      "subtitle": "La mayoría de las agencias entregan contenido. Construimos Claura para hacer algo diferente—diseñar sistemas que permiten a los negocios producir, publicar y escalar contenido sin el cuello de botella.",
       "ctaPrimary": "Agenda una llamada gratis",
       "ctaSecondary": "Cómo trabajamos"
     },
     "stats": {
       "sectionLabel": "Quiénes somos",
-      "title": "La agencia de IA creada para ti.",
-      "description": "Creamos esta agencia para ayudar a los negocios a evitar el agobio de la IA. Escuchamos primero, recomendamos solo lo que funciona, y construimos sistemas que realmente usarás—sin exageraciones ni complejidad.",
+      "title": "El socio en sistemas de contenido creado para ti.",
+      "description": "Creamos esta empresa para ayudar a los negocios a dejar de crear contenido de la manera difícil. Escuchamos primero, diseñamos sistemas que se adaptan a cómo trabajas, y capacitamos a tu equipo para operarlos—sin la complejidad.",
       "stat1Value": "1,500+",
-      "stat1Label": "Horas ahorradas mensualmente para clientes",
+      "stat1Label": "Horas de trabajo de contenido ahorradas al mes",
       "stat2Value": "35%",
-      "stat2Label": "Reducción promedio en trabajo manual",
+      "stat2Label": "Producción de contenido más rápida en promedio",
       "stat3Value": "45 días",
-      "stat3Label": "Tiempo promedio para ROI medible"
+      "stat3Label": "Tiempo promedio para un sistema de contenido funcionando"
     },
     "testimonial": {
       "quote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
@@ -270,26 +270,26 @@
       "authorRole": "Fundadora de BrightPath Consulting"
     },
     "metadata": {
-      "title": "Nosotros - Claura Agencia de IA",
-      "description": "Conoce a Claura, la agencia de IA creada para ayudar a los negocios a evitar el agobio de la IA."
+      "title": "Nosotros - Claura",
+      "description": "Conoce a Claura, el socio en sistemas de contenido creado para ayudar a las empresas a sistematizar su contenido."
     }
   },
   "bookACall": {
     "metadata": {
-      "title": "Agendar Llamada - Claura Agencia de IA",
-      "description": "Agenda una evaluación gratuita de 30 minutos y descubre cómo la IA puede ahorrarte tiempo y dinero."
+      "title": "Agendar Llamada - Claura",
+      "description": "Agenda una evaluación gratuita de 30 minutos y descubre cómo un sistema de contenido puede ahorrarte tiempo y escalar tu producción."
     }
   },
   "caseStudies": {
     "sectionLabel": "Casos de éxito",
     "title": "Negocios reales, resultados reales.",
-    "subtitle": "Mira cómo hemos ayudado a empresas a automatizar sus flujos de trabajo más consumidores de tiempo y entregar impacto medible en semanas, no meses.",
+    "subtitle": "Mira cómo hemos ayudado a empresas a convertir su trabajo de contenido más consumidor de tiempo en sistemas automatizados—entregando impacto medible en semanas, no meses.",
     "ctaButton": "Agenda una llamada gratis",
     "ctaSecondary": "Cómo trabajamos",
     "howWeWorkLabel": "Cómo trabajamos",
     "metadata": {
-      "title": "Casos de Éxito - Claura Agencia de IA",
-      "description": "Mira cómo hemos ayudado a negocios a automatizar lo que más importa."
+      "title": "Casos de Éxito - Claura",
+      "description": "Mira cómo hemos ayudado a negocios a convertir la creación de contenido en sistemas automatizados."
     },
     "hamilton": {
       "title": "Hamilton",
@@ -358,7 +358,7 @@
     },
     "section2": {
       "title": "2. Servicios",
-      "content": "Claura proporciona consultoría de IA, implementación de automatización, y servicios relacionados. El alcance específico de los servicios se detallará en acuerdos individuales con los clientes."
+      "content": "Claura proporciona sistemas de automatización de contenido, consultoría de estrategia de contenido, y servicios relacionados. El alcance específico de los servicios se detallará en acuerdos individuales con los clientes."
     },
     "section3": {
       "title": "3. Responsabilidades del Cliente",
@@ -414,6 +414,127 @@
     "feedback": {
       "title": "Comentarios",
       "content": "Agradecemos tus comentarios sobre la accesibilidad de nuestro sitio web. Si encuentras alguna barrera de accesibilidad, contáctanos en"
+    }
+  },
+  "caseStudyDetail": {
+    "common": {
+      "backToStudies": "Volver a casos de éxito",
+      "challengeLabel": "El desafío",
+      "solutionLabel": "La solución",
+      "resultsLabel": "Los resultados",
+      "ctaButton": "Agenda una llamada gratis"
+    },
+    "hamilton": {
+      "metaTitle": "Caso Hamilton - Claura Agencia de IA",
+      "metaDescription": "Cómo ayudamos a Hamilton a automatizar sus operaciones de e-commerce y ahorrar más de 50 horas al mes.",
+      "category": "Ecommerce",
+      "title": "Hamilton",
+      "tagline": "Del caos manual al crecimiento automatizado.",
+      "heroDescription": "Hamilton, una marca de e-commerce de rápido crecimiento especializada en productos para el hogar, estaba ahogándose en procesamiento manual de pedidos y tareas de atención al cliente. Les ayudamos a recuperar su tiempo.",
+      "stat1Value": "50+",
+      "stat1Label": "Horas ahorradas al mes",
+      "stat2Value": "40%",
+      "stat2Label": "Menos trabajo manual",
+      "stat3Value": "3x",
+      "stat3Label": "Procesamiento más rápido",
+      "stat4Value": "28 días",
+      "stat4Label": "Tiempo para ROI",
+      "challengeTitle": "Escalar sin los dolores de crecimiento.",
+      "challengeP1": "El equipo de Hamilton pasaba más de 60 horas a la semana en tareas repetitivas—procesando pedidos, respondiendo consultas comunes de clientes, y actualizando manualmente el inventario en múltiples plataformas.",
+      "challengeP2": "A medida que el volumen de pedidos crecía un 200% año tras año, su pequeño equipo no podía mantener el ritmo. Los errores aumentaban, los tiempos de respuesta se alargaban, y los fundadores estaban atrapados en operaciones en vez de estrategia.",
+      "solutionTitle": "Automatización inteligente, integración perfecta.",
+      "solutionP1": "Construimos un sistema de automatización personalizado que conectó su tienda Shopify, bandeja de soporte al cliente, y gestión de inventario en un solo flujo de trabajo inteligente.",
+      "solutionP2": "Las respuestas impulsadas por IA manejan el 70% de las consultas de clientes automáticamente, mientras que el enrutamiento inteligente asegura que los problemas complejos lleguen al miembro del equipo correcto. Los pedidos ahora fluyen sin intervención manual.",
+      "resultsTitle": "Resultados que hablan por sí solos.",
+      "resultsP1": "En el primer mes, el equipo de Hamilton recuperó más de 50 horas de trabajo manual. El tiempo de procesamiento de pedidos bajó de 15 minutos por pedido a menos de 5, y los tiempos de respuesta al cliente mejoraron un 80%.",
+      "resultsP2": "Los fundadores ahora pueden enfocarse en estrategia de crecimiento en vez de apagar incendios operativos diarios. Los ingresos han aumentado un 35% desde la implementación, impulsados por un cumplimiento más rápido y clientes más satisfechos.",
+      "testimonialQuote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
+      "testimonialAuthor": "James Wilson",
+      "testimonialRole": "Cofundador de Hamilton"
+    },
+    "terra": {
+      "metaTitle": "Caso Terra - Claura Agencia de IA",
+      "metaDescription": "Cómo ayudamos a Terra a optimizar sus operaciones de kits de comida y reducir el desperdicio en un 30%.",
+      "category": "Alimentos y Bebidas",
+      "title": "Terra",
+      "tagline": "Comida sostenible, operaciones más inteligentes.",
+      "heroDescription": "Terra entrega kits de comidas orgánicas a clientes conscientes de su salud en todo el país. Les ayudamos a optimizar su cadena de suministro y reducir el desperdicio de alimentos con automatización inteligente.",
+      "stat1Value": "30%",
+      "stat1Label": "Menos desperdicio",
+      "stat2Value": "45%",
+      "stat2Label": "Cumplimiento más rápido",
+      "stat3Value": "2x",
+      "stat3Label": "Retención de suscriptores",
+      "stat4Value": "35 días",
+      "stat4Label": "Tiempo para ROI",
+      "challengeTitle": "Demasiado desperdicio, muy poco tiempo.",
+      "challengeP1": "Terra estaba perdiendo casi el 20% de sus ingredientes frescos por desperdicio debido a pronósticos de demanda imprecisos. Los procesos manuales para gestión de suscripciones y programación de entregas creaban cuellos de botella.",
+      "challengeP2": "Su equipo de servicio al cliente estaba abrumado con consultas de entrega, cambios de suscripción, y solicitudes de personalización dietética—todo manejado a través de correo electrónico y hojas de cálculo.",
+      "solutionTitle": "Sistemas predictivos que reducen el desperdicio.",
+      "solutionP1": "Implementamos un sistema de pronóstico de demanda impulsado por IA que analiza patrones de suscripción, tendencias estacionales, y datos históricos para predecir necesidades de ingredientes con un 95% de precisión.",
+      "solutionP2": "Un portal de autoservicio ahora permite a los clientes gestionar suscripciones, personalizar comidas, y rastrear entregas—reduciendo los tickets de soporte en un 60% y dando al equipo tiempo para enfocarse en la calidad del producto.",
+      "resultsTitle": "Comida más fresca, operaciones más eficientes.",
+      "resultsP1": "El desperdicio de alimentos bajó del 20% a menos del 14% en el primer trimestre. La velocidad de cumplimiento mejoró un 45%, lo que significa que los clientes reciben ingredientes más frescos y menos problemas de entrega.",
+      "resultsP2": "La retención de suscriptores se duplicó a medida que los clientes ganaron más control sobre su experiencia. Terra ahora atiende 3 veces más clientes con el mismo tamaño de equipo.",
+      "testimonialQuote": "Solo el pronóstico de demanda se pagó por sí mismo en el primer mes. Desperdiciamos menos comida y nuestros clientes están más contentos que nunca.",
+      "testimonialAuthor": "María Santos",
+      "testimonialRole": "CEO de Terra"
+    },
+    "savannah": {
+      "metaTitle": "Caso Savannah - Claura Agencia de IA",
+      "metaDescription": "Cómo ayudamos a Savannah a automatizar sus reportes de clientes y escalar su agencia de marketing.",
+      "category": "Marketing",
+      "title": "Savannah",
+      "tagline": "Más clientes, menos trabajo repetitivo.",
+      "heroDescription": "Savannah es una agencia de marketing boutique que ayuda a pequeños negocios a crecer en línea. Automatizamos sus tareas más consumidoras de tiempo para que pudieran enfocarse en estrategia creativa.",
+      "stat1Value": "20hrs",
+      "stat1Label": "Ahorradas por semana",
+      "stat2Value": "60%",
+      "stat2Label": "Reportes más rápidos",
+      "stat3Value": "8",
+      "stat3Label": "Nuevos clientes de capacidad",
+      "stat4Value": "21 días",
+      "stat4Label": "Tiempo para ROI",
+      "challengeTitle": "Enterrados en hojas de cálculo y reportes.",
+      "challengeP1": "El equipo de Savannah pasaba casi la mitad de su semana en reportes de clientes, recolección de datos, y tareas de configuración de campañas. Cada reporte mensual tomaba 4-6 horas para compilar manualmente desde múltiples plataformas.",
+      "challengeP2": "Con solo 12 clientes activos, ya estaban al máximo de capacidad. Las oportunidades de nuevos negocios se rechazaban porque simplemente no había suficiente ancho de banda para incorporación y entrega.",
+      "solutionTitle": "Insights automatizados, reportes instantáneos.",
+      "solutionP1": "Construimos un pipeline de reportes automatizado que extrae datos de Google Analytics, Meta Ads, y plataformas de email en reportes de clientes bellamente formateados—generados en minutos, no horas.",
+      "solutionP2": "Los flujos de configuración de campañas ahora manejan las tareas de configuración repetitivas, mientras que las sugerencias de contenido asistidas por IA ayudan al equipo creativo a moverse más rápido sin sacrificar calidad.",
+      "resultsTitle": "Escalando sin contratar.",
+      "resultsP1": "Los reportes mensuales que antes tomaban 4-6 horas por cliente ahora toman menos de 30 minutos de revisión. El equipo recuperó 20 horas por semana en todas las cuentas de clientes.",
+      "resultsP2": "Savannah ha incorporado 8 nuevos clientes desde entonces sin agregar personal. Los ingresos crecieron un 40% en el primer trimestre después de la implementación, y las puntuaciones de satisfacción del cliente alcanzaron un máximo histórico.",
+      "testimonialQuote": "Pasamos de rechazar clientes a crecer activamente. La automatización liberó a nuestro equipo para hacer lo que mejor saben—estrategia creativa.",
+      "testimonialAuthor": "Lisa Park",
+      "testimonialRole": "Fundadora de Savannah"
+    },
+    "snowflake": {
+      "metaTitle": "Caso Snowflake - Claura Agencia de IA",
+      "metaDescription": "Cómo ayudamos a Snowflake a automatizar su incorporación de clientes y reducir la pérdida en un 25%.",
+      "category": "Software",
+      "title": "Snowflake",
+      "tagline": "Incorporación a escala, retención por diseño.",
+      "heroDescription": "Snowflake proporciona herramientas de gestión de proyectos para equipos remotos. Les ayudamos a transformar su proceso de incorporación de clientes y reducir drásticamente la pérdida.",
+      "stat1Value": "25%",
+      "stat1Label": "Menos cancelaciones",
+      "stat2Value": "70%",
+      "stat2Label": "Incorporación más rápida",
+      "stat3Value": "4.8/5",
+      "stat3Label": "Puntuación de satisfacción",
+      "stat4Value": "30 días",
+      "stat4Label": "Tiempo para ROI",
+      "challengeTitle": "Perdiendo clientes antes de empezar.",
+      "challengeP1": "El proceso de incorporación de Snowflake tomaba un promedio de 14 días, con clientes que requerían 3-4 llamadas de soporte solo para comenzar. Casi el 30% de los nuevos registros cancelaban dentro de los primeros 60 días.",
+      "challengeP2": "El equipo de éxito del cliente estaba al límite, guiando manualmente a cada nueva cuenta a través de la configuración mientras simultáneamente intentaban retener a los clientes en riesgo. Los seguimientos importantes se perdían.",
+      "solutionTitle": "Incorporación guiada, retención proactiva.",
+      "solutionP1": "Diseñamos un flujo de incorporación inteligente que se adapta al tamaño del equipo, industria y caso de uso de cada cliente. Guías interactivas, seguimientos automatizados y ayuda contextual redujeron la necesidad de soporte manual.",
+      "solutionP2": "Un modelo predictivo de cancelación ahora identifica cuentas en riesgo antes de que se desconecten, dando al equipo de éxito tiempo para intervenir con contacto personalizado y recursos adaptados.",
+      "resultsTitle": "Mayor retención, clientes más felices.",
+      "resultsP1": "El tiempo de incorporación bajó de 14 días a solo 4. Los nuevos clientes alcanzan su primer hito de valor un 70% más rápido, y el número de llamadas de soporte durante la incorporación disminuyó un 80%.",
+      "resultsP2": "Las cancelaciones bajaron un 25% en el primer trimestre. Las puntuaciones de satisfacción del cliente subieron a 4.8 de 5, y el equipo de éxito ahora gestiona proactivamente 3 veces más cuentas.",
+      "testimonialQuote": "Nuestra incorporación solía ser nuestra mayor debilidad. Ahora es nuestra ventaja competitiva. Los clientes obtienen valor más rápido y se quedan más tiempo.",
+      "testimonialAuthor": "David Kim",
+      "testimonialRole": "VP de Éxito del Cliente en Snowflake"
     }
   },
   "cookiePolicy": {

@@ -6,7 +6,7 @@ import Image from "next/image";
 import { SectionLabel, Button } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
 import { ArrowUpRight } from "lucide-react";
-import { useEffect, useRef } from "react";
+import { Link } from "@/i18n/navigation";
 
 // Case study card images
 const caseStudyImages = {
@@ -27,14 +27,15 @@ interface CaseStudyCardProps {
 
 function CaseStudyCard({ id, title, category, description, image, index }: CaseStudyCardProps) {
   return (
+    <Link href={`/case-studies/${id}`}>
     <motion.div
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
-      transition={{ 
-        duration: 0.6, 
+      transition={{
+        duration: 0.6,
         delay: index * 0.1,
-        ease: [0.4, 0, 0.2, 1] 
+        ease: [0.4, 0, 0.2, 1]
       }}
       className="group cursor-pointer"
     >
@@ -86,44 +87,12 @@ function CaseStudyCard({ id, title, category, description, image, index }: CaseS
         </div>
       </div>
     </motion.div>
+    </Link>
   );
 }
 
 export function CaseStudiesContent() {
   const t = useTranslations("caseStudies");
-  // #region agent log
-  const flowerContainerRef = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const screenWidth = typeof window !== 'undefined' ? window.innerWidth : 0;
-    const isLgScreen = screenWidth >= 1024;
-    fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:useEffect',message:'Component mounted - checking screen size',data:{screenWidth,isLgScreen,hypothesisId:'H2'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{});
-    if (flowerContainerRef.current) {
-      const rect = flowerContainerRef.current.getBoundingClientRect();
-      const computedStyle = window.getComputedStyle(flowerContainerRef.current);
-      fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:useEffect',message:'Flower container dimensions',data:{width:rect.width,height:rect.height,display:computedStyle.display,visibility:computedStyle.visibility,hypothesisId:'H3'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{});
-      // Check for img element inside container
-      const imgEl = flowerContainerRef.current.querySelector('img');
-      if (imgEl) {
-        fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:useEffect',message:'IMG element found',data:{src:imgEl.src,naturalWidth:imgEl.naturalWidth,naturalHeight:imgEl.naturalHeight,complete:imgEl.complete,hypothesisId:'H4'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{});
-      } else {
-        fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:useEffect',message:'IMG element NOT found in container',data:{hypothesisId:'H4'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{});
-      }
-    } else {
-      fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:useEffect',message:'Flower container ref is NULL',data:{hypothesisId:'H3'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{});
-    }
-    // Delayed check after 1 second
-    setTimeout(() => {
-      if (flowerContainerRef.current) {
-        const imgEl = flowerContainerRef.current.querySelector('img');
-        if (imgEl) {
-          const imgRect = imgEl.getBoundingClientRect();
-          fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:setTimeout',message:'IMG delayed check',data:{src:imgEl.src,naturalWidth:imgEl.naturalWidth,naturalHeight:imgEl.naturalHeight,complete:imgEl.complete,displayWidth:imgRect.width,displayHeight:imgRect.height,hypothesisId:'H4-delayed'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{});
-        }
-      }
-    }, 1000);
-  }, []);
-  // #endregion
-
   const caseStudies = [
     {
       id: "hamilton",
@@ -213,15 +182,11 @@ export function CaseStudiesContent() {
 
             {/* Right Column - Flower Image (same structure as AboutHero) */}
             <motion.div
-              ref={flowerContainerRef}
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               className="order-1 lg:order-2 relative hidden lg:block"
             >
-              {/* #region agent log */}
-              {(() => { fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:render',message:'Flower container rendering',data:{hypothesisId:'H5'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{}); return null; })()}
-              {/* #endregion */}
               <div className="relative w-full h-[500px]">
                 <Image
                   src="/images/flower-case-studies.png"
@@ -231,16 +196,6 @@ export function CaseStudiesContent() {
                   className="object-contain object-center"
                   priority
                   unoptimized
-                  onLoad={() => {
-                    // #region agent log
-                    fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:Image.onLoad',message:'Image loaded successfully',data:{src:'/images/flower-case-studies.png',hypothesisId:'H6-fix-unoptimized'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{});
-                    // #endregion
-                  }}
-                  onError={(e) => {
-                    // #region agent log
-                    fetch('http://127.0.0.1:7244/ingest/7aa34515-378c-451f-85b1-00f38d477e98',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'CaseStudiesContent.tsx:Image.onError',message:'Image failed to load',data:{src:'/images/flower-case-studies.png',error:String(e),hypothesisId:'H6-fix-unoptimized'},timestamp:Date.now(),sessionId:'debug-session'})}).catch(()=>{});
-                    // #endregion
-                  }}
                 />
               </div>
             </motion.div>
