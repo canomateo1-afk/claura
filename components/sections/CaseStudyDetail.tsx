@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { SectionLabel } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
-import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, ArrowUpRight, ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
+import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
 const techLogoMap: Record<string, string> = {
@@ -453,35 +453,43 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
                 .filter((cs) => cs.id !== slug)
                 .slice(0, 4)
                 .map((cs) => (
-                  <Link key={cs.id} href={`/case-studies/${cs.id}`} className="shrink-0 w-[72vw] max-w-[280px] snap-start md:w-auto md:max-w-none">
+                  <Link key={cs.id} href={`/case-studies/${cs.id}`} className="shrink-0 w-[68vw] max-w-[260px] snap-start md:w-auto md:max-w-none">
                     <motion.div
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, amount: 0.2 }}
                       transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
-                      className="group bg-[var(--color-cream-dark)] rounded-[28px] p-5 pb-6 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer h-full flex flex-col justify-between min-h-[200px]"
+                      className="group bg-[var(--color-cream-dark)] rounded-[24px] p-3 pb-4 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer"
                     >
-                      {/* Top: title + description */}
-                      <div>
-                        <h3 className="font-display text-xl md:text-2xl font-normal italic text-[var(--color-charcoal)] mb-2">
-                          {cs.title}
-                        </h3>
-                        <p className="text-[var(--color-text-secondary)] text-sm leading-relaxed pr-10">
+                      {/* Image */}
+                      <div className="aspect-[4/3] relative overflow-hidden rounded-[16px]">
+                        <Image
+                          src={caseStudyImages[cs.id]}
+                          alt={cs.title}
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                          style={{ filter: "brightness(0.85) saturate(1.75)" }}
+                        />
+                        {/* Category badge */}
+                        <div className="absolute top-3 right-3 z-10">
+                          <span className="px-3 py-1 text-xs font-medium rounded-lg bg-white/95 text-[var(--color-charcoal)] backdrop-blur-sm shadow-sm">
+                            {cs.category}
+                          </span>
+                        </div>
+                        {/* Title overlay */}
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <div className="flex items-center gap-1.5 text-white drop-shadow-md px-3 text-center">
+                            <span className="font-display text-lg md:text-xl font-medium tracking-tight leading-tight">
+                              {cs.title}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      {/* Description */}
+                      <div className="pt-3 px-1">
+                        <p className="text-[var(--color-text-secondary)] text-xs leading-relaxed line-clamp-2">
                           {tCaseStudies(`${cs.id}.description`)}
                         </p>
-                      </div>
-
-                      {/* Bottom: badge left + arrow right */}
-                      <div className="flex items-center justify-between mt-5">
-                        <span className="px-3 py-1.5 text-xs font-medium rounded-full bg-white text-[var(--color-charcoal)] shadow-sm">
-                          {cs.category}
-                        </span>
-                        <motion.div
-                          className="w-10 h-10 rounded-full border-2 border-[var(--color-charcoal)] flex items-center justify-center group-hover:bg-[var(--color-charcoal)] transition-all duration-300"
-                          whileHover={{ scale: 1.1 }}
-                        >
-                          <ArrowUpRight className="w-5 h-5 text-[var(--color-charcoal)] group-hover:text-white transition-colors duration-300" strokeWidth={2.5} />
-                        </motion.div>
                       </div>
                     </motion.div>
                   </Link>
