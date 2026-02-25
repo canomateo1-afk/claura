@@ -78,7 +78,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <SectionLabel variant="dark">{t("category")}</SectionLabel>
+                <SectionLabel variant="medium">{t("category")}</SectionLabel>
               </motion.div>
 
               <motion.h1
@@ -226,7 +226,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
             {/* The Challenge */}
             <FadeInUp>
               <div>
-                <SectionLabel variant="dark">{tCommon("challengeLabel")}</SectionLabel>
+                <SectionLabel variant="medium">{tCommon("challengeLabel")}</SectionLabel>
                 <h2 className="font-display text-3xl md:text-4xl font-normal leading-tight mb-6 mt-4">
                   {t("challengeTitle")}
                 </h2>
@@ -240,7 +240,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
             {/* The Solution */}
             <FadeInUp delay={0.1}>
               <div>
-                <SectionLabel variant="dark">{tCommon("solutionLabel")}</SectionLabel>
+                <SectionLabel variant="medium">{tCommon("solutionLabel")}</SectionLabel>
                 <h2 className="font-display text-3xl md:text-4xl font-normal leading-tight mb-6 mt-4">
                   {t("solutionTitle")}
                 </h2>
@@ -259,7 +259,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
             <div className="text-center mb-12">
-              <SectionLabel variant="dark">{tCommon("resultsLabel")}</SectionLabel>
+              <SectionLabel variant="medium">{tCommon("resultsLabel")}</SectionLabel>
               <h2 className="font-display text-3xl md:text-4xl font-normal leading-tight mt-4">
                 {t("resultsTitle")}
               </h2>
@@ -275,7 +275,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
 
           {/* Testimonial */}
           <FadeInUp delay={0.2}>
-            <div className="mt-16 -mx-6 px-6 py-16 bg-[#1c1c1a]">
+            <div className="mt-16 -mx-6 px-6 py-16 bg-[var(--color-dark-brown)]">
               <blockquote className="max-w-3xl mx-auto text-center">
                 <div className="w-full h-px bg-white/20 mb-12" />
                 <p className="font-display text-2xl md:text-3xl lg:text-4xl font-normal leading-snug text-white mb-10">
@@ -292,7 +292,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
         </div>
       </section>
       {/* Related Stories */}
-      <section className="py-20 px-6 bg-[#1c1c1a]">
+      <section className="py-20 px-6 bg-[var(--color-dark-brown)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
             <div className="text-center mb-14">

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 interface SectionLabelProps {
   children: React.ReactNode;
-  variant?: "light" | "dark";
+  variant?: "light" | "medium" | "dark";
   className?: string;
 }
 
@@ -16,6 +16,7 @@ export function SectionLabel({
 }: SectionLabelProps) {
   const variants = {
     light: "bg-[var(--color-cream-dark)] text-[var(--color-brown)]",
+    medium: "bg-[#D9CFC4] text-[var(--color-brown)]",
     dark: "bg-[var(--color-charcoal-light)] text-white",
   };
 
