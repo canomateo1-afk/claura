@@ -611,7 +611,8 @@
       "testimonialQuote": "We had the product. The problem was nobody could find us. Today 50% of traffic arrives on its own, without us doing anything. The system works while we sleep.",
       "testimonialAuthor": "Mateo Caño",
       "testimonialRole": "Co-founder of SpacePal",
-      "solutionP3": "On top of this, we built a personalized segmentation system: based on each user's behavior on the platform — which spaces they viewed, how long they stayed, which categories they explored — automatic segments were created that triggered personalized communication campaigns via WhatsApp, email, and push notifications. The content of each message was generated automatically based on the user's profile. The result: higher engagement and retention without any manual intervention from the team."
+      "solutionP3": "On top of this, we built a personalized segmentation system: based on each user's behavior on the platform — which spaces they viewed, how long they stayed, which categories they explored — automatic segments were created that triggered personalized communication campaigns via WhatsApp, email, and push notifications. The content of each message was generated automatically based on the user's profile. The result: higher engagement and retention without any manual intervention from the team.",
+      "solutionP4": "On the paid advertising front, a 24/7 monitoring system was implemented across all active campaigns on Meta and Google Ads. On Google, the agent continuously optimizes at the keyword and phrase level, and automatically generates thousands of ultra-personalized landing pages based on each user's exact search — every search intent gets its own high-converting landing page. On Meta, the system analyzes the performance of every creative, detects the best-converting patterns, and automatically generates new variations to validate and scale the winners."
     }
   },
   "cookiePolicy": {
