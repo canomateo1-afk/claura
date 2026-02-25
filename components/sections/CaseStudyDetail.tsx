@@ -5,8 +5,16 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { SectionLabel, Button } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
-import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink } from "lucide-react";
+import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, Link2 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+
+const allCaseStudies = [
+  { id: "hamilton", title: "Hamilton", category: "Ecommerce" },
+  { id: "terra", title: "Terra", category: "Alimentos y Bebidas" },
+  { id: "savannah", title: "Savannah", category: "Marketing" },
+  { id: "snowflake", title: "Snowflake", category: "Software" },
+  { id: "loop", title: "Loop", category: "SaaS / Publicidad" },
+];
 
 // Case studies that have optional extra fields
 const caseStudyExtras: Record<string, { siteUrl?: string; tools?: string[] }> = {
@@ -70,7 +78,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <SectionLabel>{t("category")}</SectionLabel>
+                <SectionLabel variant="dark">{t("category")}</SectionLabel>
               </motion.div>
 
               <motion.h1
@@ -218,7 +226,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
             {/* The Challenge */}
             <FadeInUp>
               <div>
-                <SectionLabel>{tCommon("challengeLabel")}</SectionLabel>
+                <SectionLabel variant="dark">{tCommon("challengeLabel")}</SectionLabel>
                 <h2 className="font-display text-3xl md:text-4xl font-normal leading-tight mb-6 mt-4">
                   {t("challengeTitle")}
                 </h2>
@@ -232,7 +240,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
             {/* The Solution */}
             <FadeInUp delay={0.1}>
               <div>
-                <SectionLabel>{tCommon("solutionLabel")}</SectionLabel>
+                <SectionLabel variant="dark">{tCommon("solutionLabel")}</SectionLabel>
                 <h2 className="font-display text-3xl md:text-4xl font-normal leading-tight mb-6 mt-4">
                   {t("solutionTitle")}
                 </h2>
@@ -251,7 +259,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
             <div className="text-center mb-12">
-              <SectionLabel>{tCommon("resultsLabel")}</SectionLabel>
+              <SectionLabel variant="dark">{tCommon("resultsLabel")}</SectionLabel>
               <h2 className="font-display text-3xl md:text-4xl font-normal leading-tight mt-4">
                 {t("resultsTitle")}
               </h2>
@@ -267,21 +275,52 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
 
           {/* Testimonial */}
           <FadeInUp delay={0.2}>
-            <div className="mt-12 max-w-3xl mx-auto">
-              <blockquote className="rounded-[28px] bg-[var(--color-cream)] p-8 md:p-10 shadow-[var(--shadow-card)]">
-                <p className="font-display text-xl md:text-2xl font-light italic leading-relaxed text-[var(--color-charcoal)] mb-6">
+            <div className="mt-16 -mx-6 px-6 py-16 bg-[#1c1c1a]">
+              <blockquote className="max-w-3xl mx-auto text-center">
+                <div className="w-full h-px bg-white/20 mb-12" />
+                <p className="font-display text-2xl md:text-3xl lg:text-4xl font-normal leading-snug text-white mb-10">
                   &ldquo;{t("testimonialQuote")}&rdquo;
                 </p>
-                <footer className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-[var(--color-brown)] flex items-center justify-center">
-                    <Icon className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-sm">{t("testimonialAuthor")}</p>
-                    <p className="text-xs text-[var(--color-text-muted)]">{t("testimonialRole")}</p>
-                  </div>
+                <div className="w-full h-px bg-white/20 mb-10" />
+                <footer>
+                  <p className="text-white font-medium text-sm mb-1">{t("testimonialAuthor")}</p>
+                  <p className="text-white/50 text-xs">{t("testimonialRole")}</p>
                 </footer>
               </blockquote>
+            </div>
+          </FadeInUp>
+        </div>
+      </section>
+      {/* Related Stories */}
+      <section className="py-20 px-6 bg-[#1c1c1a]">
+        <div className="max-w-[var(--container-max-width)] mx-auto">
+          <FadeInUp>
+            <div className="text-center mb-14">
+              <BookOpen className="w-10 h-10 text-white/80 mx-auto mb-5" strokeWidth={1.5} />
+              <h2 className="font-display text-3xl md:text-4xl font-normal text-white">
+                {tCommon("relatedTitle")}
+              </h2>
+            </div>
+          </FadeInUp>
+
+          <FadeInUp delay={0.1}>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {allCaseStudies
+                .filter((cs) => cs.id !== slug)
+                .slice(0, 4)
+                .map((cs) => (
+                  <Link key={cs.id} href={`/case-studies/${cs.id}`}>
+                    <div className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:bg-white/10 transition-colors duration-200 cursor-pointer h-full flex flex-col justify-between min-h-[140px]">
+                      <p className="text-white text-sm font-medium leading-snug mb-6">
+                        {cs.title}
+                      </p>
+                      <div className="flex items-center gap-2 text-white/40 text-xs">
+                        <Link2 className="w-3.5 h-3.5" />
+                        <span>{tCommon("caseStudyTag")}</span>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
             </div>
           </FadeInUp>
         </div>

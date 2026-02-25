@@ -427,7 +427,9 @@
       "challengeLabel": "El desafío",
       "solutionLabel": "La solución",
       "resultsLabel": "Los resultados",
-      "ctaButton": "Agenda una llamada gratis"
+      "ctaButton": "Agenda una llamada gratis",
+      "relatedTitle": "Otros casos de éxito",
+      "caseStudyTag": "Caso de éxito"
     },
     "hamilton": {
       "metaTitle": "Caso Hamilton - Claura Agencia de IA",
