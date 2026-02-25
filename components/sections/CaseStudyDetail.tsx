@@ -176,6 +176,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
               src={caseStudyImages[slug]}
               alt={t("title")}
               fill
+              sizes="100vw"
               className="object-cover"
               style={{ filter: "brightness(0.85) saturate(1.75)" }}
               priority
