@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Claura - AI Agency | From AI Confusion to Clarity",
-    "description": "We identify where AI saves time and money in your business, then build and implement the systems that make it happen.",
-    "ogTitle": "Claura - AI Agency",
-    "ogDescription": "From AI confusion to clarity. We build AI systems that actually work for your business."
+    "title": "Claura | Content Automation Systems",
+    "description": "We build content automation systems that help businesses create, publish, and scale content without the manual work.",
+    "ogTitle": "Claura | Content Automation Systems",
+    "ogDescription": "We build content systems that actually work for your business. From creation to publishing to distribution—automated."
   },
   "navigation": {
     "about": "About",
@@ -13,30 +13,30 @@
   },
   "hero": {
     "trustBadge": "Helped over 100+ businesses",
-    "titleLine1": "We help business owners",
-    "titleLine2": "build and automate",
-    "titleLine3Start": "with",
-    "titleHighlight": "AI",
+    "titleLine1": "We help companies turn",
+    "titleLine2": "content creation into",
+    "titleLine3Start": "automated",
+    "titleHighlight": "systems",
     "titleLine3End": ".",
-    "subtitle": "We identify what to automate, build it, and train you to save time and money.",
+    "subtitle": "We design, build, and train your team on content systems that save you time and scale with your business.",
     "ctaPrimary": "Book a free call",
     "ctaSecondary": "How we work",
-    "brandsLabel": "Brands we've helped implement AI:"
+    "brandsLabel": "Brands running on our content systems:"
   },
   "stats": {
     "sectionLabel": "Who we are",
-    "title": "The AI agency built for",
+    "title": "The content systems partner built for",
     "titleHighlight": "you",
-    "description": "We built this agency to help businesses avoid AI overwhelm. We listen first, recommend only what works, and build systems you'll actually use—without the hype or complexity.",
+    "description": "We built this company to help businesses stop creating content the hard way. We listen first, design systems that match how you work, and train your team to run them—without the complexity.",
     "stat1Value": "1,500+",
-    "stat1Label": "Hours saved for clients monthly",
+    "stat1Label": "Hours of content work saved monthly",
     "stat2Value": "35%",
-    "stat2Label": "Average reduction in manual work",
+    "stat2Label": "Faster content production on average",
     "stat3Value": "45 days",
-    "stat3Label": "Average time to measurable ROI",
+    "stat3Label": "Average time to a running content system",
     "hiringTitle": "Want to be part of the team?",
     "hiringBadge": "3 vacancies available",
-    "hiringDescription": "We're always looking for talented people who want to help businesses cut through AI overwhelm and build systems that work.",
+    "hiringDescription": "We're always looking for talented people who want to help businesses systematize their content and build systems that work.",
     "applyNow": "Apply now"
   },
   "services": {
@@ -44,26 +44,26 @@
     "title": "We handle",
     "titleHighlight": "everything",
     "titleEnd": "so you don't have to.",
-    "description": "From identifying opportunities to building systems and training your team—we manage the entire process while you focus on running your business.",
+    "description": "From auditing your content workflow to building your system and training your team—we manage the entire process while you focus on running your business.",
     "discover": {
       "title": "Discover",
       "number": "01",
-      "description": "We analyze your workflows and identify where automation creates the most value for your business."
+      "description": "We audit your content workflow and identify where a system can replace manual, repetitive tasks."
     },
     "build": {
       "title": "Build",
       "number": "02",
-      "description": "Custom automation designed for how you work, eliminating repetitive tasks without disrupting."
+      "description": "Custom content systems designed for how your team works—from creation to publishing to distribution."
     },
     "deploy": {
       "title": "Deploy",
       "number": "03",
-      "description": "We handle installation, testing, and launch so your systems work perfectly from day one."
+      "description": "We set up, test, and launch your system so it works perfectly from day one."
     },
     "optimize": {
       "title": "Optimize",
       "number": "04",
-      "description": "Ongoing training and support to ensure your automation keeps delivering results over time."
+      "description": "We train your team and provide ongoing support so your content system keeps scaling with you."
     },
     "bookFreeCall": "Book a free call"
   },
@@ -77,42 +77,42 @@
     "title": "Getting you results",
     "titleHighlight": "without",
     "titleEnd": "the complexity.",
-    "description": "Our three-step process takes you from identifying opportunities to launching systems, with clear communication and support at every stage.",
+    "description": "Our three-step process takes you from content chaos to a running system, with clear communication at every stage.",
     "ctaPrimary": "Book a free call",
     "ctaSecondary": "Watch the video",
     "step1": {
       "number": "01",
       "title": "Discovery & Assessment",
       "timeline": "Week 1",
-      "description": "We analyze your workflows and identify where automation creates the most value for your business."
+      "description": "We audit your content process and identify where a system can eliminate bottlenecks and manual work."
     },
     "step2": {
       "number": "02",
       "title": "Build & Deploy",
       "timeline": "Weeks 2-4",
-      "description": "We create and launch custom systems tailored to your operations without disrupting daily work."
+      "description": "We design and launch your custom content system—built around how your team already works."
     },
     "step3": {
       "number": "03",
       "title": "Train & Support",
       "timeline": "Ongoing",
-      "description": "We train your team and provide ongoing support to keep your automation running smoothly."
+      "description": "We train your team to run the system independently and provide ongoing advisory to help you scale."
     }
   },
   "comparison": {
     "sectionLabel": "Why choose us",
-    "title": "We're not your typical AI agency.",
-    "description": "We skip the buzzwords and experimental projects to build systems that actually work for your business.",
+    "title": "We're not your typical agency.",
+    "description": "We skip the one-off content projects and build systems that keep producing results long after we're done.",
     "otherAgencies": {
       "title": "Other agencies",
-      "description": "Other agencies overwhelm you with buzzwords, take months to deliver, and leave you with tools you can't use.",
+      "description": "Other agencies deliver content pieces. We deliver the system that creates them—on autopilot.",
       "tag1": "Sell what's trendy",
       "tag2": "Unclear timelines",
       "tag3": "Hidden costs"
     },
     "claura": {
       "title": "Claura",
-      "description": "At Claura, we use simple language, deliver results in weeks, and build systems that work from day one.",
+      "description": "At Claura, we build content systems that work from day one, train your team to own them, and stay on as advisors.",
       "tag1": "Build what matters",
       "tag2": "Done with you",
       "tag3": "Transparent process",
@@ -121,12 +121,12 @@
   },
   "caseStudy": {
     "sectionLabel": "Case study",
-    "title": "We help automate what matters most.",
-    "paragraph1": "Hamilton, a growing e-commerce business, was overwhelmed by repetitive order processing and customer support tasks.",
-    "paragraph2": "We analyzed their workflows, identified high-impact opportunities, and built custom automation that integrated seamlessly with their existing tools.",
+    "title": "Content systems that deliver real results.",
+    "paragraph1": "Hamilton, a growing e-commerce brand, was spending 30+ hours a week creating product descriptions, social posts, and email campaigns manually.",
+    "paragraph2": "We built a content automation system that generates, schedules, and publishes across all their channels—integrated with their existing tools.",
     "paragraph3": "Within 30 days, they saw measurable results.",
     "stat1Value": "50+",
-    "stat1Title": "Hours saved",
+    "stat1Title": "Content hours saved",
     "stat1Subtitle": "In the first month",
     "stat2Value": "40%",
     "stat2Title": "Reduction",
@@ -135,14 +135,14 @@
   "team": {
     "sectionLabel": "Meet the team",
     "title": "You're in experienced hands.",
-    "description": "No layers of management. You work directly with the specialists who understand your business and build your automation from start to finish.",
+    "description": "No layers of management. You work directly with the specialists who understand your business and build your content systems from start to finish.",
     "member1": {
       "name": "Marcus Chen",
-      "role": "Lead AI Consultant"
+      "role": "Lead Content Strategist"
     },
     "member2": {
       "name": "Amira Hassan",
-      "role": "Automation Specialist"
+      "role": "Content Systems Architect"
     },
     "member3": {
       "name": "David Park",
@@ -154,7 +154,7 @@
     },
     "hiringTitle": "Want to be part of the team?",
     "hiringBadge": "3 vacancies available",
-    "hiringDescription": "We're always looking for talented people who want to help businesses cut through AI overwhelm and build systems that work.",
+    "hiringDescription": "We're always looking for talented people who want to help businesses systematize their content and build systems that work.",
     "applyNow": "Apply now"
   },
   "faq": {
@@ -165,15 +165,15 @@
     "descriptionEnd": "and we'll walk you through it.",
     "question1": {
       "question": "Do I need technical knowledge to work with you?",
-      "answer": "No. We handle all the technical work from start to finish. You just need to share how your business operates, and we take care of the rest."
+      "answer": "No. We handle all the technical work from start to finish. You just need to share how your content process works, and we take care of the rest."
     },
     "question2": {
       "question": "How long does it take to see results?",
-      "answer": "Most clients see measurable results within 45 days. We focus on quick wins first, then build on that foundation over time."
+      "answer": "Most clients have a working content system within 45 days. We focus on quick wins first, then build on that foundation over time."
     },
     "question3": {
-      "question": "What if the automation doesn't work for my business?",
-      "answer": "We start with a thorough assessment to ensure automation makes sense for your specific workflows. If something isn't working, we refine it until it does."
+      "question": "What if the system doesn't work for my business?",
+      "answer": "We start with a thorough audit of your content workflow to ensure a system makes sense for your specific needs. If something isn't working, we refine it until it does."
     },
     "question4": {
       "question": "How much does it cost?",
@@ -181,43 +181,43 @@
     },
     "question5": {
       "question": "What happens after implementation?",
-      "answer": "We provide training for your team and ongoing support to ensure everything runs smoothly. As your business evolves, we help optimize and refine your systems."
+      "answer": "We train your team to run the system independently. As your content needs evolve, we stay on as advisors to help you optimize and scale."
     }
   },
   "cta": {
     "trustBadge": "Helped over 100+ businesses",
-    "title": "Turn confusion into clarity, today.",
-    "description": "Book a free 30-minute assessment and we'll show you exactly where AI can save you time and money.",
-    "formTitle": "Ready to transform your business?",
-    "formSubtitle": "Schedule a free 30-minute call to discover how AI can automate your workflows and save you hours every week.",
+    "title": "Turn content chaos into a system, today.",
+    "description": "Book a free 30-minute assessment and we'll show you exactly where a content system can save you time and scale your output.",
+    "formTitle": "Ready to systematize your content?",
+    "formSubtitle": "Schedule a free 30-minute call to discover how a content system can replace hours of manual work every week.",
     "scheduleButton": "Book a call",
     "form": {
       "namePlaceholder": "Name*",
       "emailPlaceholder": "Email*",
-      "servicesLabel": "What services are you interested in?",
-      "challengeLabel": "What's your biggest automation challenge?",
+      "servicesLabel": "What content services are you interested in?",
+      "challengeLabel": "What's your biggest content challenge?",
       "messagePlaceholder": "Tell us about your business...",
       "submitButton": "Book a call",
       "disclaimer": "By submitting, you agree to our",
       "termsLink": "terms of service."
     },
     "services": {
-      "aiAssessment": "AI Assessment",
-      "workflowAutomation": "Workflow Automation",
-      "customAITools": "Custom AI Tools",
-      "trainingSupport": "Training & Support",
-      "implementingAI": "Implementing AI",
+      "aiAssessment": "Content System Design",
+      "workflowAutomation": "Content Automation",
+      "customAITools": "Publishing & Distribution",
+      "trainingSupport": "Training & Advisory",
+      "implementingAI": "Full Content System",
       "allAbove": "All of the above"
     },
     "challenges": {
-      "manualTasks": "Too many manual tasks",
-      "unclearStart": "Unclear where to start",
-      "previousFailed": "Previous solutions didn't work",
-      "scaleOperations": "Need to scale operations"
+      "manualTasks": "Too much manual content work",
+      "unclearStart": "Inconsistent publishing schedule",
+      "previousFailed": "Can't scale content production",
+      "scaleOperations": "No clear content process"
     }
   },
   "footer": {
-    "tagline": "Helping you automate what matters.",
+    "tagline": "Helping you turn content into systems.",
     "navigate": "Navigate",
     "resources": "Resources",
     "connect": "Connect",
@@ -247,22 +247,22 @@
     "hero": {
       "sectionLabel": "About us",
       "titleLine1": "On a mission to",
-      "titleLine2Highlight": "simplify",
-      "titleLine2End": "automation.",
-      "subtitle": "Most AI agencies complicate things. We built Claura to do the opposite—helping businesses cut through the noise and build automation that actually delivers results.",
+      "titleLine2Highlight": "systematize",
+      "titleLine2End": "content.",
+      "subtitle": "Most agencies deliver content. We built Claura to do something different—design systems that let businesses produce, publish, and scale content without the bottleneck.",
       "ctaPrimary": "Book a free call",
       "ctaSecondary": "How we work"
     },
     "stats": {
       "sectionLabel": "Who we are",
-      "title": "The AI agency built for you.",
-      "description": "We built this agency to help businesses avoid AI overwhelm. We listen first, recommend only what works, and build systems you'll actually use—without the hype or complexity.",
+      "title": "The content systems partner built for you.",
+      "description": "We built this company to help businesses stop creating content the hard way. We listen first, design systems that match how you work, and train your team to run them—without the complexity.",
       "stat1Value": "1,500+",
-      "stat1Label": "Hours saved for clients monthly",
+      "stat1Label": "Hours of content work saved monthly",
       "stat2Value": "35%",
-      "stat2Label": "Average reduction in manual work",
+      "stat2Label": "Faster content production on average",
       "stat3Value": "45 days",
-      "stat3Label": "Average time to measurable ROI"
+      "stat3Label": "Average time to a running content system"
     },
     "testimonial": {
       "quote": "They didn't overwhelm us with options. They just built exactly what we needed. We're saving 15 hours a week and saw ROI in under two months.",
@@ -270,26 +270,26 @@
       "authorRole": "Founder at BrightPath Consulting"
     },
     "metadata": {
-      "title": "About - Claura AI Agency",
-      "description": "Learn about Claura, the AI agency built to help businesses avoid AI overwhelm."
+      "title": "About - Claura",
+      "description": "Learn about Claura, the content systems partner built to help businesses systematize their content."
     }
   },
   "bookACall": {
     "metadata": {
-      "title": "Book a Call - Claura AI Agency",
-      "description": "Book a free 30-minute assessment and discover how AI can save you time and money."
+      "title": "Book a Call - Claura",
+      "description": "Book a free 30-minute assessment and discover how a content system can save you time and scale your output."
     }
   },
   "caseStudies": {
     "sectionLabel": "Case studies",
     "title": "Real businesses, real results.",
-    "subtitle": "See how we've helped companies automate their most time-consuming workflows and deliver measurable impact in weeks, not months.",
+    "subtitle": "See how we've helped companies turn their most time-consuming content work into automated systems—delivering measurable impact in weeks, not months.",
     "ctaButton": "Book a free call",
     "ctaSecondary": "How we work",
     "howWeWorkLabel": "How we work",
     "metadata": {
-      "title": "Case Studies - Claura AI Agency",
-      "description": "See how we've helped businesses automate what matters most."
+      "title": "Case Studies - Claura",
+      "description": "See how we've helped businesses turn content creation into automated systems."
     },
     "hamilton": {
       "title": "Hamilton",
@@ -358,7 +358,7 @@
     },
     "section2": {
       "title": "2. Services",
-      "content": "Claura provides AI consulting, automation implementation, and related services. The specific scope of services will be outlined in individual agreements with clients."
+      "content": "Claura provides content automation systems, content strategy consulting, and related services. The specific scope of services will be outlined in individual agreements with clients."
     },
     "section3": {
       "title": "3. Client Responsibilities",
