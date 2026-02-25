@@ -12,3 +12,4 @@ export { CTA } from "./CTA";
 export { AboutHero } from "./AboutHero";
 export { AboutStats } from "./AboutStats";
 export { AboutTestimonial } from "./AboutTestimonial";
+export { CaseStudyDetail } from "./CaseStudyDetail";
