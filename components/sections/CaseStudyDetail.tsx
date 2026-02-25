@@ -11,7 +11,7 @@ import { Link } from "@/i18n/navigation";
 // Case studies that have optional extra fields
 const caseStudyExtras: Record<string, { siteUrl?: string; tools?: string[] }> = {
   loop: {
-    siteUrl: "https://www.adlib.app",
+    siteUrl: "https://www.adloop.app",
     tools: ["Instagram", "Facebook", "Meta"],
   },
 };
