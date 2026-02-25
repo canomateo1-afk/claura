@@ -5,8 +5,16 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { SectionLabel, Button } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
-import { ArrowLeft, Clock, TrendingUp, Users, Zap } from "lucide-react";
+import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+
+// Case studies that have optional extra fields
+const caseStudyExtras: Record<string, { siteUrl?: string; tools?: string[] }> = {
+  loop: {
+    siteUrl: "https://www.adlib.app",
+    tools: ["Instagram", "Facebook", "Meta"],
+  },
+};
 
 const caseStudyImages: Record<string, string> = {
   hamilton: "/images/case-study.png",
@@ -31,6 +39,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
   const t = useTranslations(`caseStudyDetail.${slug}`);
   const tCommon = useTranslations("caseStudyDetail.common");
   const Icon = caseStudyIcons[slug] || TrendingUp;
+  const extras = caseStudyExtras[slug];
 
   return (
     <>
@@ -90,6 +99,43 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
               >
                 {t("heroDescription")}
               </motion.p>
+
+              {extras?.siteUrl && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.25 }}
+                  className="mb-4"
+                >
+                  <a
+                    href={extras.siteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm font-medium text-[var(--color-brown)] hover:underline"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    {extras.siteUrl.replace("https://", "")}
+                  </a>
+                </motion.div>
+              )}
+
+              {extras?.tools && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.28 }}
+                  className="flex flex-wrap gap-2 mb-6"
+                >
+                  {extras.tools.map((tool) => (
+                    <span
+                      key={tool}
+                      className="px-3 py-1 text-xs font-medium rounded-full bg-[var(--color-cream-dark)] text-[var(--color-charcoal)] border border-[var(--color-cream-dark)]"
+                    >
+                      {tool}
+                    </span>
+                  ))}
+                </motion.div>
+              )}
 
               <motion.div
                 initial={{ opacity: 0, y: 30 }}

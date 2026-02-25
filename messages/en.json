@@ -563,11 +563,15 @@
       "solutionP1": "We built Loop as an end-to-end platform. From the web, brands generate product photos from multiple angles, Pixar-style 3D renders, and e-commerce videos — no photo shoots, no studios, no waiting. In minutes.",
       "solutionP2": "Loop is also integrated with Meta Ad Library to discover and analyze any competitor's ads. An AI agent works 24 hours a day analyzing which creatives are performing, detecting patterns, and generating new content from those recommendations. Everything is automatically published to organic accounts and paid Meta campaigns.",
       "resultsTitle": "Unlimited content. Data-driven decisions.",
-      "resultsP1": "Brands using Loop go from producing 5-10 pieces per week to generating 50+ — at a production cost 80% lower than a traditional photo shoot. The time previously spent coordinating production is now invested in strategy.",
+      "resultsP1": "Brands using Loop go from producing 5-10 pieces per week to generating 500+ creatives per month — at a production cost 80% lower than a traditional photo shoot. The time previously spent coordinating production is now invested in strategy.",
       "resultsP2": "The AI agent closes the loop: it analyzes the performance of every ad, identifies what's working for competitors, and autonomously generates the next batch of content. Marketing teams stop putting out fires and start scaling.",
       "testimonialQuote": "Loop completely changed how we think about content. We no longer depend on an agency or photo shoots. We have new creatives every week, and the agent tells us exactly what's working.",
       "testimonialAuthor": "Mateo Caño",
-      "testimonialRole": "Founder of Loop"
+      "testimonialRole": "Founder of Loop",
+      "siteUrl": "https://www.adlib.app",
+      "siteLinkLabel": "www.adlib.app",
+      "tools": "Instagram, Facebook, Meta",
+      "toolsLabel": "Platforms"
     }
   },
   "cookiePolicy": {

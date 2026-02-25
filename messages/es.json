@@ -563,11 +563,15 @@
       "solutionP1": "Construimos Loop como una plataforma end-to-end. Desde la web, las marcas generan fotos de producto desde múltiples ángulos, renders 3D estilo Pixar y videos e-commerce — sin sesiones fotográficas, sin estudios, sin esperas. En minutos.",
       "solutionP2": "Loop también está integrado con Meta Ad Library para descubrir y analizar los anuncios de cualquier competidor. Un agente de IA trabaja las 24 horas analizando qué creatividades están rindiendo, detecta patrones y genera nuevo contenido a partir de esas recomendaciones. Todo se publica automáticamente en cuentas orgánicas y campañas pagas de Meta.",
       "resultsTitle": "Contenido ilimitado. Decisiones basadas en datos.",
-      "resultsP1": "Las marcas que usan Loop pasan de producir 5-10 piezas por semana a generar más de 50 — con un costo de producción 80% menor al de una sesión fotográfica tradicional. El tiempo que antes se iba en coordinación de producción ahora se invierte en estrategia.",
+      "resultsP1": "Las marcas que usan Loop pasan de producir 5-10 piezas por semana a generar más de 500 creatividades por mes — con un costo de producción 80% menor al de una sesión fotográfica tradicional. El tiempo que antes se iba en coordinación de producción ahora se invierte en estrategia.",
       "resultsP2": "El agente de IA cierra el loop: analiza el rendimiento de cada anuncio, identifica qué está funcionando para la competencia, y genera la siguiente tanda de contenido de forma autónoma. El equipo de marketing deja de apagar incendios y empieza a escalar.",
       "testimonialQuote": "Loop cambió completamente cómo pensamos el contenido. Ya no dependemos de una agencia ni de sesiones fotográficas. Tenemos creatividades nuevas cada semana, y el agente nos dice exactamente qué está funcionando.",
       "testimonialAuthor": "Mateo Caño",
-      "testimonialRole": "Fundador de Loop"
+      "testimonialRole": "Fundador de Loop",
+      "siteUrl": "https://www.adlib.app",
+      "siteLinkLabel": "www.adlib.app",
+      "tools": "Instagram, Facebook, Meta",
+      "toolsLabel": "Plataformas"
     }
   },
   "cookiePolicy": {
