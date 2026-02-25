@@ -177,6 +177,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
               alt={t("title")}
               fill
               className="object-cover"
+              style={{ filter: "brightness(0.85) saturate(1.75)" }}
               priority
             />
             {/* Gradient overlay for text legibility - bottom third only */}
