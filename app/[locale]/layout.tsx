@@ -46,15 +46,24 @@ export async function generateMetadata({
   return {
     title: messages.metadata.title,
     description: messages.metadata.description,
-    keywords: [
+    keywords: locale === 'es' ? [
+      "agencia de IA",
+      "automatización de contenido",
+      "sistemas de contenido",
+      "agencia de automatización Argentina",
+      "consultoría de IA",
+      "automatización de procesos",
+      "marketing con IA",
+      "contenido automatizado",
+    ] : [
       "AI agency",
-      "automation",
-      "business efficiency",
+      "content automation",
+      "AI content systems",
       "AI consulting",
       "workflow automation",
       "AI implementation",
-      locale === 'es' ? "agencia de IA" : "artificial intelligence",
-      locale === 'es' ? "automatización de procesos" : "process automation",
+      "artificial intelligence agency",
+      "automated content marketing",
     ],
     authors: [{ name: "Claura" }],
     creator: "Claura",
@@ -124,13 +133,15 @@ export default async function LocaleLayout({
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Organization',
+    '@type': ['Organization', 'ProfessionalService'],
     name: 'Claura',
     description: locale === 'en' 
-      ? 'AI Agency helping businesses automate workflows and implement AI systems that actually work.'
-      : 'Agencia de IA que ayuda a empresas a automatizar flujos de trabajo e implementar sistemas de IA que realmente funcionan.',
+      ? 'AI Agency helping businesses automate content workflows and implement AI systems that actually work.'
+      : 'Agencia de IA que ayuda a empresas a automatizar sus sistemas de contenido e implementar IA que realmente funciona.',
     url: baseUrl,
     logo: `${baseUrl}/images/og-image.png`,
+    email: 'mateo@claura-ai.com',
+    foundingDate: '2024',
     sameAs: [
       'https://www.instagram.com/mateocano_ia/',
       'https://www.tiktok.com/@mate_cano',
@@ -139,17 +150,34 @@ export default async function LocaleLayout({
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
+      email: 'mateo@claura-ai.com',
       availableLanguage: ['English', 'Spanish'],
     },
-    areaServed: {
-      '@type': 'Place',
-      name: 'Worldwide',
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'AR',
     },
-    serviceType: [
+    areaServed: [
+      { '@type': 'Country', name: 'Argentina' },
+      { '@type': 'Place', name: 'Worldwide' },
+    ],
+    serviceType: locale === 'es' ? [
+      'Automatización de Contenido',
+      'Consultoría de IA',
+      'Sistemas de Contenido con IA',
+      'Automatización de Procesos',
+    ] : [
+      'Content Automation',
       'AI Consulting',
+      'AI Content Systems',
       'Workflow Automation',
+    ],
+    knowsAbout: [
+      'Artificial Intelligence',
+      'Content Automation',
+      'Machine Learning',
+      'Marketing Automation',
       'AI Implementation',
-      'Business Process Automation',
     ],
   };
 
