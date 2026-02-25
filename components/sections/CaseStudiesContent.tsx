@@ -14,6 +14,7 @@ const caseStudyImages = {
   terra: "/images/case-study.png",
   savannah: "/images/case-study.png",
   snowflake: "/images/case-study.png",
+  loop: "/images/case-study.png",
 };
 
 interface CaseStudyCardProps {
@@ -121,6 +122,13 @@ export function CaseStudiesContent() {
       category: t("snowflake.category"),
       description: t("snowflake.description"),
       image: caseStudyImages.snowflake,
+    },
+    {
+      id: "loop",
+      title: t("loop.title"),
+      category: t("loop.category"),
+      description: t("loop.description"),
+      image: caseStudyImages.loop,
     },
   ];
 
