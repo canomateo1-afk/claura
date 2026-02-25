@@ -58,6 +58,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
   const tCommon = useTranslations("caseStudyDetail.common");
   const Icon = caseStudyIcons[slug] || TrendingUp;
   const extras = caseStudyExtras[slug];
+  const tCaseStudies = useTranslations("caseStudies");
   const hasSolutionP3 = solutionP3Slugs.includes(slug);
   const hasSolutionP4 = solutionP4Slugs.includes(slug);
 
@@ -329,20 +330,23 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, amount: 0.2 }}
                       transition={{ duration: 0.6, ease: [0.4, 0, 0.2, 1] }}
-                      className="group bg-[var(--color-cream-dark)] rounded-[28px] p-5 pb-6 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer h-full flex flex-col justify-between min-h-[180px]"
+                      className="group bg-[var(--color-cream-dark)] rounded-[28px] p-5 pb-6 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer h-full flex flex-col justify-between min-h-[200px]"
                     >
-                      {/* Top: category badge */}
+                      {/* Top: title + description */}
                       <div>
-                        <span className="px-4 py-2 text-sm font-medium rounded-full bg-white text-[var(--color-charcoal)] shadow-sm inline-block mb-4">
-                          {cs.category}
-                        </span>
-                        <h3 className="font-display text-xl md:text-2xl font-normal italic text-[var(--color-charcoal)]">
+                        <h3 className="font-display text-xl md:text-2xl font-normal italic text-[var(--color-charcoal)] mb-2">
                           {cs.title}
                         </h3>
+                        <p className="text-[var(--color-text-secondary)] text-sm leading-relaxed pr-10">
+                          {tCaseStudies(`${cs.id}.description`)}
+                        </p>
                       </div>
 
-                      {/* Bottom: arrow */}
-                      <div className="flex justify-end mt-4">
+                      {/* Bottom: badge left + arrow right */}
+                      <div className="flex items-center justify-between mt-5">
+                        <span className="px-3 py-1.5 text-xs font-medium rounded-full bg-white text-[var(--color-charcoal)] shadow-sm">
+                          {cs.category}
+                        </span>
                         <motion.div
                           className="w-10 h-10 rounded-full border-2 border-[var(--color-charcoal)] flex items-center justify-center group-hover:bg-[var(--color-charcoal)] transition-all duration-300"
                           whileHover={{ scale: 1.1 }}
