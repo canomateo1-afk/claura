@@ -123,12 +123,12 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
 };
 
 const caseStudyImages: Record<string, string> = {
-  hamilton: "/images/case-study.png",
-  terra: "/images/case-study.png",
-  savannah: "/images/case-study.png",
-  snowflake: "/images/case-study.png",
-  loop: "/images/case-study.png",
-  spacepal: "/images/case-study.png",
+  hamilton: "/images/cs-banner-1.jpg",
+  terra: "/images/cs-banner-2.jpg",
+  savannah: "/images/cs-banner-3.jpg",
+  snowflake: "/images/cs-banner-4.jpg",
+  loop: "/images/cs-banner-4.jpg",
+  spacepal: "/images/cs-banner-1.jpg",
 };
 
 const caseStudyIcons: Record<string, typeof Clock> = {
