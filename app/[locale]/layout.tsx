@@ -140,7 +140,7 @@ export default async function LocaleLayout({
       : 'Agencia de IA que ayuda a empresas a automatizar sus sistemas de contenido e implementar IA que realmente funciona.',
     url: baseUrl,
     logo: `${baseUrl}/images/og-image.png`,
-    email: 'mateo@claura-ai.com',
+    email: 'mateo@space-pal.com',
     foundingDate: '2024',
     sameAs: [
       'https://www.instagram.com/mateocano_ia/',
@@ -150,7 +150,7 @@ export default async function LocaleLayout({
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
-      email: 'mateo@claura-ai.com',
+      email: 'mateo@space-pal.com',
       availableLanguage: ['English', 'Spanish'],
     },
     address: {
