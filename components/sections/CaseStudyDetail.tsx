@@ -13,6 +13,7 @@ const caseStudyImages: Record<string, string> = {
   terra: "/images/case-study.png",
   savannah: "/images/case-study.png",
   snowflake: "/images/case-study.png",
+  loop: "/images/case-study.png",
 };
 
 const caseStudyIcons: Record<string, typeof Clock> = {
