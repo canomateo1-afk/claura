@@ -275,7 +275,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
 
           {/* Testimonial */}
           <FadeInUp delay={0.2}>
-            <div className="mt-16 -mx-6 px-6 py-16 bg-[var(--color-dark-brown)]">
+            <div className="mt-16 -mx-6 px-6 py-16 bg-[#3D2C1E]">
               <blockquote className="max-w-3xl mx-auto text-center">
                 <div className="w-full h-px bg-white/20 mb-12" />
                 <p className="font-display text-2xl md:text-3xl lg:text-4xl font-normal leading-snug text-white mb-10">
@@ -292,7 +292,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
         </div>
       </section>
       {/* Related Stories */}
-      <section className="py-20 px-6 bg-[var(--color-dark-brown)]">
+      <section className="py-20 px-6 bg-[#3D2C1E]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
             <div className="text-center mb-14">
