@@ -10,12 +10,12 @@ import { Link } from "@/i18n/navigation";
 
 // Case study card images
 const caseStudyImages = {
-  hamilton: "/images/case-study.png",
-  terra: "/images/case-study.png",
-  savannah: "/images/case-study.png",
-  snowflake: "/images/case-study.png",
-  loop: "/images/case-study.png",
-  spacepal: "/images/case-study.png",
+  hamilton: "/images/cs-banner-1.jpg",
+  terra: "/images/cs-banner-2.jpg",
+  savannah: "/images/cs-banner-3.jpg",
+  snowflake: "/images/cs-banner-4.jpg",
+  loop: "/images/cs-banner-4.jpg",
+  spacepal: "/images/cs-banner-1.jpg",
 };
 
 interface CaseStudyCardProps {
@@ -50,6 +50,7 @@ function CaseStudyCard({ id, title, category, description, image, index }: CaseS
             alt={title}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
+            style={{ filter: "brightness(0.85) saturate(1.75)" }}
           />
           
           {/* Category badge - top right */}
