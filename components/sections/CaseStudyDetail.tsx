@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { SectionLabel } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
-import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, ArrowUpRight, ChevronRight, Sparkles } from "lucide-react";
+import { ArrowLeft, Clock, TrendingUp, Users, Zap, ExternalLink, BookOpen, ArrowUpRight, ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
 const techLogoMap: Record<string, string> = {
@@ -157,6 +157,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
   const services = caseStudyServices[slug] || [];
   const techStack = caseStudyTechStack[slug] || [];
   const currentIndex = allCaseStudies.findIndex((cs) => cs.id === slug);
+  const prevSlug = allCaseStudies[(currentIndex - 1 + allCaseStudies.length) % allCaseStudies.length].id;
   const nextSlug = allCaseStudies[(currentIndex + 1) % allCaseStudies.length].id;
 
   return (
@@ -189,13 +190,21 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
               {tCommon("backToStudies")}
             </Link>
 
-            {/* Next case study - top right */}
-            <Link
-              href={`/case-studies/${nextSlug}`}
-              className="absolute top-5 right-5 z-10 w-10 h-10 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center hover:bg-white transition-colors shadow-sm"
-            >
-              <ChevronRight className="w-5 h-5 text-[var(--color-charcoal)]" />
-            </Link>
+            {/* Prev / Next navigation - top right */}
+            <div className="absolute top-5 right-5 z-10 flex items-center gap-2">
+              <Link
+                href={`/case-studies/${prevSlug}`}
+                className="w-10 h-10 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center hover:bg-white transition-colors shadow-sm"
+              >
+                <ChevronLeft className="w-5 h-5 text-[var(--color-charcoal)]" />
+              </Link>
+              <Link
+                href={`/case-studies/${nextSlug}`}
+                className="w-10 h-10 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center hover:bg-white transition-colors shadow-sm"
+              >
+                <ChevronRight className="w-5 h-5 text-[var(--color-charcoal)]" />
+              </Link>
+            </div>
 
             {/* Content overlay - bottom left */}
             <div className="absolute bottom-6 md:bottom-10 left-6 md:left-10 right-6 md:right-10 z-10">
