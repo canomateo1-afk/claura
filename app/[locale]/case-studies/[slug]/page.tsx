@@ -5,7 +5,7 @@ import { Navigation, Footer } from "@/components/layout";
 import { CTA } from "@/components/sections";
 import { CaseStudyDetail } from "@/components/sections/CaseStudyDetail";
 
-const validSlugs = ["hamilton", "terra", "savannah", "snowflake"];
+const validSlugs = ["hamilton", "terra", "savannah", "snowflake", "loop"];
 
 export function generateStaticParams() {
   return validSlugs.map((slug) => ({ slug }));

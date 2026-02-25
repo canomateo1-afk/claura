@@ -311,7 +311,12 @@
       "category": "Software",
       "description": "A SaaS company providing project management tools for remote teams across multiple industries."
     },
-    "readMore": "View case study"
+    "readMore": "View case study",
+    "loop": {
+      "title": "Loop",
+      "category": "SaaS / Advertising",
+      "description": "A platform that lets e-commerce brands generate ad creative, analyze competitors, and publish to Meta — fully automatically."
+    }
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
@@ -535,6 +540,34 @@
       "testimonialQuote": "Our onboarding used to be our biggest weakness. Now it's our competitive advantage. Customers get value faster and they stay longer.",
       "testimonialAuthor": "David Kim",
       "testimonialRole": "VP of Customer Success at Snowflake"
+    },
+    "loop": {
+      "metaTitle": "Loop Case Study - Claura AI Agency",
+      "metaDescription": "How we built Loop: the platform that generates product photos, e-commerce videos, and Meta ads on autopilot.",
+      "category": "SaaS / Advertising",
+      "title": "Loop",
+      "tagline": "A system that generates, analyzes, and publishes ad creative. By itself.",
+      "heroDescription": "E-commerce brands were spending thousands every month on photo shoots and video production — and by the time the content was ready, the season had already changed. We built Loop to fix that at the root.",
+      "stat1Value": "10x",
+      "stat1Label": "More content generated per week",
+      "stat2Value": "80%",
+      "stat2Label": "Reduction in production costs",
+      "stat3Value": "24/7",
+      "stat3Label": "AI agent analyzing campaigns",
+      "stat4Value": "48h",
+      "stat4Label": "Time to implement",
+      "challengeTitle": "Producing content at scale was impossible.",
+      "challengeP1": "An active Meta brand needs 20 to 50 new creatives per month just to avoid ad fatigue. That means hiring photographers, designers, and videographers — and still falling behind the competition.",
+      "challengeP2": "On top of that, there was no way to know what competitors were doing. Content decisions were made blind, without data, and ad spend was optimized manually once a week — often too late.",
+      "solutionTitle": "Loop: generation, intelligence, and publishing in one place.",
+      "solutionP1": "We built Loop as an end-to-end platform. From the web, brands generate product photos from multiple angles, Pixar-style 3D renders, and e-commerce videos — no photo shoots, no studios, no waiting. In minutes.",
+      "solutionP2": "Loop is also integrated with Meta Ad Library to discover and analyze any competitor's ads. An AI agent works 24 hours a day analyzing which creatives are performing, detecting patterns, and generating new content from those recommendations. Everything is automatically published to organic accounts and paid Meta campaigns.",
+      "resultsTitle": "Unlimited content. Data-driven decisions.",
+      "resultsP1": "Brands using Loop go from producing 5-10 pieces per week to generating 50+ — at a production cost 80% lower than a traditional photo shoot. The time previously spent coordinating production is now invested in strategy.",
+      "resultsP2": "The AI agent closes the loop: it analyzes the performance of every ad, identifies what's working for competitors, and autonomously generates the next batch of content. Marketing teams stop putting out fires and start scaling.",
+      "testimonialQuote": "Loop completely changed how we think about content. We no longer depend on an agency or photo shoots. We have new creatives every week, and the agent tells us exactly what's working.",
+      "testimonialAuthor": "Mateo Caño",
+      "testimonialRole": "Founder of Loop"
     }
   },
   "cookiePolicy": {

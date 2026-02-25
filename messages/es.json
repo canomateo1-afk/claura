@@ -311,7 +311,12 @@
       "category": "Software",
       "description": "Una empresa SaaS que proporciona herramientas de gestión de proyectos para equipos remotos en múltiples industrias."
     },
-    "readMore": "Ver caso de estudio"
+    "readMore": "Ver caso de estudio",
+    "loop": {
+      "title": "Loop",
+      "category": "SaaS / Publicidad",
+      "description": "Una plataforma que permite a marcas de e-commerce generar contenido publicitario, analizar competidores y publicar en Meta de forma completamente automática."
+    }
   },
   "privacyPolicy": {
     "title": "Política de Privacidad",
@@ -535,6 +540,34 @@
       "testimonialQuote": "Nuestra incorporación solía ser nuestra mayor debilidad. Ahora es nuestra ventaja competitiva. Los clientes obtienen valor más rápido y se quedan más tiempo.",
       "testimonialAuthor": "David Kim",
       "testimonialRole": "VP de Éxito del Cliente en Snowflake"
+    },
+    "loop": {
+      "metaTitle": "Caso Loop - Claura Agencia de IA",
+      "metaDescription": "Cómo construimos Loop: la plataforma que genera fotos de producto, videos e-commerce y anuncios de Meta en piloto automático.",
+      "category": "SaaS / Publicidad",
+      "title": "Loop",
+      "tagline": "Un sistema que genera, analiza y publica contenido publicitario. Solo.",
+      "heroDescription": "Las marcas de e-commerce gastaban miles de dólares al mes en sesiones fotográficas y producción de video — y cuando el contenido estaba listo, ya había cambiado la temporada. Construimos Loop para resolver eso de raíz.",
+      "stat1Value": "10x",
+      "stat1Label": "Más contenido generado por semana",
+      "stat2Value": "80%",
+      "stat2Label": "Reducción en costos de producción",
+      "stat3Value": "24/7",
+      "stat3Label": "Agente IA analizando campañas",
+      "stat4Value": "48hs",
+      "stat4Label": "Tiempo de implementación",
+      "challengeTitle": "Producir contenido a escala era imposible.",
+      "challengeP1": "Una marca activa en Meta necesita entre 20 y 50 creatividades nuevas por mes para no quemarse. Eso significa contratar fotógrafos, diseñadores y videógrafos — y aún así ir siempre un paso atrás de la competencia.",
+      "challengeP2": "Encima, no había forma de saber qué estaban haciendo los competidores. Las decisiones de contenido se tomaban a ciegas, sin datos, y el presupuesto publicitario se optimizaba manualmente una vez por semana — cuando no era demasiado tarde.",
+      "solutionTitle": "Loop: generación, inteligencia y publicación en un solo lugar.",
+      "solutionP1": "Construimos Loop como una plataforma end-to-end. Desde la web, las marcas generan fotos de producto desde múltiples ángulos, renders 3D estilo Pixar y videos e-commerce — sin sesiones fotográficas, sin estudios, sin esperas. En minutos.",
+      "solutionP2": "Loop también está integrado con Meta Ad Library para descubrir y analizar los anuncios de cualquier competidor. Un agente de IA trabaja las 24 horas analizando qué creatividades están rindiendo, detecta patrones y genera nuevo contenido a partir de esas recomendaciones. Todo se publica automáticamente en cuentas orgánicas y campañas pagas de Meta.",
+      "resultsTitle": "Contenido ilimitado. Decisiones basadas en datos.",
+      "resultsP1": "Las marcas que usan Loop pasan de producir 5-10 piezas por semana a generar más de 50 — con un costo de producción 80% menor al de una sesión fotográfica tradicional. El tiempo que antes se iba en coordinación de producción ahora se invierte en estrategia.",
+      "resultsP2": "El agente de IA cierra el loop: analiza el rendimiento de cada anuncio, identifica qué está funcionando para la competencia, y genera la siguiente tanda de contenido de forma autónoma. El equipo de marketing deja de apagar incendios y empieza a escalar.",
+      "testimonialQuote": "Loop cambió completamente cómo pensamos el contenido. Ya no dependemos de una agencia ni de sesiones fotográficas. Tenemos creatividades nuevas cada semana, y el agente nos dice exactamente qué está funcionando.",
+      "testimonialAuthor": "Mateo Caño",
+      "testimonialRole": "Fundador de Loop"
     }
   },
   "cookiePolicy": {
