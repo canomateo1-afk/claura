@@ -199,48 +199,29 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
 
             {/* Content overlay - bottom left */}
             <div className="absolute bottom-6 md:bottom-10 left-6 md:left-10 right-6 md:right-10 z-10">
-              <h1 className="font-display text-[clamp(2rem,5vw,4.5rem)] font-normal leading-[1.1] text-white mb-2 md:mb-3">
-                {t("title")}
-              </h1>
+              <div className="flex items-end gap-3 mb-2 md:mb-3">
+                <h1 className="font-display text-[clamp(2rem,5vw,4.5rem)] font-normal leading-[1.1] text-white">
+                  {t("title")}
+                </h1>
+                {extras?.siteUrl && (
+                  <a
+                    href={extras.siteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mb-1 shrink-0 flex items-center justify-center w-9 h-9 rounded-full bg-white/25 backdrop-blur-sm hover:bg-white/40 transition-colors"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <ExternalLink className="w-4 h-4 text-white" />
+                  </a>
+                )}
+              </div>
               <p className="text-white/80 text-sm md:text-base max-w-lg leading-relaxed">
                 {t("heroDescription")}
               </p>
             </div>
           </motion.div>
 
-          {/* Optional extras below hero card */}
-          {extras && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="flex flex-wrap items-center gap-4 mt-6"
-            >
-              {extras.siteUrl && (
-                <a
-                  href={extras.siteUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-[var(--color-brown)] hover:underline"
-                >
-                  <ExternalLink className="w-4 h-4" />
-                  {extras.siteUrl.replace("https://", "")}
-                </a>
-              )}
-              {extras.tools && (
-                <div className="flex flex-wrap gap-2">
-                  {extras.tools.map((tool) => (
-                    <span
-                      key={tool}
-                      className="px-3 py-1 text-xs font-medium rounded-full bg-[var(--color-cream-dark)] text-[var(--color-charcoal)]"
-                    >
-                      {tool}
-                    </span>
-                  ))}
-                </div>
-              )}
-            </motion.div>
-          )}
+          {/* extras block removed — siteUrl now shown as icon inside hero image */}
         </div>
       </section>
 
