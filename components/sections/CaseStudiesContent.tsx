@@ -14,7 +14,7 @@ const caseStudyImages = {
   terra: "/images/cs-banner-2.jpg",
   savannah: "/images/cs-banner-3.jpg",
   snowflake: "/images/cs-banner-4.jpg",
-  loop: "/images/cs-banner-4.jpg",
+  loop: "/images/cs-banner-5.jpg",
   spacepal: "/images/cs-banner-1.jpg",
 };
 
