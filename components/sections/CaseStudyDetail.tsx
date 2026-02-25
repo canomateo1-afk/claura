@@ -226,7 +226,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
       </section>
 
       {/* Challenge & Solution */}
-      <section className="py-20 px-6 bg-[var(--color-cream)]">
+      <section className="pt-12 pb-20 px-6 bg-[var(--color-cream)]">
         <div className="max-w-[var(--container-max-width)] mx-auto space-y-20">
           {/* The Challenge */}
           <FadeInUp>
@@ -292,7 +292,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
       </section>
 
       {/* Results */}
-      <section className="py-20 px-6 bg-[var(--color-cream)]">
+      <section className="pt-12 pb-20 px-6 bg-[var(--color-cream)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
             <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-12">
@@ -333,7 +333,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
 
       {/* Services & Tech Stack */}
       {(services.length > 0 || techStack.length > 0) && (
-        <section className="py-20 px-6 bg-[var(--color-cream)]">
+        <section className="pt-12 pb-20 px-6 bg-[var(--color-cream)]">
           <div className="max-w-[var(--container-max-width)] mx-auto space-y-20">
             {/* Services */}
             {services.length > 0 && (
@@ -402,7 +402,7 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
       )}
 
       {/* Testimonial */}
-      <section className="py-20 px-6 bg-[var(--color-cream)]">
+      <section className="pt-12 pb-20 px-6 bg-[var(--color-cream)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <FadeInUp>
             <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-12">
