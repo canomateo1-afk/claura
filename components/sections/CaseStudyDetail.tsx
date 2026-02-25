@@ -179,8 +179,8 @@ export function CaseStudyDetail({ slug }: CaseStudyDetailProps) {
               className="object-cover"
               priority
             />
-            {/* Gradient overlay for text legibility - bottom only */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
+            {/* Gradient overlay for text legibility - bottom third only */}
+            <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.35) 30%, transparent 55%)" }} />
 
             {/* Back button - top left */}
             <Link
