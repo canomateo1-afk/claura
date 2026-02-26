@@ -48,7 +48,7 @@ const allCaseStudies = [
   { id: "remax", title: "Remax", category: "Real Estate / PropTech" },
   { id: "pulse", title: "Pulse", category: "Music / Creator Economy" },
   { id: "soyandina", title: "Soy Andina", category: "Comunidad / Lifestyle / Viajes" },
-  { id: "curator", title: "Curator", category: "Entretenimiento / Creator Economy" },
+  { id: "curator", title: "Content Creator", category: "Entretenimiento / Creator Economy" },
 ];
 
 // Case studies that have optional extra fields

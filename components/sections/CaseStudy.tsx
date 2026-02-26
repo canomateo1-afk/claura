@@ -19,7 +19,7 @@ const allCaseStudies = [
   { id: "remax", title: "Remax", category: "Real Estate / PropTech", image: "/images/cs-banner-2.jpg" },
   { id: "pulse", title: "Pulse", category: "Music / Creator Economy", image: "/images/cs-banner-4.jpg" },
   { id: "soyandina", title: "Soy Andina", category: "Comunidad / Lifestyle", image: "/images/cs-banner-3.jpg" },
-  { id: "curator", title: "Curator", category: "Entretenimiento", image: "/images/cs-banner-4.jpg" },
+  { id: "curator", title: "Content Creator", category: "Entretenimiento", image: "/images/cs-banner-4.jpg" },
 ];
 
 export function CaseStudy() {
