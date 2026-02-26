@@ -136,7 +136,7 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
     { name: "Instagram", icon: "instagram" },
     { name: "TikTok", icon: "tiktok" },
     { name: "Next.js", icon: "nextdotjs" },
-    { name: "Anthropic", icon: "anthropic" },
+    { name: "Claude", icon: "anthropic" },
   ],
 };
 
