@@ -33,6 +33,9 @@ const techLogoMap: Record<string, string> = {
   youtube: "/images/tech-logos/youtube.svg",
   remotion: "/images/tech-logos/remotion.svg",
   comfyui: "/images/tech-logos/comfyui.svg",
+  pinterest: "/images/tech-logos/pinterest.svg",
+  unsplash: "/images/tech-logos/unsplash.svg",
+  nodedotjs: "/images/tech-logos/nodedotjs.svg",
 };
 
 const allCaseStudies = [
