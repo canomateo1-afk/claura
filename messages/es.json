@@ -326,6 +326,11 @@
       "title": "Remax",
       "category": "Real Estate / PropTech",
       "description": "Bot de contenido que genera y publica noticias inmobiliarias y promoción de propiedades diariamente para agentes — vía WhatsApp o Telegram."
+    },
+    "pulse": {
+      "title": "Pulse",
+      "category": "Music / Creator Economy",
+      "description": "Automatizamos la producción completa de sets musicales — desde trending research hasta publicación diaria en multi-cuenta YouTube."
     }
   },
   "privacyPolicy": {
@@ -666,6 +671,36 @@
       "testimonialQuote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
       "testimonialAuthor": "Ines Oreilly",
       "testimonialRole": "Agente en Remax"
+    },
+    "pulse": {
+      "metaTitle": "Caso Pulse - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos la producción de sets musicales para un DJ influencer — de 4 videos al mes a 10 videos diarios.",
+      "category": "Music / Creator Economy",
+      "title": "Pulse",
+      "tagline": "De 4 sets al mes a 10 videos por día — sin tocar una DAW.",
+      "heroDescription": "Automatización completa de producción musical: trending research, auto-mixing con IA, fondos generados con AI y publicación diaria en multi-cuenta YouTube.",
+      "stat1Value": "75x",
+      "stat1Label": "Más contenido producido",
+      "stat2Value": "10/día",
+      "stat2Label": "Videos publicados en multi-cuenta",
+      "stat3Value": "4→300",
+      "stat3Label": "Videos por mes",
+      "stat4Value": "100%",
+      "stat4Label": "Pipeline automatizado",
+      "challengeTitle": "Producir sets de calidad llevaba días. Y solo salían 4 al mes.",
+      "challengeP1": "El DJ tenía un canal de YouTube que era su principal fuente de ingresos: views orgánicas, leads de clientes y ventas de publicidad a marcas. El problema era la producción — encontrar canciones trending, mezclarlas bien, animar los fondos, editar el video y subir todo tomaba días enteros de trabajo.",
+      "challengeP2": "Con 4 videos al mes, el algoritmo de YouTube no lo favorecía. La consistencia y la frecuencia son clave para crecer en la plataforma — pero sin un equipo de producción, era imposible escalar sin sacrificar calidad.",
+      "strategyTitle": "Automatizamos cada etapa del pipeline de producción, desde la búsqueda de canciones hasta la publicación final — sin intervención manual.",
+      "strategyP1": "La estrategia fue construir un sistema modular donde cada etapa alimenta a la siguiente de forma autónoma: trending research → curación → mixing → video generation → publicación. El DJ solo aprueba el output final.",
+      "solutionTitle": "Un pipeline de producción musical completamente automatizado.",
+      "solutionP1": "El sistema empieza con la Spotify API para identificar las canciones con más engagement y crecimiento en los nichos clave del DJ. Un agente analiza métricas de streams, saves y playlist adds para seleccionar automáticamente las canciones con más potencial de viralizarse.",
+      "solutionP2": "Una vez seleccionadas, Python + FFmpeg se encargan del auto-mixing: crossfade inteligente, beat matching, normalización de niveles y estructura de intro/outro. El resultado suena como un set mezclado a mano. En paralelo, ComfyUI genera fondos visuales combinando footage real del DJ con escenas generadas con IA — loops, visualizaciones y ambientes que se sincronizan con la música. Remotion ensambla todo el video final, agrega elementos de engagement como trivias y overlays, y lo exporta listo para subir.",
+      "resultsTitle": "De 4 al mes a 300. Sin tocar un editor.",
+      "resultsP1": "El sistema publica 10 videos por día distribuidos en múltiples cuentas de YouTube. Lo que antes tomaba días de trabajo ahora ocurre en minutos. El DJ pasó de 4 videos al mes a más de 300 — un incremento de 75x — sin contratar editores ni productores.",
+      "resultsP2": "El aumento en consistencia disparó el alcance orgánico y las visualizaciones. Más contenido significa más inventory para vender publicidad a marcas, más oportunidades de monetización y un canal que crece en piloto automático mientras el DJ se enfoca en lo que realmente hace: crear música.",
+      "testimonialQuote": "Antes dedicaba días enteros a producir un set. Ahora el sistema lo hace solo y yo me enfoco en la música. El volumen de contenido que manejamos hoy era impensable hace 6 meses.",
+      "testimonialAuthor": "Pulse",
+      "testimonialRole": "DJ & Content Creator"
     }
   },
   "cookiePolicy": {

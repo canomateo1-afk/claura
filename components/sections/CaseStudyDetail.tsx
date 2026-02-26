@@ -27,6 +27,12 @@ const techLogoMap: Record<string, string> = {
   nextdotjs: "/images/tech-logos/nextdotjs.svg",
   anthropic: "/images/tech-logos/anthropic.svg",
   telegram: "/images/tech-logos/telegram.svg",
+  spotify: "/images/tech-logos/spotify.svg",
+  python: "/images/tech-logos/python.svg",
+  ffmpeg: "/images/tech-logos/ffmpeg.svg",
+  youtube: "/images/tech-logos/youtube.svg",
+  remotion: "/images/tech-logos/remotion.svg",
+  comfyui: "/images/tech-logos/comfyui.svg",
 };
 
 const allCaseStudies = [
@@ -37,10 +43,11 @@ const allCaseStudies = [
   { id: "loop", title: "Loop", category: "SaaS / Publicidad" },
   { id: "spacepal", title: "SpacePal", category: "Marketplace / Eventos" },
   { id: "remax", title: "Remax", category: "Real Estate / PropTech" },
+  { id: "pulse", title: "Pulse", category: "Music / Creator Economy" },
 ];
 
 // Case studies that have optional extra fields
-const caseStudyExtras: Record<string, { siteUrl?: string; tools?: string[] }> = {
+const caseStudyExtras: Record<string, { siteUrl?: string | null; tools?: string[] }> = {
   loop: {
     siteUrl: "https://www.adloop.app",
     tools: ["Instagram", "Facebook", "Meta"],
@@ -52,6 +59,10 @@ const caseStudyExtras: Record<string, { siteUrl?: string; tools?: string[] }> = 
   remax: {
     siteUrl: "https://www.remax.com.ar",
     tools: ["WhatsApp", "Telegram", "Instagram", "TikTok", "Facebook"],
+  },
+  pulse: {
+    siteUrl: null,
+    tools: ["YouTube", "Spotify", "Python", "FFmpeg", "ComfyUI", "Remotion"],
   },
 };
 
@@ -85,6 +96,10 @@ const caseStudyServices: Record<string, string[]> = {
   remax: [
     "Automatización de Contenido", "Bot de WhatsApp/Telegram", "Scraping de Medios",
     "Generación Multiformat", "Publicación Multiplataforma",
+  ],
+  pulse: [
+    "YouTube Automation", "AI Music Production", "Trending Content Analysis",
+    "Multi-account Management", "AI Video Generation", "Content Scaling",
   ],
 };
 
@@ -140,6 +155,14 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
     { name: "Next.js", icon: "nextdotjs" },
     { name: "Claude", icon: "anthropic" },
   ],
+  pulse: [
+    { name: "YouTube", icon: "youtube" },
+    { name: "Spotify", icon: "spotify" },
+    { name: "Python", icon: "python" },
+    { name: "FFmpeg", icon: "ffmpeg" },
+    { name: "ComfyUI", icon: "comfyui" },
+    { name: "Remotion", icon: "remotion" },
+  ],
 };
 
 const caseStudyImages: Record<string, string> = {
@@ -150,6 +173,7 @@ const caseStudyImages: Record<string, string> = {
   loop: "/images/cs-banner-5.jpg",
   spacepal: "/images/cs-banner-1.jpg",
   remax: "/images/cs-banner-2.jpg",
+  pulse: "/images/cs-banner-4.jpg",
 };
 
 const caseStudyIcons: Record<string, typeof Clock> = {

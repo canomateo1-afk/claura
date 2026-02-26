@@ -326,6 +326,11 @@
       "title": "Remax",
       "category": "Real Estate / PropTech",
       "description": "Content bot that generates and publishes real estate news and property promotions daily for agents — via WhatsApp or Telegram."
+    },
+    "pulse": {
+      "title": "Pulse",
+      "category": "Music / Creator Economy",
+      "description": "We automated the complete music set production pipeline — from trending research to daily publishing across multi-account YouTube."
     }
   },
   "privacyPolicy": {
@@ -666,6 +671,36 @@
       "testimonialQuote": "They didn't overwhelm us with options. They simply built exactly what we needed. We're saving 15 hours a week and saw ROI in less than two months.",
       "testimonialAuthor": "Ines Oreilly",
       "testimonialRole": "Agent at Remax"
+    },
+    "pulse": {
+      "metaTitle": "Pulse Case Study - Claura AI Agency",
+      "metaDescription": "How we automated music set production for a DJ influencer — from 4 videos per month to 10 videos daily.",
+      "category": "Music / Creator Economy",
+      "title": "Pulse",
+      "tagline": "From 4 sets a month to 10 videos a day — without touching a DAW.",
+      "heroDescription": "Complete music production automation: trending research, AI auto-mixing, AI-generated backgrounds and daily publishing across multi-account YouTube.",
+      "stat1Value": "75x",
+      "stat1Label": "More content produced",
+      "stat2Value": "10/day",
+      "stat2Label": "Videos published across accounts",
+      "stat3Value": "4→300",
+      "stat3Label": "Videos per month",
+      "stat4Value": "100%",
+      "stat4Label": "Automated pipeline",
+      "challengeTitle": "Producing quality sets took days. And only 4 went out per month.",
+      "challengeP1": "The DJ had a YouTube channel that was their main revenue source: organic views, client leads, and brand ad sales. The problem was production — finding trending songs, mixing them well, animating backgrounds, editing the video and uploading everything took days of work.",
+      "challengeP2": "With only 4 videos per month, the YouTube algorithm wasn't favoring them. Consistency and frequency are key to growing on the platform — but without a production team, scaling without sacrificing quality was impossible.",
+      "strategyTitle": "We automated every stage of the production pipeline, from song discovery to final publishing — with no manual intervention.",
+      "strategyP1": "The strategy was to build a modular system where each stage feeds the next autonomously: trending research → curation → mixing → video generation → publishing. The DJ only approves the final output.",
+      "solutionTitle": "A fully automated music production pipeline.",
+      "solutionP1": "The system starts with the Spotify API to identify the highest-engagement and fastest-growing songs in the DJ's key niches. An agent analyzes stream metrics, saves, and playlist adds to automatically select songs with the highest viral potential.",
+      "solutionP2": "Once selected, Python + FFmpeg handle the auto-mixing: intelligent crossfade, beat matching, level normalization, and intro/outro structure. The result sounds like a hand-mixed set. In parallel, ComfyUI generates visual backgrounds combining real DJ footage with AI-generated scenes — loops, visualizations, and atmospheres that sync with the music. Remotion assembles the final video, adds engagement elements like trivia and overlays, and exports it ready to upload.",
+      "resultsTitle": "From 4 a month to 300. Without touching an editor.",
+      "resultsP1": "The system publishes 10 videos per day distributed across multiple YouTube accounts. What used to take days of work now happens in minutes. The DJ went from 4 videos per month to over 300 — a 75x increase — without hiring editors or producers.",
+      "resultsP2": "The increase in consistency boosted organic reach and views. More content means more inventory to sell brand advertising, more monetization opportunities, and a channel that grows on autopilot while the DJ focuses on what they actually do: make music.",
+      "testimonialQuote": "I used to spend entire days producing a single set. Now the system does it automatically and I focus on the music. The volume of content we handle today was unthinkable 6 months ago.",
+      "testimonialAuthor": "Pulse",
+      "testimonialRole": "DJ & Content Creator"
     }
   },
   "cookiePolicy": {

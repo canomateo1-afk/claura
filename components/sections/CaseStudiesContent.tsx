@@ -17,6 +17,7 @@ const caseStudyImages = {
   loop: "/images/cs-banner-5.jpg",
   spacepal: "/images/cs-banner-1.jpg",
   remax: "/images/cs-banner-2.jpg",
+  pulse: "/images/cs-banner-4.jpg",
 };
 
 interface CaseStudyCardProps {
@@ -148,6 +149,13 @@ export function CaseStudiesContent() {
       category: t("remax.category"),
       description: t("remax.description"),
       image: caseStudyImages.remax,
+    },
+    {
+      id: "pulse",
+      title: t("pulse.title"),
+      category: t("pulse.category"),
+      description: t("pulse.description"),
+      image: caseStudyImages.pulse,
     },
   ];
 

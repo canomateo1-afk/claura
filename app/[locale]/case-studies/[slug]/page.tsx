@@ -5,7 +5,7 @@ import { Navigation, Footer } from "@/components/layout";
 import { CTA } from "@/components/sections";
 import { CaseStudyDetail } from "@/components/sections/CaseStudyDetail";
 
-const validSlugs = ["hamilton", "terra", "savannah", "snowflake", "loop", "spacepal", "remax"];
+const validSlugs = ["hamilton", "terra", "savannah", "snowflake", "loop", "spacepal", "remax", "pulse"];
 
 const bannerImages: Record<string, string> = {
   hamilton: "/images/cs-banner-1.jpg",
@@ -15,6 +15,7 @@ const bannerImages: Record<string, string> = {
   loop: "/images/cs-banner-5.jpg",
   spacepal: "/images/cs-banner-1.jpg",
   remax: "/images/cs-banner-2.jpg",
+  pulse: "/images/cs-banner-4.jpg",
 };
 
 export function generateStaticParams() {
