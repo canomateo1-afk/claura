@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Navigation, Footer } from "@/components/layout";
 import {
   Hero,
+  Channels,
   Stats,
   Services,
   Testimonial,
@@ -26,6 +27,7 @@ export default async function Home({
       <Navigation />
       <main>
         <Hero />
+        <Channels />
         <Services />
         <Stats />
         <Testimonial />

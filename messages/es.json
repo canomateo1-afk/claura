@@ -39,6 +39,9 @@
     "hiringDescription": "Siempre estamos buscando personas talentosas que quieran ayudar a negocios a sistematizar su contenido y construir sistemas que funcionen.",
     "applyNow": "Aplicar ahora"
   },
+  "channels": {
+    "label": "Canales con los que trabajamos"
+  },
   "services": {
     "sectionLabel": "Cómo trabajamos",
     "title": "Un proceso simple,",

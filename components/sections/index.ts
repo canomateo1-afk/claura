@@ -1,4 +1,5 @@
 export { Hero } from "./Hero";
+export { Channels } from "./Channels";
 export { Stats } from "./Stats";
 export { Services } from "./Services";
 export { Testimonial } from "./Testimonial";
