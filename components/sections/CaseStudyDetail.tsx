@@ -25,6 +25,7 @@ const techLogoMap: Record<string, string> = {
   reddit: "/images/tech-logos/reddit.svg",
   whatsapp: "/images/tech-logos/whatsapp.svg",
   nextdotjs: "/images/tech-logos/nextdotjs.svg",
+  anthropic: "/images/tech-logos/anthropic.svg",
 };
 
 const allCaseStudies = [
@@ -130,11 +131,12 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
     { name: "Next.js", icon: "nextdotjs" },
   ],
   remax: [
-    { name: "Make", icon: "make" },
-    { name: "WhatsApp Business API", icon: "whatsapp" },
-    { name: "OpenAI", icon: "openai" },
-    { name: "Instagram Graph API", icon: "instagram" },
-    { name: "TikTok API", icon: "tiktok" },
+    { name: "WhatsApp", icon: "whatsapp" },
+    { name: "Meta", icon: "meta" },
+    { name: "Instagram", icon: "instagram" },
+    { name: "TikTok", icon: "tiktok" },
+    { name: "Next.js", icon: "nextdotjs" },
+    { name: "Anthropic", icon: "anthropic" },
   ],
 };
 
