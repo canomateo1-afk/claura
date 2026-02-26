@@ -89,14 +89,17 @@ export function CaseStudy() {
         </FadeInUp>
       </div>
 
-      {/* Full-width scroll container (bleeds past container) */}
+      {/* Full-width scroll container — starts aligned with header, bleeds right */}
       <div
         ref={scrollRef}
-        className="flex gap-4 overflow-x-auto overflow-y-hidden pb-4 snap-x snap-mandatory px-6 scroll-smooth"
-        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+        className="flex gap-4 overflow-x-auto overflow-y-hidden pb-4 snap-x snap-mandatory scroll-smooth"
+        style={{
+          scrollbarWidth: "none",
+          msOverflowStyle: "none",
+          paddingLeft: "max(24px, calc((100vw - var(--container-max-width, 1280px)) / 2 + 24px))",
+          paddingRight: "24px",
+        }}
       >
-        {/* Left spacer to align with container */}
-        <div className="shrink-0 w-[max(0px,calc((100vw-var(--container-max-width,1280px))/2))]" aria-hidden />
 
         {allCaseStudies.map((cs, index) => (
           <Link
@@ -143,8 +146,6 @@ export function CaseStudy() {
           </Link>
         ))}
 
-        {/* Right padding */}
-        <div className="shrink-0 w-6" aria-hidden />
       </div>
     </section>
   );
