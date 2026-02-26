@@ -26,6 +26,7 @@ const techLogoMap: Record<string, string> = {
   whatsapp: "/images/tech-logos/whatsapp.svg",
   nextdotjs: "/images/tech-logos/nextdotjs.svg",
   anthropic: "/images/tech-logos/anthropic.svg",
+  telegram: "/images/tech-logos/telegram.svg",
 };
 
 const allCaseStudies = [
@@ -132,6 +133,7 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
   ],
   remax: [
     { name: "WhatsApp", icon: "whatsapp" },
+    { name: "Telegram", icon: "telegram" },
     { name: "Meta", icon: "meta" },
     { name: "Instagram", icon: "instagram" },
     { name: "TikTok", icon: "tiktok" },
