@@ -331,6 +331,11 @@
       "title": "Soy Andina",
       "category": "Comunidad / Lifestyle / Viajes",
       "description": "Automatizamos la generación y distribución de carruseles de contenido para una comunidad de mujeres viajeras — en Instagram, TikTok y Pinterest."
+    },
+    "curator": {
+      "title": "Curator",
+      "category": "Entretenimiento / Creator Economy",
+      "description": "Automatizamos el auto-clipping y distribución multilingüe de un influencer de entretenimiento — 30 clips por día en 3 cuentas en árabe, inglés y español."
     }
   },
   "privacyPolicy": {
@@ -731,6 +736,36 @@
       "testimonialQuote": "Antes nos basábamos mucho en la figura personal de la founder. Con esto empezamos a construir una marca mucho más robusta, atacando distintos ángulos de comunicación desde distintos canales.",
       "testimonialAuthor": "Soy Andina",
       "testimonialRole": "Comunidad de Viajes · @soyandina.viajes"
+    },
+    "curator": {
+      "metaTitle": "Caso Curator - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos el auto-clipping multilingüe de un influencer de entretenimiento — 30 clips por día en árabe, inglés y español, distribuidos en YouTube, TikTok e Instagram.",
+      "category": "Entretenimiento / Creator Economy",
+      "title": "Curator",
+      "tagline": "30 clips por día. 3 idiomas. 0 intervención manual.",
+      "heroDescription": "Influencer de entretenimiento con audiencias en árabe, inglés y español — contenido de largo aliento convertido en clips virales a escala.",
+      "stat1Value": "30",
+      "stat1Label": "Clips publicados por día",
+      "stat2Value": "3",
+      "stat2Label": "Cuentas activas en simultáneo",
+      "stat3Value": "3",
+      "stat3Label": "Idiomas automatizados",
+      "stat4Value": "100%",
+      "stat4Label": "Pipeline sin intervención manual",
+      "challengeTitle": "El creador tenía audiencias en tres idiomas pero un solo equipo — y no podía llegar a todos.",
+      "challengeP1": "Curator generaba contenido de largo aliento con alta calidad — pero su alcance estaba limitado por el idioma y el volumen. Publicar en árabe, inglés y español requería equipos separados, edición manual y una logística de distribución imposible de escalar sin multiplicar los costos.",
+      "challengeP2": "El resultado: una fracción de su audiencia potencial recibía el contenido, y la frecuencia de publicación era demasiado baja para que el algoritmo de YouTube, TikTok e Instagram favoreciera sus cuentas. La consistencia y el volumen son clave — y sin automatización, eran inalcanzables.",
+      "strategyTitle": "Construimos un pipeline que detecta automáticamente los mejores momentos del video, los recorta y los distribuye en las tres cuentas sin intervención humana.",
+      "strategyP1": "La estrategia fue separar la producción de la distribución. El creador graba una vez — el sistema se encarga del resto. Auto-clipping inteligente para identificar los momentos de mayor engagement, corte preciso con FFmpeg y publicación automatizada en cada cuenta según su idioma y plataforma.",
+      "solutionTitle": "Auto-clipping multilingüe con distribución automática en YouTube, TikTok e Instagram.",
+      "solutionP1": "El sistema analiza cada video de largo aliento para identificar los segmentos con mayor potencial viral: cambios de ritmo, frases de impacto, momentos de humor o tensión. FFmpeg corta los clips con precisión de frame, normaliza el audio y los exporta optimizados para cada plataforma — proporciones y bitrate distintos para Shorts, Reels y TikTok.",
+      "solutionP2": "Cada clip se publica automáticamente en la cuenta correspondiente al idioma del contenido: árabe, inglés o español. La distribución corre en paralelo en YouTube Shorts, TikTok e Instagram Reels, con captions y hashtags generados automáticamente para cada idioma. 10 clips por cuenta, todos los días, sin que el creador toque nada.",
+      "resultsTitle": "30 clips por día. Tres audiencias. Un solo sistema.",
+      "resultsP1": "Con el pipeline activo, Curator pasó de publicar esporádicamente a tener 30 clips diarios distribuidos en tres cuentas y tres plataformas. La frecuencia disparó el alcance orgánico en cada idioma — el algoritmo empezó a favorecer las cuentas por la consistencia y el volumen.",
+      "resultsP2": "El creador recuperó su tiempo para enfocarse en producir contenido de calidad, sabiendo que el sistema se encarga de extraer el máximo valor de cada video. Tres audiencias distintas, un solo esfuerzo de producción — multiplicado por la automatización.",
+      "testimonialQuote": "Antes grababa un video y llegaba a una fracción de mi audiencia. Ahora cada video se convierte en 30 clips que llegan a tres idiomas distintos de forma automática. Es como tener tres equipos trabajando 24/7.",
+      "testimonialAuthor": "Curator",
+      "testimonialRole": "Influencer de Entretenimiento"
     }
   },
   "cookiePolicy": {

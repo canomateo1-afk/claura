@@ -19,6 +19,7 @@ const caseStudyImages = {
   remax: "/images/cs-banner-2.jpg",
   pulse: "/images/cs-banner-4.jpg",
   soyandina: "/images/cs-banner-3.jpg",
+  curator: "/images/cs-banner-4.jpg",
 };
 
 interface CaseStudyCardProps {
@@ -164,6 +165,13 @@ export function CaseStudiesContent() {
       category: t("soyandina.category"),
       description: t("soyandina.description"),
       image: caseStudyImages.soyandina,
+    },
+    {
+      id: "curator",
+      title: t("curator.title"),
+      category: t("curator.category"),
+      description: t("curator.description"),
+      image: caseStudyImages.curator,
     },
   ];
 

@@ -48,6 +48,7 @@ const allCaseStudies = [
   { id: "remax", title: "Remax", category: "Real Estate / PropTech" },
   { id: "pulse", title: "Pulse", category: "Music / Creator Economy" },
   { id: "soyandina", title: "Soy Andina", category: "Comunidad / Lifestyle / Viajes" },
+  { id: "curator", title: "Curator", category: "Entretenimiento / Creator Economy" },
 ];
 
 // Case studies that have optional extra fields
@@ -71,6 +72,10 @@ const caseStudyExtras: Record<string, { siteUrl?: string | null; tools?: string[
   soyandina: {
     siteUrl: "https://www.soy-andina.com",
     tools: ["Instagram", "TikTok", "Pinterest"],
+  },
+  curator: {
+    siteUrl: null,
+    tools: ["YouTube", "Instagram", "TikTok"],
   },
 };
 
@@ -113,6 +118,10 @@ const caseStudyServices: Record<string, string[]> = {
     "Generación de Carruseles con IA", "Distribución Multiplataforma",
     "Identidad Visual Automatizada", "Instagram API", "TikTok Slideshows",
     "Pinterest Pins", "Content Scheduling",
+  ],
+  curator: [
+    "Auto-Clipping con IA", "Distribución Multilingüe", "YouTube Shorts Automation",
+    "TikTok Distribution", "Instagram Reels", "Video Compression", "Multi-account Management",
   ],
 };
 
@@ -184,6 +193,13 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
     { name: "TikTok", icon: "tiktok" },
     { name: "Pinterest", icon: "pinterest" },
   ],
+  curator: [
+    { name: "YouTube", icon: "youtube" },
+    { name: "FFmpeg", icon: "ffmpeg" },
+    { name: "Instagram", icon: "instagram" },
+    { name: "TikTok", icon: "tiktok" },
+    { name: "Python", icon: "python" },
+  ],
 };
 
 const caseStudyImages: Record<string, string> = {
@@ -196,6 +212,7 @@ const caseStudyImages: Record<string, string> = {
   remax: "/images/cs-banner-2.jpg",
   pulse: "/images/cs-banner-4.jpg",
   soyandina: "/images/cs-banner-3.jpg",
+  curator: "/images/cs-banner-4.jpg",
 };
 
 const caseStudyIcons: Record<string, typeof Clock> = {
