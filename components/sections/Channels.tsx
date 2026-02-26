@@ -17,6 +17,7 @@ const channels = [
   { name: "X",         icon: "/images/tech-logos/x.svg" },
   { name: "Threads",   icon: "/images/tech-logos/threads.svg" },
   { name: "Slack",     icon: "/images/tech-logos/slack.svg" },
+  { name: "Google",    icon: "/images/tech-logos/google.svg" },
 ];
 
 export function Channels() {
