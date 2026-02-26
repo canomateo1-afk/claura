@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { SectionLabel } from "@/components/ui";
@@ -24,9 +24,26 @@ const allCaseStudies = [
 export function CaseStudy() {
   const t = useTranslations("caseStudy");
   const tCaseStudies = useTranslations("caseStudies");
+
+  const headerRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [leftPad, setLeftPad] = useState(24);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
+
+  // Measure header's left edge to align carousel
+  const measurePadding = useCallback(() => {
+    if (headerRef.current) {
+      const rect = headerRef.current.getBoundingClientRect();
+      setLeftPad(rect.left);
+    }
+  }, []);
+
+  useEffect(() => {
+    measurePadding();
+    window.addEventListener("resize", measurePadding);
+    return () => window.removeEventListener("resize", measurePadding);
+  }, [measurePadding]);
 
   const checkScroll = () => {
     const el = scrollRef.current;
@@ -46,14 +63,14 @@ export function CaseStudy() {
   const scroll = (dir: "left" | "right") => {
     const el = scrollRef.current;
     if (!el) return;
-    const cardWidth = el.querySelector("a")?.offsetWidth ?? 280;
+    const cardWidth = (el.querySelector("a") as HTMLElement)?.offsetWidth ?? 280;
     el.scrollBy({ left: dir === "right" ? cardWidth + 16 : -(cardWidth + 16), behavior: "smooth" });
   };
 
   return (
     <section className="py-24 bg-[var(--color-cream-dark)]">
-      <div className="max-w-[var(--container-max-width)] mx-auto px-6">
-        {/* Header row: title left, arrows right */}
+      {/* Header inside container */}
+      <div ref={headerRef} className="max-w-[var(--container-max-width)] mx-auto px-6">
         <FadeInUp>
           <div className="flex items-end justify-between mb-12">
             <div>
@@ -72,7 +89,7 @@ export function CaseStudy() {
                 onClick={() => scroll("left")}
                 disabled={!canScrollLeft}
                 aria-label="Anterior"
-                className="w-10 h-10 rounded-full flex items-center justify-center border border-[var(--color-border)] bg-[var(--color-cream)] shadow-sm transition-all duration-200 disabled:opacity-30 hover:bg-[var(--color-cream-dark)] disabled:cursor-not-allowed"
+                className="w-10 h-10 rounded-full flex items-center justify-center border border-[var(--color-border)] bg-[var(--color-cream)] shadow-sm transition-all duration-200 disabled:opacity-30 hover:bg-white disabled:cursor-not-allowed"
               >
                 <ChevronLeft className="w-4 h-4 text-[var(--color-text-primary)]" />
               </button>
@@ -80,7 +97,7 @@ export function CaseStudy() {
                 onClick={() => scroll("right")}
                 disabled={!canScrollRight}
                 aria-label="Siguiente"
-                className="w-10 h-10 rounded-full flex items-center justify-center border border-[var(--color-border)] bg-[var(--color-cream)] shadow-sm transition-all duration-200 disabled:opacity-30 hover:bg-[var(--color-cream-dark)] disabled:cursor-not-allowed"
+                className="w-10 h-10 rounded-full flex items-center justify-center border border-[var(--color-border)] bg-[var(--color-cream)] shadow-sm transition-all duration-200 disabled:opacity-30 hover:bg-white disabled:cursor-not-allowed"
               >
                 <ChevronRight className="w-4 h-4 text-[var(--color-text-primary)]" />
               </button>
@@ -89,64 +106,64 @@ export function CaseStudy() {
         </FadeInUp>
       </div>
 
-      {/* Full-width scroll container — starts aligned with header, bleeds right */}
-      <div
-        ref={scrollRef}
-        className="flex gap-4 overflow-x-auto overflow-y-hidden pb-4 snap-x snap-mandatory scroll-smooth"
-        style={{
-          scrollbarWidth: "none",
-          msOverflowStyle: "none",
-          paddingLeft: "max(24px, calc((100vw - var(--container-max-width, 1280px)) / 2 + 24px))",
-          paddingRight: "24px",
-        }}
-      >
-
-        {allCaseStudies.map((cs, index) => (
-          <Link
-            key={cs.id}
-            href={`/case-studies/${cs.id}`}
-            className="shrink-0 w-[72vw] sm:w-[44vw] md:w-[32vw] lg:w-[22vw] max-w-[300px] snap-start"
-          >
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.5, delay: index * 0.04, ease: [0.4, 0, 0.2, 1] }}
-              className="group bg-[var(--color-cream)] rounded-[24px] p-3 pb-4 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer"
+      {/* Full-width carousel — left edge aligned with header via JS measurement */}
+      <FadeInUp delay={0.1}>
+        <div
+          ref={scrollRef}
+          className="flex gap-4 overflow-x-auto overflow-y-hidden pb-4 snap-x snap-mandatory"
+          style={{
+            scrollbarWidth: "none",
+            msOverflowStyle: "none",
+            paddingLeft: `${leftPad}px`,
+            paddingRight: `${leftPad}px`,
+          }}
+        >
+          {allCaseStudies.map((cs, index) => (
+            <Link
+              key={cs.id}
+              href={`/case-studies/${cs.id}`}
+              className="shrink-0 w-[72vw] sm:w-[44vw] md:w-[30vw] lg:w-[21vw] max-w-[300px] snap-start"
             >
-              {/* Image */}
-              <div className="aspect-[4/3] relative overflow-hidden rounded-[16px]">
-                <Image
-                  src={cs.image}
-                  alt={cs.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  style={{ filter: "brightness(0.85) saturate(1.75)" }}
-                />
-                {/* Category badge */}
-                <div className="absolute top-3 right-3 z-10">
-                  <span className="px-3 py-1 text-xs font-medium rounded-lg bg-white/95 text-[var(--color-charcoal)] backdrop-blur-sm shadow-sm">
-                    {cs.category}
-                  </span>
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.5, delay: index * 0.04, ease: [0.4, 0, 0.2, 1] }}
+                className="group bg-[var(--color-cream)] rounded-[24px] p-3 pb-4 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer"
+              >
+                {/* Image */}
+                <div className="aspect-[4/3] relative overflow-hidden rounded-[16px]">
+                  <Image
+                    src={cs.image}
+                    alt={cs.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    style={{ filter: "brightness(0.85) saturate(1.75)" }}
+                  />
+                  {/* Category badge */}
+                  <div className="absolute top-3 right-3 z-10">
+                    <span className="px-3 py-1 text-xs font-medium rounded-lg bg-white/95 text-[var(--color-charcoal)] backdrop-blur-sm shadow-sm">
+                      {cs.category}
+                    </span>
+                  </div>
+                  {/* Title overlay */}
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="font-display text-lg md:text-xl font-medium tracking-tight leading-tight text-white drop-shadow-md px-3 text-center">
+                      {cs.title}
+                    </span>
+                  </div>
                 </div>
-                {/* Title overlay */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="font-display text-lg md:text-xl font-medium tracking-tight leading-tight text-white drop-shadow-md px-3 text-center">
-                    {cs.title}
-                  </span>
+                {/* Description */}
+                <div className="pt-3 px-1">
+                  <p className="text-[var(--color-text-secondary)] text-xs leading-relaxed line-clamp-2">
+                    {tCaseStudies(`${cs.id}.description`)}
+                  </p>
                 </div>
-              </div>
-              {/* Description */}
-              <div className="pt-3 px-1">
-                <p className="text-[var(--color-text-secondary)] text-xs leading-relaxed line-clamp-2">
-                  {tCaseStudies(`${cs.id}.description`)}
-                </p>
-              </div>
-            </motion.div>
-          </Link>
-        ))}
-
-      </div>
+              </motion.div>
+            </Link>
+          ))}
+        </div>
+      </FadeInUp>
     </section>
   );
 }
