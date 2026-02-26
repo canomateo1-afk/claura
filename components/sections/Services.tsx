@@ -28,18 +28,18 @@ export function Services() {
       image: "/images/service-build.png",
     },
     {
-      id: "deploy",
-      number: t("deploy.number"),
-      title: t("deploy.title"),
-      description: t("deploy.description"),
-      image: "/images/service-deploy.png",
-    },
-    {
       id: "optimize",
       number: t("optimize.number"),
       title: t("optimize.title"),
       description: t("optimize.description"),
       image: "/images/service-optimize.png",
+    },
+    {
+      id: "train",
+      number: t("train.number"),
+      title: t("train.title"),
+      description: t("train.description"),
+      image: "/images/service-train.png",
     },
   ];
 

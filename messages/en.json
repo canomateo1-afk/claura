@@ -40,30 +40,30 @@
     "applyNow": "Apply now"
   },
   "services": {
-    "sectionLabel": "Services",
-    "title": "We handle",
-    "titleHighlight": "everything",
-    "titleEnd": "so you don't have to.",
-    "description": "From auditing your content workflow to building your system and training your team—we manage the entire process while you focus on running your business.",
+    "sectionLabel": "How We Work",
+    "title": "A simple process,",
+    "titleHighlight": "results",
+    "titleEnd": "that aren't.",
+    "description": "Four stages — from understanding your business to leaving your team running the system independently.",
     "discover": {
       "title": "Discover",
       "number": "01",
-      "description": "We audit your content workflow and identify where a system can replace manual, repetitive tasks."
+      "description": "We understand your business, map your current workflows, and identify exactly where AI can eliminate manual work and generate real impact."
     },
     "build": {
       "title": "Build",
       "number": "02",
-      "description": "Custom content systems designed for how your team works—from creation to publishing to distribution."
-    },
-    "deploy": {
-      "title": "Deploy",
-      "number": "03",
-      "description": "We set up, test, and launch your system so it works perfectly from day one."
+      "description": "We design and build the system from scratch — integrations, agents, content pipelines — adapted to how your team already works."
     },
     "optimize": {
       "title": "Optimize",
+      "number": "03",
+      "description": "We fine-tune the models with real business data, iterate on outputs, and refine every part of the system until it works exactly as needed."
+    },
+    "train": {
+      "title": "Train",
       "number": "04",
-      "description": "We train your team and provide ongoing support so your content system keeps scaling with you."
+      "description": "We train your team to run the system independently and provide ongoing advisory so you can scale without depending on us."
     },
     "bookFreeCall": "Book a free call"
   },

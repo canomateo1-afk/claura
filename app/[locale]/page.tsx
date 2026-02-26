@@ -5,7 +5,6 @@ import {
   Stats,
   Services,
   Testimonial,
-  HowWeWork,
   Comparison,
   CaseStudy,
   // Team,
@@ -28,7 +27,6 @@ export default async function Home({
       <main>
         <Hero />
         <Services />
-        <HowWeWork />
         <Stats />
         <Testimonial />
         <Comparison />

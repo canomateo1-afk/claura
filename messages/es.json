@@ -40,30 +40,30 @@
     "applyNow": "Aplicar ahora"
   },
   "services": {
-    "sectionLabel": "Servicios",
-    "title": "Nosotros nos encargamos de",
-    "titleHighlight": "todo",
-    "titleEnd": "para que tú no tengas que hacerlo.",
-    "description": "Desde auditar tu flujo de contenido hasta construir tu sistema y capacitar a tu equipo—gestionamos todo el proceso mientras tú te enfocas en dirigir tu negocio.",
+    "sectionLabel": "Cómo trabajamos",
+    "title": "Un proceso simple,",
+    "titleHighlight": "resultados",
+    "titleEnd": "que no lo son.",
+    "description": "Cuatro etapas que van desde entender tu negocio hasta dejar a tu equipo operando el sistema de forma autónoma.",
     "discover": {
-      "title": "Descubrir",
+      "title": "Discover",
       "number": "01",
-      "description": "Auditamos tu flujo de contenido e identificamos dónde un sistema puede reemplazar tareas manuales y repetitivas."
+      "description": "Entendemos tu negocio, mapeamos tus flujos actuales e identificamos exactamente dónde la IA puede eliminar trabajo manual y generar impacto real."
     },
     "build": {
-      "title": "Construir",
+      "title": "Build",
       "number": "02",
-      "description": "Sistemas de contenido personalizados diseñados para cómo trabaja tu equipo—desde la creación hasta la publicación y distribución."
-    },
-    "deploy": {
-      "title": "Implementar",
-      "number": "03",
-      "description": "Configuramos, probamos y lanzamos tu sistema para que funcione perfectamente desde el primer día."
+      "description": "Diseñamos y construimos el sistema a medida — integraciones, agentes, pipelines de contenido — adaptado a cómo ya trabaja tu equipo."
     },
     "optimize": {
-      "title": "Optimizar",
+      "title": "Optimize",
+      "number": "03",
+      "description": "Ajustamos los modelos con datos reales de tu negocio, iteramos sobre los outputs y refinamos cada parte del sistema hasta que funcione exactamente como necesitás."
+    },
+    "train": {
+      "title": "Train",
       "number": "04",
-      "description": "Capacitamos a tu equipo y proporcionamos soporte continuo para que tu sistema de contenido siga escalando contigo."
+      "description": "Capacitamos a tu equipo para operar el sistema de forma independiente y brindamos asesoría continua para que puedas escalar sin depender de nosotros."
     },
     "bookFreeCall": "Agenda una llamada gratis"
   },
