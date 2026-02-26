@@ -24,7 +24,7 @@ export function Channels() {
   const t = useTranslations("channels");
 
   return (
-    <section className="py-12 bg-[var(--color-cream)] border-y border-[rgba(0,0,0,0.06)] overflow-hidden">
+    <section className="py-12 bg-[var(--color-cream)] border-t border-[rgba(0,0,0,0.06)] overflow-hidden">
       {/* Label */}
       <p className="text-center text-xs font-medium tracking-widest uppercase text-[var(--color-text-muted)] mb-8 px-6">
         {t("label")}
