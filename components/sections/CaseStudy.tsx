@@ -1,118 +1,93 @@
 "use client";
 
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import Link from "next/link";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { SectionLabel, SectionHeading } from "@/components/ui";
+import { SectionLabel } from "@/components/ui";
 import { FadeInUp } from "@/components/animations";
 
-function CountUp({ value, suffix = "" }: { value: number; suffix?: string }) {
-  const [count, setCount] = useState(0);
-  const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true });
-
-  useEffect(() => {
-    if (!isInView) return;
-
-    const duration = 2000;
-    const startTime = Date.now();
-
-    const updateCount = () => {
-      const elapsed = Date.now() - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const easeOut = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.floor(value * easeOut));
-
-      if (progress < 1) {
-        requestAnimationFrame(updateCount);
-      }
-    };
-
-    requestAnimationFrame(updateCount);
-  }, [isInView, value]);
-
-  return <span ref={ref}>{count}{suffix}</span>;
-}
+const allCaseStudies = [
+  { id: "hamilton", title: "Hamilton", category: "Ecommerce", image: "/images/cs-banner-1.jpg" },
+  { id: "terra", title: "Terra", category: "Alimentos y Bebidas", image: "/images/cs-banner-2.jpg" },
+  { id: "savannah", title: "Savannah", category: "Marketing", image: "/images/cs-banner-3.jpg" },
+  { id: "snowflake", title: "Snowflake", category: "Software", image: "/images/cs-banner-4.jpg" },
+  { id: "loop", title: "Loop", category: "SaaS / Publicidad", image: "/images/cs-banner-5.jpg" },
+  { id: "spacepal", title: "SpacePal", category: "Marketplace / Eventos", image: "/images/cs-banner-1.jpg" },
+  { id: "remax", title: "Remax", category: "Real Estate / PropTech", image: "/images/cs-banner-2.jpg" },
+  { id: "pulse", title: "Pulse", category: "Music / Creator Economy", image: "/images/cs-banner-4.jpg" },
+  { id: "soyandina", title: "Soy Andina", category: "Comunidad / Lifestyle", image: "/images/cs-banner-3.jpg" },
+];
 
 export function CaseStudy() {
   const t = useTranslations("caseStudy");
+  const tCaseStudies = useTranslations("caseStudies");
 
   return (
-    <section className="py-24 px-6 bg-[var(--color-cream)]">
+    <section className="py-24 px-6 bg-[var(--color-cream-dark)]">
       <div className="max-w-[var(--container-max-width)] mx-auto">
-        <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-16 items-center">
-          {/* Content */}
-          <div>
-            <SectionLabel className="px-5 py-2 text-xs tracking-wide uppercase">
-              {t("sectionLabel")}
-            </SectionLabel>
-            <SectionHeading
-              highlightWords={["most", "importa"]}
-              className="max-w-[520px]"
-            >
-              {t("title")}
-            </SectionHeading>
-
-            <FadeInUp delay={0.1}>
-              <div className="space-y-4 text-[var(--color-text-secondary)] leading-relaxed mt-6 max-w-[520px]">
-                <p>
-                  {t("paragraph1")}
-                </p>
-                <p>
-                  {t("paragraph2")}
-                </p>
-                <p className="text-[var(--color-text-secondary)]">
-                  {t("paragraph3")}
-                </p>
-              </div>
-            </FadeInUp>
-
-            {/* Stats */}
-            <FadeInUp delay={0.2}>
-              <div className="grid grid-cols-2 gap-6 mt-12 max-w-[520px]">
-                <div className="rounded-2xl bg-[var(--color-cream-dark)] px-6 py-5 shadow-[var(--shadow-sm)]">
-                  <div className="font-display text-4xl font-light italic mb-2 text-[var(--color-brown)]">
-                    <CountUp value={50} suffix="+" />
-                  </div>
-                  <p className="font-semibold text-sm">{t("stat1Title")}</p>
-                  <p className="text-xs text-[var(--color-text-muted)]">{t("stat1Subtitle")}</p>
-                </div>
-                <div className="rounded-2xl bg-[var(--color-cream-dark)] px-6 py-5 shadow-[var(--shadow-sm)]">
-                  <div className="font-display text-4xl font-light italic mb-2 text-[var(--color-brown)]">
-                    <CountUp value={40} suffix="%" />
-                  </div>
-                  <p className="font-semibold text-sm">{t("stat2Title")}</p>
-                  <p className="text-xs text-[var(--color-text-muted)]">{t("stat2Subtitle")}</p>
-                </div>
-              </div>
-            </FadeInUp>
+        {/* Header */}
+        <FadeInUp>
+          <div className="mb-12">
+            <SectionLabel className="bg-[#E5DCD0]">{t("sectionLabel")}</SectionLabel>
+            <h2 className="font-display text-[clamp(2rem,4vw,3.25rem)] font-normal leading-tight mt-4">
+              {t("title")}{" "}
+              <span className="font-light italic text-[var(--color-brown-muted)]">
+                {t("titleHighlight")}
+              </span>
+            </h2>
           </div>
+        </FadeInUp>
 
-          {/* Visual */}
-          <FadeInUp delay={0.3}>
-            <div className="relative">
-              <div className="relative aspect-[4/5] rounded-[28px] overflow-hidden shadow-[var(--shadow-card)]">
-                <Image
-                  src="/images/case-study.png"
-                  alt="Hamilton e-commerce automation"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/10" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="flex items-center gap-2 text-white/90 text-xl font-semibold drop-shadow">
-                    <span className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-white/60 text-sm">
-                      *
-                    </span>
-                    <span>Hamilton</span>
+        {/* Horizontal scroll carousel */}
+        <FadeInUp delay={0.1}>
+          <div className="flex gap-4 overflow-x-auto overflow-y-hidden pb-4 snap-x snap-mandatory -mx-6 px-6 md:grid md:grid-cols-3 md:gap-6 md:overflow-visible md:pb-0 md:mx-0 md:px-0 lg:grid-cols-4">
+            {allCaseStudies.map((cs, index) => (
+              <Link
+                key={cs.id}
+                href={`/case-studies/${cs.id}`}
+                className="shrink-0 w-[72vw] max-w-[280px] snap-start md:w-auto md:max-w-none"
+              >
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.2 }}
+                  transition={{ duration: 0.5, delay: index * 0.05, ease: [0.4, 0, 0.2, 1] }}
+                  className="group bg-[var(--color-cream)] rounded-[24px] p-3 pb-4 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-shadow duration-300 cursor-pointer"
+                >
+                  {/* Image */}
+                  <div className="aspect-[4/3] relative overflow-hidden rounded-[16px]">
+                    <Image
+                      src={cs.image}
+                      alt={cs.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      style={{ filter: "brightness(0.85) saturate(1.75)" }}
+                    />
+                    {/* Category badge */}
+                    <div className="absolute top-3 right-3 z-10">
+                      <span className="px-3 py-1 text-xs font-medium rounded-lg bg-white/95 text-[var(--color-charcoal)] backdrop-blur-sm shadow-sm">
+                        {cs.category}
+                      </span>
+                    </div>
+                    {/* Title overlay */}
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <span className="font-display text-lg md:text-xl font-medium tracking-tight leading-tight text-white drop-shadow-md px-3 text-center">
+                        {cs.title}
+                      </span>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </FadeInUp>
-        </div>
+                  {/* Description */}
+                  <div className="pt-3 px-1">
+                    <p className="text-[var(--color-text-secondary)] text-xs leading-relaxed line-clamp-2">
+                      {tCaseStudies(`${cs.id}.description`)}
+                    </p>
+                  </div>
+                </motion.div>
+              </Link>
+            ))}
+          </div>
+        </FadeInUp>
       </div>
     </section>
   );

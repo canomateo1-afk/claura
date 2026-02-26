@@ -120,17 +120,9 @@
     }
   },
   "caseStudy": {
-    "sectionLabel": "Case study",
-    "title": "Content systems that deliver real results.",
-    "paragraph1": "Hamilton, a growing e-commerce brand, was spending 30+ hours a week creating product descriptions, social posts, and email campaigns manually.",
-    "paragraph2": "We built a content automation system that generates, schedules, and publishes across all their channels—integrated with their existing tools.",
-    "paragraph3": "Within 30 days, they saw measurable results.",
-    "stat1Value": "50+",
-    "stat1Title": "Content hours saved",
-    "stat1Subtitle": "In the first month",
-    "stat2Value": "40%",
-    "stat2Title": "Reduction",
-    "stat2Subtitle": "In manual work"
+    "sectionLabel": "Case studies",
+    "title": "Content systems",
+    "titleHighlight": "that deliver results."
   },
   "team": {
     "sectionLabel": "Meet the team",

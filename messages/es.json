@@ -120,17 +120,9 @@
     }
   },
   "caseStudy": {
-    "sectionLabel": "Caso de estudio",
-    "title": "Sistemas de contenido que entregan resultados reales.",
-    "paragraph1": "Hamilton, una marca de e-commerce en crecimiento, pasaba más de 30 horas a la semana creando descripciones de productos, publicaciones en redes sociales y campañas de email manualmente.",
-    "paragraph2": "Construimos un sistema de automatización de contenido que genera, programa y publica en todos sus canales—integrado con sus herramientas existentes.",
-    "paragraph3": "En 30 días, vieron resultados medibles.",
-    "stat1Value": "50+",
-    "stat1Title": "Horas de contenido ahorradas",
-    "stat1Subtitle": "En el primer mes",
-    "stat2Value": "40%",
-    "stat2Title": "Reducción",
-    "stat2Subtitle": "En trabajo manual"
+    "sectionLabel": "Casos de estudio",
+    "title": "Sistemas de contenido",
+    "titleHighlight": "que generan resultados."
   },
   "team": {
     "sectionLabel": "Conoce al equipo",
