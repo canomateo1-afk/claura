@@ -15,6 +15,8 @@ const channels = [
   { name: "Telegram",  icon: "/images/tech-logos/telegram.svg" },
   { name: "Reddit",    icon: "/images/tech-logos/reddit.svg" },
   { name: "X",         icon: "/images/tech-logos/x.svg" },
+  { name: "Threads",   icon: "/images/tech-logos/threads.svg" },
+  { name: "Slack",     icon: "/images/tech-logos/slack.svg" },
 ];
 
 export function Channels() {
