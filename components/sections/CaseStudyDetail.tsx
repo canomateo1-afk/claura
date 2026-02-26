@@ -47,6 +47,7 @@ const allCaseStudies = [
   { id: "spacepal", title: "SpacePal", category: "Marketplace / Eventos" },
   { id: "remax", title: "Remax", category: "Real Estate / PropTech" },
   { id: "pulse", title: "Pulse", category: "Music / Creator Economy" },
+  { id: "soyandina", title: "Soy Andina", category: "Comunidad / Lifestyle / Viajes" },
 ];
 
 // Case studies that have optional extra fields
@@ -66,6 +67,10 @@ const caseStudyExtras: Record<string, { siteUrl?: string | null; tools?: string[
   pulse: {
     siteUrl: null,
     tools: ["YouTube", "Spotify", "Python", "FFmpeg", "ComfyUI", "Remotion"],
+  },
+  soyandina: {
+    siteUrl: "https://www.soy-andina.com",
+    tools: ["Instagram", "TikTok", "Pinterest"],
   },
 };
 
@@ -103,6 +108,11 @@ const caseStudyServices: Record<string, string[]> = {
   pulse: [
     "YouTube Automation", "AI Music Production", "Trending Content Analysis",
     "Multi-account Management", "AI Video Generation", "Content Scaling",
+  ],
+  soyandina: [
+    "Generación de Carruseles con IA", "Distribución Multiplataforma",
+    "Identidad Visual Automatizada", "Instagram API", "TikTok Slideshows",
+    "Pinterest Pins", "Content Scheduling",
   ],
 };
 
@@ -166,6 +176,14 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
     { name: "ComfyUI", icon: "comfyui" },
     { name: "Remotion", icon: "remotion" },
   ],
+  soyandina: [
+    { name: "Unsplash", icon: "unsplash" },
+    { name: "node-canvas", icon: "nodedotjs" },
+    { name: "ComfyUI", icon: "comfyui" },
+    { name: "Instagram", icon: "instagram" },
+    { name: "TikTok", icon: "tiktok" },
+    { name: "Pinterest", icon: "pinterest" },
+  ],
 };
 
 const caseStudyImages: Record<string, string> = {
@@ -177,6 +195,7 @@ const caseStudyImages: Record<string, string> = {
   spacepal: "/images/cs-banner-1.jpg",
   remax: "/images/cs-banner-2.jpg",
   pulse: "/images/cs-banner-4.jpg",
+  soyandina: "/images/cs-banner-3.jpg",
 };
 
 const caseStudyIcons: Record<string, typeof Clock> = {

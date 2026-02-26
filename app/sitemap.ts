@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/case-studies/spacepal', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: '/case-studies/remax', priority: 0.7, changeFrequency: 'monthly' as const },
     { path: '/case-studies/pulse', priority: 0.7, changeFrequency: 'monthly' as const },
+    { path: '/case-studies/soyandina', priority: 0.7, changeFrequency: 'monthly' as const },
     { path: '/book-a-call', priority: 0.7, changeFrequency: 'monthly' as const },
     { path: '/legal/privacy-policy', priority: 0.3, changeFrequency: 'yearly' as const },
     { path: '/legal/terms-of-service', priority: 0.3, changeFrequency: 'yearly' as const },

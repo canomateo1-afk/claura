@@ -331,6 +331,11 @@
       "title": "Pulse",
       "category": "Music / Creator Economy",
       "description": "Automatizamos la producción completa de sets musicales — desde trending research hasta publicación diaria en multi-cuenta YouTube."
+    },
+    "soyandina": {
+      "title": "Soy Andina",
+      "category": "Comunidad / Lifestyle / Viajes",
+      "description": "Automatizamos la generación y distribución de carruseles de contenido para una comunidad de mujeres viajeras — en Instagram, TikTok y Pinterest."
     }
   },
   "privacyPolicy": {
@@ -701,6 +706,36 @@
       "testimonialQuote": "Antes dedicaba días enteros a producir un set. Ahora el sistema lo hace solo y yo me enfoco en la música. El volumen de contenido que manejamos hoy era impensable hace 6 meses.",
       "testimonialAuthor": "Pulse",
       "testimonialRole": "DJ & Content Creator"
+    },
+    "soyandina": {
+      "metaTitle": "Caso Soy Andina - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos los carruseles de contenido de una comunidad de mujeres viajeras para escalar su presencia en Instagram, TikTok y Pinterest — con millones de views.",
+      "category": "Comunidad / Lifestyle / Viajes",
+      "title": "Soy Andina",
+      "tagline": "De una sola voz a una marca que comunica desde todos los ángulos.",
+      "heroDescription": "Comunidad de mujeres viajeras con 65K seguidores en Instagram — experiencias en la montaña, viajes grupales y conexión con la naturaleza.",
+      "stat1Value": "M+",
+      "stat1Label": "Views generadas",
+      "stat2Value": "3",
+      "stat2Label": "Canales activos",
+      "stat3Value": "100%",
+      "stat3Label": "Contenido automatizado",
+      "stat4Value": "65K+",
+      "stat4Label": "Seguidores en Instagram",
+      "challengeTitle": "La marca dependía de una sola persona para existir en redes.",
+      "challengeP1": "Soy Andina había construido una comunidad de mujeres apasionadas por los viajes y la naturaleza — pero toda la presencia digital giraba alrededor de la figura personal de la founder. Ella era la que creaba el contenido, la que hablaba a cámara, la que publicaba.",
+      "challengeP2": "Esa dependencia tenía un techo claro: no podían escalar a nuevos canales, no podían mantener consistencia cuando la founder estaba viajando, y la marca no tenía vida propia más allá de su cara. Instagram era el único canal activo, y el ritmo de publicación era irregular.",
+      "strategyTitle": "Diseñamos un sistema que genera carruseles de alta calidad de forma automatizada — adaptados a cada plataforma y al espíritu de la comunidad.",
+      "strategyP1": "La estrategia fue darle a la marca una voz visual independiente de la founder. Carruseles que cuentan historias, comparten inspiración de viajes y reflejan la identidad de la comunidad — sin necesitar producción manual para cada pieza.",
+      "solutionTitle": "Un pipeline automatizado de carruseles para Instagram, TikTok y Pinterest.",
+      "solutionP1": "El sistema combina Nano Banana Pro para generar las imágenes base, la API de Unsplash para fotografía de paisajes y naturaleza, y node-canvas para componer los overlays de texto con la identidad visual de Soy Andina. ComfyUI agrega el tratamiento visual final — grading, texturas y consistencia estética en todas las piezas.",
+      "solutionP2": "Los carruseles se distribuyen automáticamente en Instagram vía la API oficial, en TikTok como slideshows y en Pinterest como pins. Cada formato se adapta al canal: proporciones, textos y hooks distintos para cada plataforma. La founder aprueba los lotes semanales con un solo clic.",
+      "resultsTitle": "Millones de views. Una marca que ya no depende de una sola voz.",
+      "resultsP1": "Con el sistema activo, Soy Andina pasó de publicar esporádicamente en un solo canal a tener presencia consistente en tres plataformas simultáneamente. Los carruseles automatizados generaron millones de views acumuladas y expandieron el alcance de la comunidad más allá de su base existente.",
+      "resultsP2": "El cambio más importante no fue el volumen: fue estructural. La marca dejó de ser la foto de la founder y se convirtió en una identidad propia. Distintos ángulos de comunicación, distintos canales, una sola voz — automatizada.",
+      "testimonialQuote": "Antes nos basábamos mucho en la figura personal de la founder. Con esto empezamos a construir una marca mucho más robusta, atacando distintos ángulos de comunicación desde distintos canales.",
+      "testimonialAuthor": "Soy Andina",
+      "testimonialRole": "Comunidad de Viajes · @soyandina.viajes"
     }
   },
   "cookiePolicy": {

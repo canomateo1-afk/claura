@@ -331,6 +331,11 @@
       "title": "Pulse",
       "category": "Music / Creator Economy",
       "description": "We automated the complete music set production pipeline — from trending research to daily publishing across multi-account YouTube."
+    },
+    "soyandina": {
+      "title": "Soy Andina",
+      "category": "Community / Lifestyle / Travel",
+      "description": "We automated carousel content generation and distribution for a women travelers community — across Instagram, TikTok and Pinterest."
     }
   },
   "privacyPolicy": {
@@ -701,6 +706,36 @@
       "testimonialQuote": "I used to spend entire days producing a single set. Now the system does it automatically and I focus on the music. The volume of content we handle today was unthinkable 6 months ago.",
       "testimonialAuthor": "Pulse",
       "testimonialRole": "DJ & Content Creator"
+    },
+    "soyandina": {
+      "metaTitle": "Soy Andina Case Study - Claura AI Agency",
+      "metaDescription": "How we automated carousel content for a 65K women travelers community — scaling their presence across Instagram, TikTok and Pinterest with millions of views.",
+      "category": "Community / Lifestyle / Travel",
+      "title": "Soy Andina",
+      "tagline": "From a single voice to a brand that speaks from every angle.",
+      "heroDescription": "Women travelers community with 65K Instagram followers — mountain experiences, group trips and connection with nature.",
+      "stat1Value": "M+",
+      "stat1Label": "Views generated",
+      "stat2Value": "3",
+      "stat2Label": "Active channels",
+      "stat3Value": "100%",
+      "stat3Label": "Automated content",
+      "stat4Value": "65K+",
+      "stat4Label": "Instagram followers",
+      "challengeTitle": "The brand depended on a single person to exist on social media.",
+      "challengeP1": "Soy Andina had built a community of women passionate about travel and nature — but the entire digital presence revolved around the founder's personal figure. She was the one creating content, speaking on camera, publishing.",
+      "challengeP2": "That dependency had a clear ceiling: they couldn't scale to new channels, couldn't maintain consistency when the founder was traveling, and the brand had no life of its own beyond her face. Instagram was the only active channel, and the publishing rhythm was irregular.",
+      "strategyTitle": "We designed a system that generates high-quality carousels automatically — adapted to each platform and the spirit of the community.",
+      "strategyP1": "The strategy was to give the brand a visual voice independent of the founder. Carousels that tell stories, share travel inspiration, and reflect the identity of the community — without needing manual production for each piece.",
+      "solutionTitle": "An automated carousel pipeline for Instagram, TikTok and Pinterest.",
+      "solutionP1": "The system combines Nano Banana Pro to generate base images, the Unsplash API for landscape and nature photography, and node-canvas to compose text overlays with Soy Andina's visual identity. ComfyUI adds the final visual treatment — grading, textures and aesthetic consistency across all pieces.",
+      "solutionP2": "Carousels are automatically distributed on Instagram via the official API, on TikTok as slideshows, and on Pinterest as pins. Each format adapts to the channel: different proportions, copy and hooks for each platform. The founder approves weekly batches with a single click.",
+      "resultsTitle": "Millions of views. A brand that no longer depends on a single voice.",
+      "resultsP1": "With the system active, Soy Andina went from posting sporadically on a single channel to having consistent presence across three platforms simultaneously. The automated carousels generated millions of accumulated views and expanded the community's reach beyond its existing base.",
+      "resultsP2": "The most important change wasn't the volume: it was structural. The brand stopped being a photo of the founder and became its own identity. Different communication angles, different channels, one voice — automated.",
+      "testimonialQuote": "Before, we relied heavily on the founder's personal figure. With this we started building a much more robust brand, attacking different communication angles from different channels.",
+      "testimonialAuthor": "Soy Andina",
+      "testimonialRole": "Travel Community · @soyandina.viajes"
     }
   },
   "cookiePolicy": {

@@ -18,6 +18,7 @@ const caseStudyImages = {
   spacepal: "/images/cs-banner-1.jpg",
   remax: "/images/cs-banner-2.jpg",
   pulse: "/images/cs-banner-4.jpg",
+  soyandina: "/images/cs-banner-3.jpg",
 };
 
 interface CaseStudyCardProps {
@@ -156,6 +157,13 @@ export function CaseStudiesContent() {
       category: t("pulse.category"),
       description: t("pulse.description"),
       image: caseStudyImages.pulse,
+    },
+    {
+      id: "soyandina",
+      title: t("soyandina.title"),
+      category: t("soyandina.category"),
+      description: t("soyandina.description"),
+      image: caseStudyImages.soyandina,
     },
   ];
 
