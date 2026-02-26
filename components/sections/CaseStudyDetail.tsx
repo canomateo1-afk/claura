@@ -34,6 +34,7 @@ const allCaseStudies = [
   { id: "snowflake", title: "Snowflake", category: "Software" },
   { id: "loop", title: "Loop", category: "SaaS / Publicidad" },
   { id: "spacepal", title: "SpacePal", category: "Marketplace / Eventos" },
+  { id: "remax", title: "Remax", category: "Real Estate / PropTech" },
 ];
 
 // Case studies that have optional extra fields
@@ -45,6 +46,10 @@ const caseStudyExtras: Record<string, { siteUrl?: string; tools?: string[] }> = 
   spacepal: {
     siteUrl: "https://www.space-pal.com",
     tools: ["SEO Programático", "Reddit", "TikTok", "Email", "WhatsApp"],
+  },
+  remax: {
+    siteUrl: "https://www.remax.com.ar",
+    tools: ["WhatsApp", "Telegram", "Instagram", "TikTok", "Facebook"],
   },
 };
 
@@ -74,6 +79,10 @@ const caseStudyServices: Record<string, string[]> = {
     "SEO", "Programmatic SEO", "Google Ads", "Meta Ads", "Multi cuentas",
     "Youtube Long form videos", "Auto-clipping", "LLM Presence",
     "Email Marketing", "WhatsApp Campaigns", "TikTok",
+  ],
+  remax: [
+    "Automatización de Contenido", "Bot de WhatsApp/Telegram", "Scraping de Medios",
+    "Generación Multiformat", "Publicación Multiplataforma",
   ],
 };
 
@@ -120,6 +129,13 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
     { name: "WhatsApp", icon: "whatsapp" },
     { name: "Next.js", icon: "nextdotjs" },
   ],
+  remax: [
+    { name: "Make", icon: "make" },
+    { name: "WhatsApp Business API", icon: "whatsapp" },
+    { name: "OpenAI", icon: "openai" },
+    { name: "Instagram Graph API", icon: "instagram" },
+    { name: "TikTok API", icon: "tiktok" },
+  ],
 };
 
 const caseStudyImages: Record<string, string> = {
@@ -129,6 +145,7 @@ const caseStudyImages: Record<string, string> = {
   snowflake: "/images/cs-banner-4.jpg",
   loop: "/images/cs-banner-5.jpg",
   spacepal: "/images/cs-banner-1.jpg",
+  remax: "/images/cs-banner-2.jpg",
 };
 
 const caseStudyIcons: Record<string, typeof Clock> = {

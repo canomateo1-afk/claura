@@ -321,6 +321,11 @@
       "title": "SpacePal",
       "category": "Marketplace / Eventos",
       "description": "Un marketplace para alquilar espacios premium para eventos que generó el 50% de su tráfico desde SEO orgánico — sin un peso en publicidad paga."
+    },
+    "remax": {
+      "title": "Remax",
+      "category": "Real Estate / PropTech",
+      "description": "Bot de contenido que genera y publica noticias inmobiliarias y promoción de propiedades diariamente para agentes — vía WhatsApp o Telegram."
     }
   },
   "privacyPolicy": {
@@ -631,6 +636,36 @@
       "testimonialRole": "Cofundador de SpacePal",
       "solutionP3": "A esto se le sumó un sistema de segmentación personalizada: basándonos en el comportamiento de cada usuario en la plataforma — qué espacios vio, cuánto tiempo estuvo, qué categorías exploró — se construyeron segmentos automáticos que disparaban campañas de comunicación personalizadas vía WhatsApp, email y push notifications. El contenido de cada mensaje se generaba automáticamente según el perfil del usuario. El resultado: mayor engagement y retención sin intervención manual del equipo.",
       "solutionP4": "En el frente de publicidad paga, se implementó un sistema de monitoreo 24/7 de todas las campañas activas en Meta y Google Ads. En Google, el agente optimiza continuamente a nivel de keywords y frases, y genera automáticamente miles de landing pages ultra-personalizadas según la búsqueda exacta de cada usuario — cada intención de búsqueda tiene su propia página de alta conversión. En Meta, el sistema analiza el rendimiento de cada creatividad, detecta los patrones que mejor convierten y genera nuevas variaciones de forma automática para validarlas y escalar las ganadoras."
+    },
+    "remax": {
+      "metaTitle": "Caso Remax - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos la creación de contenido para agentes inmobiliarios Remax — de 3 posts por semana a publicación diaria.",
+      "category": "Real Estate / PropTech",
+      "title": "Remax",
+      "tagline": "De 3 posts por semana a contenido diario — sin tocar una computadora.",
+      "heroDescription": "Bot de contenido para agentes inmobiliarios que automatiza la creación y publicación en TikTok, Instagram y Facebook vía WhatsApp o Telegram.",
+      "stat1Value": "5x",
+      "stat1Label": "Más contenido por semana",
+      "stat2Value": "80%",
+      "stat2Label": "Menos tiempo en contenido",
+      "stat3Value": "Diario",
+      "stat3Label": "Publicación consistente",
+      "stat4Value": "3",
+      "stat4Label": "Plataformas en simultáneo",
+      "challengeTitle": "Publicar contenido no era el trabajo de los agentes — pero era obligatorio.",
+      "challengeP1": "Los agentes inmobiliarios de Remax pasaban horas a la semana creando posts para Instagram, TikTok y Facebook. Redactar noticias del sector, diseñar imágenes de sus propiedades, pensar el formato correcto para cada red — tareas que no son su expertise y que los alejaban de lo que realmente genera comisiones.",
+      "challengeP2": "El resultado: publicaban 3 veces por semana en el mejor caso, sin consistencia ni personalización. Cada agente hacía lo que podía, y la oficina no tenía forma de mantener una presencia digital uniforme.",
+      "strategyTitle": "Diseñamos un bot personalizado por agente que automatiza el 100% del pipeline de contenido — desde la búsqueda de información hasta la publicación final.",
+      "strategyP1": "La estrategia fue eliminar la fricción por completo. El agente no tiene que buscar noticias, no tiene que diseñar nada, no tiene que recordar publicar. El bot lo hace solo y le pregunta si aprueba antes de publicar.",
+      "solutionTitle": "Un bot personal de contenido, gestionado por WhatsApp o Telegram.",
+      "solutionP1": "El bot scrapea diariamente los principales diarios locales de bienes raíces y genera noticias del sector en formato carrusel o post — con diseño adaptado al estilo de cada agente. También genera contenido promocional para las propiedades activas: carruseles de fotos, posts de descripción y videos cortos para Reels y TikTok.",
+      "solutionP2": "Todo se maneja por WhatsApp o Telegram según la preferencia del agente. El bot envía las propuestas del día, el agente aprueba o rechaza con un mensaje, y el contenido se publica automáticamente en TikTok, Instagram y Facebook. Sin apps extra, sin curva de aprendizaje, sin fricción.",
+      "resultsTitle": "5 veces más contenido. 80% menos tiempo.",
+      "resultsP1": "Los agentes pasaron de publicar 3 veces por semana (en el mejor caso) a publicar todos los días de forma consistente y personalizada. El contenido dejó de ser una tarea pendiente y pasó a ser un activo que trabaja solo.",
+      "resultsP2": "La oficina Remax logró una presencia digital uniforme sin necesidad de contratar community managers ni coordinar a cada agente. Cada bot refleja el estilo personal del agente y la identidad de la marca — al mismo tiempo.",
+      "testimonialQuote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
+      "testimonialAuthor": "Ines Oreilly",
+      "testimonialRole": "Agente en Remax"
     }
   },
   "cookiePolicy": {

@@ -16,6 +16,7 @@ const caseStudyImages = {
   snowflake: "/images/cs-banner-4.jpg",
   loop: "/images/cs-banner-5.jpg",
   spacepal: "/images/cs-banner-1.jpg",
+  remax: "/images/cs-banner-2.jpg",
 };
 
 interface CaseStudyCardProps {
@@ -140,6 +141,13 @@ export function CaseStudiesContent() {
       category: t("spacepal.category"),
       description: t("spacepal.description"),
       image: caseStudyImages.spacepal,
+    },
+    {
+      id: "remax",
+      title: t("remax.title"),
+      category: t("remax.category"),
+      description: t("remax.description"),
+      image: caseStudyImages.remax,
     },
   ];
 

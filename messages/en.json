@@ -321,6 +321,11 @@
       "title": "SpacePal",
       "category": "Marketplace / Events",
       "description": "A marketplace for renting premium event spaces that generated 50% of its traffic from organic SEO — without spending a dollar on paid ads."
+    },
+    "remax": {
+      "title": "Remax",
+      "category": "Real Estate / PropTech",
+      "description": "Content bot that generates and publishes real estate news and property promotions daily for agents — via WhatsApp or Telegram."
     }
   },
   "privacyPolicy": {
@@ -631,6 +636,36 @@
       "testimonialRole": "Co-founder of SpacePal",
       "solutionP3": "On top of this, we built a personalized segmentation system: based on each user's behavior on the platform — which spaces they viewed, how long they stayed, which categories they explored — automatic segments were created that triggered personalized communication campaigns via WhatsApp, email, and push notifications. The content of each message was generated automatically based on the user's profile. The result: higher engagement and retention without any manual intervention from the team.",
       "solutionP4": "On the paid advertising front, a 24/7 monitoring system was implemented across all active campaigns on Meta and Google Ads. On Google, the agent continuously optimizes at the keyword and phrase level, and automatically generates thousands of ultra-personalized landing pages based on each user's exact search — every search intent gets its own high-converting landing page. On Meta, the system analyzes the performance of every creative, detects the best-converting patterns, and automatically generates new variations to validate and scale the winners."
+    },
+    "remax": {
+      "metaTitle": "Remax Case Study - Claura AI Agency",
+      "metaDescription": "How we automated content creation for Remax real estate agents — from 3 posts per week to daily publishing.",
+      "category": "Real Estate / PropTech",
+      "title": "Remax",
+      "tagline": "From 3 posts a week to daily content — without touching a computer.",
+      "heroDescription": "Content bot for real estate agents that automates creation and publishing on TikTok, Instagram and Facebook via WhatsApp or Telegram.",
+      "stat1Value": "5x",
+      "stat1Label": "More content per week",
+      "stat2Value": "80%",
+      "stat2Label": "Less time on content",
+      "stat3Value": "Daily",
+      "stat3Label": "Consistent publishing",
+      "stat4Value": "3",
+      "stat4Label": "Platforms simultaneously",
+      "challengeTitle": "Publishing content wasn't agents' job — but it was mandatory.",
+      "challengeP1": "Remax real estate agents were spending hours every week creating posts for Instagram, TikTok, and Facebook. Writing industry news, designing property images, figuring out the right format for each platform — tasks that aren't their expertise and kept them away from what actually earns commissions.",
+      "challengeP2": "The result: they posted 3 times a week at best, with no consistency or personalization. Each agent did what they could, and the office had no way to maintain a uniform digital presence.",
+      "strategyTitle": "We designed a personalized bot per agent that automates 100% of the content pipeline — from information gathering to final publishing.",
+      "strategyP1": "The strategy was to eliminate friction entirely. The agent doesn't have to search for news, doesn't have to design anything, doesn't have to remember to post. The bot does it automatically and asks for approval before publishing.",
+      "solutionTitle": "A personal content bot, managed through WhatsApp or Telegram.",
+      "solutionP1": "The bot scrapes major local real estate newspapers daily and generates industry news in carousel or post format — with design adapted to each agent's style. It also generates promotional content for active listings: photo carousels, description posts, and short videos for Reels and TikTok.",
+      "solutionP2": "Everything is managed via WhatsApp or Telegram based on the agent's preference. The bot sends the day's proposals, the agent approves or rejects with a message, and the content publishes automatically to TikTok, Instagram, and Facebook. No extra apps, no learning curve, no friction.",
+      "resultsTitle": "5x more content. 80% less time.",
+      "resultsP1": "Agents went from posting 3 times a week (at best) to publishing every day — consistently and with personalization. Content stopped being a pending task and became an asset that works on its own.",
+      "resultsP2": "The Remax office achieved a uniform digital presence without hiring community managers or coordinating each agent. Each bot reflects the agent's personal style and brand identity — simultaneously.",
+      "testimonialQuote": "They didn't overwhelm us with options. They simply built exactly what we needed. We're saving 15 hours a week and saw ROI in less than two months.",
+      "testimonialAuthor": "Ines Oreilly",
+      "testimonialRole": "Agent at Remax"
     }
   },
   "cookiePolicy": {
