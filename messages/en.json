@@ -336,6 +336,11 @@
       "title": "Content Creator",
       "category": "Entertainment / Creator Economy",
       "description": "We automated multilingual auto-clipping and distribution for an entertainment influencer — 30 clips per day across 3 accounts in Arabic, English and Spanish."
+    },
+    "loyalz": {
+      "title": "Loyalz",
+      "category": "Restaurants / Loyalty",
+      "description": "AI agent platform for restaurants — automated calls, WhatsApp and SMS for loyalty programs, reviews and customer support."
     }
   },
   "privacyPolicy": {
@@ -766,6 +771,36 @@
       "testimonialQuote": "Before, I'd record a video and reach a fraction of my audience. Now every video becomes 30 clips that reach three languages automatically. It's like having three teams working 24/7.",
       "testimonialAuthor": "Curator",
       "testimonialRole": "Entertainment Influencer"
+    },
+    "loyalz": {
+      "metaTitle": "Loyalz Case Study - Claura AI Agency",
+      "metaDescription": "How we built an AI agent platform for restaurants to self-manage calls, WhatsApp and SMS for customer loyalty.",
+      "category": "Restaurants / Loyalty",
+      "title": "Loyalz",
+      "tagline": "AI agents that call, message and retain customers — without human intervention.",
+      "heroDescription": "Self-service platform for voice and messaging AI agents for restaurants. Phone calls, WhatsApp, SMS — all automated to improve retention and reviews.",
+      "stat1Value": "24/7",
+      "stat1Label": "Automated support",
+      "stat2Value": "3x",
+      "stat2Label": "More positive reviews",
+      "stat3Value": "80%",
+      "stat3Label": "Less time on follow-ups",
+      "stat4Value": "4",
+      "stat4Label": "Integrated channels",
+      "challengeTitle": "Restaurants lose customers who never come back — and never know why.",
+      "challengeP1": "Most restaurants have no way to stay in touch with customers after their visit. They do not ask for feedback, do not request reviews, and when a customer has a bad experience, they simply do not return — without giving any signal.",
+      "challengeP2": "Loyalz wanted to solve this with AI agents, but they needed a platform where each restaurant could configure their own agents without depending on a technical team. Automation had to be complete: calls, WhatsApp, SMS, Instagram — all from one place.",
+      "strategyTitle": "We designed a self-service platform where each restaurant configures their AI agents with pre-built templates and full control.",
+      "strategyP1": "The strategy was to create specialized agents by use case: one to request reviews after the visit, another to contact customers with negative feedback and offer compensation, another for reservation reminders, and another for loyalty promotions. All configurable without code.",
+      "solutionTitle": "Voice and messaging agents that work on their own — and a platform to control them.",
+      "solutionP1": "We built the complete platform in Next.js with integration to ElevenLabs for voice, WhatsApp Business API, SMS and Instagram connection. Restaurants can create agents, define messages and triggers, and see analytics for each interaction.",
+      "solutionP2": "When a customer leaves a negative review, the agent automatically contacts them to understand what happened and offer a discount or special attention. When a regular customer has not returned in 30 days, they receive a personalized message. All without the restaurant having to do anything.",
+      "resultsTitle": "Loyalty on autopilot.",
+      "resultsP1": "Restaurants using Loyalz tripled their positive Google reviews and reduced time spent on customer follow-up by 80%. Agents handle hundreds of conversations per week without human intervention.",
+      "resultsP2": "The platform gives them complete visibility: they know which customers are at risk of not returning, which promotions work best, and which agents have the best conversion rate. Data that did not exist before.",
+      "testimonialQuote": "Claura understood exactly what we needed. They built a platform that our clients can use on their own, with agents that actually work. It is the product we imagined but did not know how to build.",
+      "testimonialAuthor": "Loyalz Team",
+      "testimonialRole": "Founders"
     }
   },
   "cookiePolicy": {

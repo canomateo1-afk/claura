@@ -36,6 +36,7 @@ const techLogoMap: Record<string, string> = {
   pinterest: "/images/tech-logos/pinterest.svg",
   unsplash: "/images/tech-logos/unsplash.svg",
   nodedotjs: "/images/tech-logos/nodedotjs.svg",
+  elevenlabs: "/images/tech-logos/elevenlabs.svg",
 };
 
 const allCaseStudies = [
@@ -49,6 +50,7 @@ const allCaseStudies = [
   { id: "pulse", title: "Pulse", category: "Music / Creator Economy" },
   { id: "soyandina", title: "Soy Andina", category: "Comunidad / Lifestyle / Viajes" },
   { id: "curator", title: "Content Creator", category: "Entretenimiento / Creator Economy" },
+  { id: "loyalz", title: "Loyalz", category: "Restaurantes / Fidelización" },
 ];
 
 // Case studies that have optional extra fields
@@ -76,6 +78,10 @@ const caseStudyExtras: Record<string, { siteUrl?: string | null; tools?: string[
   curator: {
     siteUrl: null,
     tools: ["YouTube", "Instagram", "TikTok"],
+  },
+  loyalz: {
+    siteUrl: null,
+    tools: ["WhatsApp", "SMS", "Llamadas telefónicas", "Instagram"],
   },
 };
 
@@ -122,6 +128,11 @@ const caseStudyServices: Record<string, string[]> = {
   curator: [
     "Auto-Clipping con IA", "Distribución Multilingüe", "YouTube Shorts Automation",
     "TikTok Distribution", "Instagram Reels", "Video Compression", "Multi-account Management",
+  ],
+  loyalz: [
+    "Agentes de Voz con IA", "Llamadas Telefónicas Automatizadas", "WhatsApp Bot",
+    "SMS Automation", "Review Management", "Gestión de Feedback Negativo",
+    "Plataforma de Autogestión", "Fidelización de Clientes",
   ],
 };
 
@@ -200,6 +211,13 @@ const caseStudyTechStack: Record<string, { name: string; icon: string }[]> = {
     { name: "TikTok", icon: "tiktok" },
     { name: "Python", icon: "python" },
   ],
+  loyalz: [
+    { name: "ElevenLabs", icon: "elevenlabs" },
+    { name: "WhatsApp", icon: "whatsapp" },
+    { name: "Instagram", icon: "instagram" },
+    { name: "Next.js", icon: "nextdotjs" },
+    { name: "Claude", icon: "anthropic" },
+  ],
 };
 
 const caseStudyImages: Record<string, string> = {
@@ -213,6 +231,7 @@ const caseStudyImages: Record<string, string> = {
   pulse: "/images/cs-banner-4.jpg",
   soyandina: "/images/cs-banner-3.jpg",
   curator: "/images/cs-banner-4.jpg",
+  loyalz: "/images/cs-banner-2.jpg",
 };
 
 const caseStudyIcons: Record<string, typeof Clock> = {

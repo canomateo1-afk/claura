@@ -336,6 +336,11 @@
       "title": "Content Creator",
       "category": "Entretenimiento / Creator Economy",
       "description": "Automatizamos el auto-clipping y distribución multilingüe de un influencer de entretenimiento — 30 clips por día en 3 cuentas en árabe, inglés y español."
+    },
+    "loyalz": {
+      "title": "Loyalz",
+      "category": "Restaurantes / Fidelización",
+      "description": "Plataforma de agentes de IA para restaurantes — llamadas, WhatsApp y SMS automatizados para fidelización, reviews y atención al cliente."
     }
   },
   "privacyPolicy": {
@@ -766,6 +771,36 @@
       "testimonialQuote": "Antes grababa un video y llegaba a una fracción de mi audiencia. Ahora cada video se convierte en 30 clips que llegan a tres idiomas distintos de forma automática. Es como tener tres equipos trabajando 24/7.",
       "testimonialAuthor": "Curator",
       "testimonialRole": "Influencer de Entretenimiento"
+    },
+    "loyalz": {
+      "metaTitle": "Caso Loyalz - Claura Agencia de IA",
+      "metaDescription": "Cómo construimos una plataforma de agentes de IA para que restaurantes autogestionen llamadas, WhatsApp y SMS de fidelización.",
+      "category": "Restaurantes / Fidelización",
+      "title": "Loyalz",
+      "tagline": "Agentes de IA que llaman, mensajean y fidelizan — sin intervención humana.",
+      "heroDescription": "Plataforma de autogestión de agentes de voz y mensajería para restaurantes. Llamadas telefónicas, WhatsApp, SMS — todo automatizado para mejorar retención y reviews.",
+      "stat1Value": "24/7",
+      "stat1Label": "Atención automatizada",
+      "stat2Value": "3x",
+      "stat2Label": "Más reviews positivas",
+      "stat3Value": "80%",
+      "stat3Label": "Menos tiempo en seguimiento",
+      "stat4Value": "4",
+      "stat4Label": "Canales integrados",
+      "challengeTitle": "Los restaurantes pierden clientes que nunca vuelven — y no saben por qué.",
+      "challengeP1": "La mayoría de los restaurantes no tienen forma de mantener contacto con sus clientes después de la visita. No piden feedback, no solicitan reviews, y cuando un cliente tiene una mala experiencia, simplemente no vuelve — sin dar ninguna señal.",
+      "challengeP2": "Loyalz quería resolver esto con agentes de IA, pero necesitaban una plataforma donde cada restaurante pudiera configurar sus propios agentes sin depender de un equipo técnico. La automatización tenía que ser completa: llamadas, WhatsApp, SMS, Instagram — todo desde un solo lugar.",
+      "strategyTitle": "Diseñamos una plataforma de autogestión donde cada restaurante configura sus agentes de IA con templates pre-armados y control total.",
+      "strategyP1": "La estrategia fue crear agentes especializados por caso de uso: uno para pedir reviews después de la visita, otro para contactar clientes con feedback negativo y ofrecer compensación, otro para recordatorios de reservas, y otro para promociones de fidelidad. Todo configurable sin código.",
+      "solutionTitle": "Agentes de voz y mensajería que trabajan solos — y una plataforma para controlarlos.",
+      "solutionP1": "Construimos la plataforma completa en Next.js con integración a ElevenLabs para voz, WhatsApp Business API, SMS y conexión a Instagram. Los restaurantes pueden crear agentes, definir los mensajes y triggers, y ver analytics de cada interacción.",
+      "solutionP2": "Cuando un cliente deja una review negativa, el agente lo contacta automáticamente para entender qué pasó y ofrecer un descuento o atención especial. Cuando un cliente habitual no vuelve hace 30 días, recibe un mensaje personalizado. Todo sin que el restaurante tenga que hacer nada.",
+      "resultsTitle": "Fidelización en piloto automático.",
+      "resultsP1": "Los restaurantes que usan Loyalz triplicaron sus reviews positivas en Google y redujeron el tiempo dedicado a seguimiento de clientes en un 80%. Los agentes manejan cientos de conversaciones por semana sin intervención humana.",
+      "resultsP2": "La plataforma les da visibilidad completa: saben qué clientes están en riesgo de no volver, qué promociones funcionan mejor, y qué agentes tienen mejor tasa de conversión. Data que antes no existía.",
+      "testimonialQuote": "Claura entendió exactamente lo que necesitábamos. Construyeron una plataforma que nuestros clientes pueden usar solos, con agentes que realmente funcionan. Es el producto que imaginábamos pero no sabíamos cómo hacer.",
+      "testimonialAuthor": "Equipo Loyalz",
+      "testimonialRole": "Fundadores"
     }
   },
   "cookiePolicy": {
