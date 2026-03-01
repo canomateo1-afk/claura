@@ -50,7 +50,7 @@ const allCaseStudies = [
   { id: "pulse", title: "Pulse", category: "Music / Creator Economy" },
   { id: "soyandina", title: "Soy Andina", category: "Comunidad / Lifestyle / Viajes" },
   { id: "curator", title: "Content Creator", category: "Entretenimiento / Creator Economy" },
-  { id: "loyalz", title: "Loyalz", category: "Restaurantes / Fidelización" },
+  { id: "loyalz", title: "Loyalz", category: "Restaurantes / Content Ops" },
 ];
 
 // Case studies that have optional extra fields
@@ -130,9 +130,9 @@ const caseStudyServices: Record<string, string[]> = {
     "TikTok Distribution", "Instagram Reels", "Video Compression", "Multi-account Management",
   ],
   loyalz: [
-    "Agentes de Voz con IA", "Llamadas Telefónicas Automatizadas", "WhatsApp Bot",
-    "SMS Automation", "Review Management", "Gestión de Feedback Negativo",
-    "Plataforma de Autogestión", "Fidelización de Clientes",
+    "Generación de Contenido con IA", "Scripts de Llamadas Automatizados", "Mensajes WhatsApp Personalizados",
+    "SMS Content Generation", "Orquestación Multicanal", "Content Ops Dashboard",
+    "Triggers Basados en Eventos", "Voice Content (ElevenLabs)",
   ],
 };
 
